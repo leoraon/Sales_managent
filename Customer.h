@@ -7,6 +7,14 @@ struct Customer{
     std:: string SDT;   
     //bổ sung điểm tích luỹ
     int diemTichluy;
+    //tạm thời chưa học hàm trình bày
+    void displayRow() const {
+        std::cout << "| " << std::left << std::setw(8)  << maKH
+                  << "| " << std::left << std::setw(22) << tenKH
+                  << "| " << std::left << std::setw(8)  << SDT
+                  << "| " << std::left << std::setw(8)  << diemTichluy
+                  << " |\n";
+};
 };
 //cái phần node này là mình sẽ chọn 1 cấu trúc để lưu trữ thông tin khách hàng:thì mình học có mảng động,danh sách móc nối là đơn giản nhất//chọn 1 trong 2
 //so sánh từng cái nên chọn cái nào thì ok hơn

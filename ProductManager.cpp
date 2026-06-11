@@ -46,15 +46,15 @@ bool ProductManager::deleteProduct(const std::string& maSP){
         delete tmp;//giải phóng bộ nhớ luôn ;nếu delete head là xoá toàn bộ danh sách
         return true;
     }
-    NodeProduct* pre=head;
+    NodeProduct* prev=head;
     NodeProduct*cur=head->next;
     while(cur!=nullptr){
         if (cur->data.maSP==maSP){
-            pre->next=cur->next;
+            prev->next=cur->next;
             delete cur;
             return true;
         }
-        pre = cur; 
+        prev = cur; 
         cur = cur->next;
     }
     return false;
