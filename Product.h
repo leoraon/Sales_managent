@@ -8,7 +8,7 @@ struct Product{
     std::string donVi;
     double donGia;
     //bổ sung tỷ lệ khuyến mãi (chiết khấu)
-    double tyLeKhuyenMai;
+    double tiLeKhuyenMai;
     // Thêm hàm này vào struct
     // Dùng 'const' vì hàm này chỉ in ra, không làm thay đổi dữ liệu sản phẩm
     //tạm thời chưa học hàm trình bày
