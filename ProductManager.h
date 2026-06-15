@@ -1,6 +1,7 @@
 #pragma once
 #include "Product.h"
 class ProductManager{
+private:
     NodeProduct* head;
     //thêm hàm tìm node để hỗ trợ các phương thức
     NodeProduct* findNode(const std::string& maSP) const;

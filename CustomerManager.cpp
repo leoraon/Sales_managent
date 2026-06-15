@@ -99,15 +99,7 @@ void CustomerManager::displayAll(){
 }
 
 // Tra cứu khách hàng theo mã (const - không sửa dữ liệu)
-const Customer* CustomerManager::getCustomer(const std::string& maKH) const {
-    NodeCustomer* cur = head;
-    while (cur != nullptr) {
-        if (cur->data.maKH == maKH)
-            return &cur->data;
-        cur = cur->next;
-    }
-    return nullptr;
-}
+
 Customer* CustomerManager::getCustomer(const std::string& maKH) {
     NodeCustomer* tmp = head; 
     while (tmp != NULL) {
@@ -117,4 +109,15 @@ Customer* CustomerManager::getCustomer(const std::string& maKH) {
         tmp = tmp->next;
     }
     return NULL; 
+}
+
+Customer* CustomerManager::getCustomerByPhone(const std::string& sdt) {
+    NodeCustomer* temp = head; 
+    while (temp != NULL) {
+        if (temp->data.SDT == sdt) {  // So sánh khớp số điện thoại
+            return &(temp->data); 
+        }
+        temp = temp->next;
+    }
+    return NULL;
 }

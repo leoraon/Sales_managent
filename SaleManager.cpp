@@ -91,13 +91,19 @@ void SaleManager::createInvoice(CustomerManager& cm, const ProductManager& pm) {
     double tongTienTamTinh = newInvoice.tongTienHang + newInvoice.thueVAT; 
     double tienGiamGia = 0; 
 
-    // --- BƯỚC 4: XỬ LÝ KHÁCH HÀNG & ĐIỂM TÍCH LŨY ---
-    cout << "\nNhap Ma Khach Hang (Nhap KH00 neu la khach vang lai): ";
-    cin >> newInvoice.maKH;
+   // --- BƯỚC 4: XỬ LÝ KHÁCH HÀNG & ĐIỂM TÍCH LŨY ---
+    string sdtKhach;
+    cout << "\nNhap So Dien Thoai Khach (Nhap 0 neu khong co): ";
+    cin >> sdtKhach;
 
-    if (newInvoice.maKH != "KH00") {
-        Customer* kh = cm.getCustomer(newInvoice.maKH); 
+    if (sdtKhach != "0") {
+        // Chạy sang kho tìm khách bằng SĐT thay vì mã KH
+        Customer* kh = cm.getCustomerByPhone(sdtKhach); 
+        
         if (kh != NULL) {
+            // [QUAN TRỌNG] Khi tìm thấy, lập tức lấy mã KH (VD: KH01) gắn vào hóa đơn
+            newInvoice.maKH = kh->maKH; 
+            
             cout << "=> Tai khoan: " << kh->tenKH << " | Diem hien co: " << kh->diemTichLuy << " diem\n";
             
             if (kh->diemTichLuy > 0) {
@@ -121,20 +127,19 @@ void SaleManager::createInvoice(CustomerManager& cm, const ProductManager& pm) {
 
             newInvoice.tongThanhToan = tongTienTamTinh - tienGiamGia;
 
-            // Tích lũy 2% trên số tiền thực trả
             int diemCongThem = newInvoice.tongThanhToan * 0.02; 
             kh->diemTichLuy += diemCongThem; 
-            
             cout << "=> Diem tich them: +" << diemCongThem << " diem. Tong diem: " << kh->diemTichLuy << " diem\n";
+            
         } else {
-            cout << "=> Loi: Khong tim thay tai khoan! Chuyen ve KH00.\n";
+            cout << "=> Loi: Khong tim thay SĐT tren he thong! Chuyen ve khach vang lai.\n";
             newInvoice.maKH = "KH00"; 
             newInvoice.tongThanhToan = tongTienTamTinh; 
         }
     } else {
+        newInvoice.maKH = "KH00"; 
         newInvoice.tongThanhToan = tongTienTamTinh; 
     }
-
     // Đổ dữ liệu giảm giá vào hóa đơn để lưu trữ
     newInvoice.tienGiamGia = tienGiamGia;
 
