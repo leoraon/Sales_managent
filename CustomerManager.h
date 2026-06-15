@@ -14,5 +14,7 @@ public:
     void searchCustomer(const std::string& maKH);
     bool updateCustomer(const std::string& maKH,const Customer& newData);
     void displayAll();
+    // Tra cứu khách hàng (const) - dùng bởi SaleManager
+    Customer* getCustomer(const std::string& maKH) const;
 };
 //class này như là kiểu tự xây dựng danh sách liên kết rồi

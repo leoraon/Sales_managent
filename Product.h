@@ -1,11 +1,14 @@
 #pragma once
 #include <string>
 #include <iomanip>
+#include <iostream>   // Cần cho std::cout trong displayRow()
 struct Product{
     std::string maSP;
     std::string tenSP;
     std::string donVi;
     double donGia;
+    //bổ sung tỷ lệ khuyến mãi (chiết khấu)
+    double tyLeKhuyenMai;
     // Thêm hàm này vào struct
     // Dùng 'const' vì hàm này chỉ in ra, không làm thay đổi dữ liệu sản phẩm
     //tạm thời chưa học hàm trình bày

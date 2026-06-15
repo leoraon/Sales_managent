@@ -97,3 +97,24 @@ void CustomerManager::displayAll(){
        cur=cur->next;
     }
 }
+
+// Tra cứu khách hàng theo mã (const - không sửa dữ liệu)
+const Customer* CustomerManager::getCustomer(const std::string& maKH) const {
+    NodeCustomer* cur = head;
+    while (cur != nullptr) {
+        if (cur->data.maKH == maKH)
+            return &cur->data;
+        cur = cur->next;
+    }
+    return nullptr;
+}
+Customer* CustomerManager::getCustomer(const std::string& maKH) {
+    NodeCustomer* tmp = head; 
+    while (tmp != NULL) {
+        if (tmp->data.maKH == maKH) {
+            return &(tmp->data); // Trả về địa chỉ của KH để bên ngoài có thể sửa điểm
+        }
+        tmp = tmp->next;
+    }
+    return NULL; 
+}

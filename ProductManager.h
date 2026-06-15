@@ -3,7 +3,7 @@
 class ProductManager{
     NodeProduct* head;
     //thêm hàm tìm node để hỗ trợ các phương thức
-    NodeProduct* findNode(const std::string& maSP);
+    NodeProduct* findNode(const std::string& maSP) const;
 public:
     ProductManager(); // Hàm khởi tạo
     void addProduct(const Product& sp);
@@ -11,5 +11,7 @@ public:
     void searchProduct(const std::string& maSP);
     bool updateProduct(const std::string& maSP,const Product& newData);
     void displayAll();
+    // Tra cứu sản phẩm (const) - dùng bởi SaleManager
+    const Product* getProduct(const std::string& maSP) const;
 };
 //thay đổi kiểu trả về với hàm tìm kiếm để hỗ trợ các hàm khác

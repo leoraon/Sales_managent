@@ -25,7 +25,7 @@ void ProductManager::addProduct(const Product& sp){
 }
 
 //hàm private
-NodeProduct*ProductManager::findNode(const std::string& maSP){
+NodeProduct*ProductManager::findNode(const std::string& maSP) const{
     NodeProduct*cur=head;
     while(cur!=nullptr){
         if (cur->data.maSP==maSP){
@@ -105,8 +105,11 @@ void ProductManager::displayAll(){
        cur=cur->next;
     }
 }
-
-    
-
-
-    
+const Product* ProductManager::getProduct(const std::string& maSP) const {
+    NodeProduct* target = findNode(maSP);    
+    if (target != NULL) {
+        // Trả về ĐỊA CHỈ (&) của gói hàng data bên trong Node
+        return &(target->data); 
+    }    
+    return NULL; 
+}

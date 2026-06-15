@@ -6,13 +6,13 @@ struct Customer{
     std:: string tenKH;
     std:: string SDT;   
     //bổ sung điểm tích luỹ
-    int diemTichluy;
+    int diemTichLuy;
     //tạm thời chưa học hàm trình bày
     void displayRow() const {
         std::cout << "| " << std::left << std::setw(8)  << maKH
                   << "| " << std::left << std::setw(22) << tenKH
                   << "| " << std::left << std::setw(8)  << SDT
-                  << "| " << std::left << std::setw(8)  << diemTichluy
+                  << "| " << std::left << std::setw(8)  << diemTichLuy
                   << " |\n";
 };
 };

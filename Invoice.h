@@ -3,10 +3,14 @@
 struct Invoice{
     std::string maHD;
     std::string maKH;
-    std::string thoiGianLap; // Ví dụ: "15/04/2026 14:30:00"
+    //vì một số yếu tố kk khi làm việc vs thời gian nen de lai bien la ngaylap de dễ thống kê
+    int ngayLap;
+    int thangLap;
+    int namLap;
     double tongTienHang; 
     double thueVAT;
     double tongThanhToan;  
+    double tienGiamGia; //bổ sung vì có cơ chế tích luỹ điểm
      // Bổ sung thực tế của bạn
     double tienKhachTra;
     double tienTraLai;   // = tienKhachTra - tongThanhToan
