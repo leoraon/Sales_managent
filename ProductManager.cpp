@@ -1,6 +1,9 @@
+#include <fstream>
 #include <iostream>
 #include <iomanip>
 #include "ProductManager.h"
+#include <fstream>  // Dùng để tạo luồng Đọc/Ghi file
+#include <sstream>  // Dùng để chặt chuỗi văn bản theo dấu '|'
 
 using namespace std;
 // 1. Cài đặt hàm khởi tạo
@@ -61,16 +64,25 @@ bool ProductManager::deleteProduct(const std::string& maSP){
     }
 
 //hàm tìm kiếm sp
-void ProductManager::searchProduct(const std::string& maSP){
-   //khi có hàm findnode rồi
-   NodeProduct* found=findNode(maSP);
-   if (found==nullptr){
-    cout<<"Khong tim thay san pham co ma:"<<maSP<<endl;
-   }
-   else {
-        cout << "--- THONG TIN SAN PHAM TIM THAY ---\n";
-        // Giả sử class Product có hàm hiển thị thông tin dòng đơn
-        found->data.displayRow(); 
+void ProductManager::searchProduct(const std::string& tuKhoa) {
+    NodeProduct* cur = head;
+    bool timThay = false;
+
+    std::cout << "\n---------------- KET QUA TIM KIEM ----------------\n";
+    std::cout << "| Ma SP   | Ten san pham          | DVT     |    Don gia |\n";
+    std::cout << "----------------------------------------------------------\n";
+    while (cur != nullptr) {
+        // std::string::npos nghĩa là "không tìm thấy"
+        bool khopMa = (cur->data.maSP == tuKhoa);
+        bool khopTen = (cur->data.tenSP.find(tuKhoa) != std::string::npos);
+        if (khopMa || khopTen) {
+            cur->data.displayRow(); 
+            timThay = true;
+        }
+        cur = cur->next;
+    }
+    if (!timThay) {
+        std::cout << "=> Khong tim thay san pham nao khop voi tu khoa: " << tuKhoa << "\n";
     }
 }
 //hàm cập nhật
@@ -112,4 +124,73 @@ const Product* ProductManager::getProduct(const std::string& maSP) const {
         return &(target->data); 
     }    
     return NULL; 
+}
+
+// GHI FILE: moi san pham 1 dong, phan cach bang dau |
+// Vi du: SP01|Gao ST25|Kg|35000|0.1
+void ProductManager::saveToFile(const std::string& filename) const {
+    std::ofstream file(filename);
+    if (!file.is_open()) {
+        std::cout << "Loi: Khong mo duoc file " << filename << " de ghi!\n";
+        return;
+    }
+    NodeProduct* cur = head;
+    while (cur != nullptr) {
+        file << cur->data.maSP          << "|"
+             << cur->data.tenSP         << "|"
+             << cur->data.donVi         << "|"
+             << cur->data.donGia        << "|";
+        cur = cur->next;
+    }
+    file.close();
+}
+
+// DOC FILE: doc tung dong, tach theo dau |, dien vao cac truong, them vao danh sach
+void ProductManager::loadFromFile(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cout << "=> File " << filename << " chua ton tai. He thong se tao moi khi luu.\n";
+        return; 
+    }
+
+    std::string line;
+    NodeProduct* tail = nullptr; // Khai báo cái Đuôi để nối Node không bị đảo ngược
+
+    while (std::getline(file, line)) {
+        if (line.empty()) continue;
+
+        std::stringstream ss(line);
+        Product sp;
+        std::string tempDonGia; // Biến tạm hứng chữ để ép sang số
+
+        // Dùng getline cắt từng khúc y hệt như bên Khách hàng
+        std::getline(ss, sp.maSP, '|');
+        std::getline(ss, sp.tenSP, '|');
+        std::getline(ss, sp.donVi, '|');
+        std::getline(ss, tempDonGia, '|'); // Lấy chữ số ra
+
+        // Ép kiểu chuỗi sang double cho đơn giá
+        if (!tempDonGia.empty()) {
+            sp.donGia = std::stod(tempDonGia);
+        } else {
+            sp.donGia = 0;
+        }
+
+        // Tạo Node mới
+        NodeProduct* newNode = new NodeProduct;
+        newNode->data = sp;
+        newNode->next = nullptr; // Vì nó sẽ đứng cuối cùng
+
+        // Nối Node vào cuối danh sách (insertTail)
+        if (head == nullptr) {
+            head = newNode; // Nếu danh sách trống, nó vừa là đầu vừa là đuôi
+            tail = newNode;
+        } else {
+            tail->next = newNode; // Móc nó vào sau cái đuôi hiện tại
+            tail = newNode;       // Dời biển báo Đuôi xuống vị trí mới
+        }
+    }
+
+    file.close();
+    std::cout << "=> Da doc du lieu tu " << filename << " len he thong.\n";
 }

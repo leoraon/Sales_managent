@@ -1,6 +1,9 @@
+#include <fstream>
 #include<iostream>
 #include <iomanip>
 #include "CustomerManager.h"
+#include <fstream>  // Dùng để tạo luồng Đọc/Ghi file
+#include <sstream>  // Dùng để chặt chuỗi văn bản theo dấu '|'
 using namespace std;
 
 //1.Cài đặt hàm khởi tạo
@@ -53,18 +56,22 @@ NodeCustomer*CustomerManager::findNode(const std::string& maKH){
     }
     return nullptr;
 }
-void CustomerManager::searchCustomer(const std::string& maKH){
-     //khi có hàm findnode rồi
-   NodeCustomer* found=findNode(maKH);
-   if (found==nullptr){
-    cout<<"Khong tim thay khach hang co ma:"<<maKH<<endl;
-   }
-   else {
-        cout << "--- THONG TIN KHACH HANG CAN TIM ---\n";
-        // Giả sử class Product có hàm hiển thị thông tin dòng đơn
-        found->data.displayRow(); 
+void CustomerManager::searchCustomer(const std::string& tuKhoa) {
+    NodeCustomer* cur = head;
+    bool timThay = false; 
+    cout << "\n KET QUA TIM KIEM \n";   
+    while (cur != nullptr) {
+        if (cur->data.tenKH == tuKhoa || cur->data.SDT == tuKhoa) {
+            cur->data.displayRow(); 
+            timThay = true; 
+        }
+        cur = cur->next; 
+    }
+    if (!timThay) {
+        cout << "=> Khong tim thay khach hang nao co ten hoac SDT: " << tuKhoa << "\n";
     }
 }
+
 //hàm cập nhật
 bool CustomerManager::updateCustomer(const std::string& maKH,const Customer& newData){
     NodeCustomer* found=findNode(maKH);
@@ -79,8 +86,7 @@ void CustomerManager::displayAll(){
     if (head == nullptr) {
         cout << "Danh sach khach hang hien dang trong!\n";
         return;
-    }   
-    // In Header (Tiêu đề cột)
+    }
     // 2. Vẽ tiêu đề bảng (Header)
     cout << "\n====================================================================\n";
     cout << "                      DANH SACH KHACH HANG\n";
@@ -88,8 +94,7 @@ void CustomerManager::displayAll(){
     cout << "| " << left << setw(8)  << "Ma KH"
          << "| " << left << setw(22) << "Ten KH"
          << "| " << left << setw(8) << "SDT"
-         << "| " << left << setw(10) << "Diem tich luy"
-         << " |\n";
+         << "|\n";
     cout << "--------------------------------------------------------------------\n";
     NodeCustomer*cur=head;
     while(cur!=nullptr){
@@ -97,7 +102,6 @@ void CustomerManager::displayAll(){
        cur=cur->next;
     }
 }
-
 // Tra cứu khách hàng theo mã (const - không sửa dữ liệu)
 
 Customer* CustomerManager::getCustomer(const std::string& maKH) {
@@ -111,13 +115,56 @@ Customer* CustomerManager::getCustomer(const std::string& maKH) {
     return NULL; 
 }
 
-Customer* CustomerManager::getCustomerByPhone(const std::string& sdt) {
-    NodeCustomer* temp = head; 
-    while (temp != NULL) {
-        if (temp->data.SDT == sdt) {  // So sánh khớp số điện thoại
-            return &(temp->data); 
-        }
-        temp = temp->next;
+void CustomerManager::saveToFile(const std::string& filename) const {
+    // Mở file ở chế độ ghi đè (ofstream)
+    std::ofstream outFile(filename); 
+    
+    if (!outFile.is_open()) {
+        std::cout << "=> Loi: Khong the tao hoac mo file " << filename << "!\n";
+        return;
     }
-    return NULL;
+
+    NodeCustomer* cur = head;
+    while (cur != nullptr) {
+        // In trực tiếp từng thuộc tính của data ra file
+        outFile << cur->data.maKH << "|"
+                << cur->data.tenKH << "|"
+                << cur->data.SDT << "\n"; // Nhớ có \n để xuống dòng cho khách tiếp theo
+        cur = cur->next;
+    }
+
+    outFile.close(); // Xong việc phải đóng nắp bút lại
+    std::cout << "=> Da luu thanh cong vao " << filename << "\n";
+}
+
+void CustomerManager::loadFromFile(const std::string& filename) {
+    // Mở file ở chế độ đọc (ifstream)
+    std::ifstream inFile(filename);
+    
+    if (!inFile.is_open()) {
+        std::cout << "=> File " << filename << " chua ton tai. He thong se tao moi khi luu.\n";
+        return;
+    }
+
+    std::string line;
+    // Vòng lặp: Cứ mỗi lần lấy được 1 dòng văn bản bỏ vào biến 'line' thì chạy code bên trong
+    while (std::getline(inFile, line)) {
+        if (line.empty()) continue; // Bỏ qua nếu lỡ đọc phải dòng trắng
+
+        std::stringstream ss(line); // Biến dòng văn bản thành một "dòng chảy" để chặt
+        Customer kh;
+
+        // Dùng getline cắt tới khi gặp dấu '|' thì dừng
+        std::getline(ss, kh.maKH, '|');
+        std::getline(ss, kh.tenKH, '|');
+        std::getline(ss, kh.SDT, '|');
+        // Tạo Node mới và móc vào danh sách
+        NodeCustomer* newNode = new NodeCustomer;
+        newNode->data = kh;
+        newNode->next = head; // Thêm vào đầu danh sách (insertHead)
+        head = newNode;
+    }
+
+    inFile.close();
+    std::cout << "=> Da doc du lieu tu " << filename << " len he thong.\n";
 }

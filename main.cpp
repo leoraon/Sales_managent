@@ -27,8 +27,6 @@ void menuSanPham(ProductManager& pm) {
             cout << "Ten SP: "; getline(cin, sp.tenSP);
             cout << "Don vi tinh: "; cin >> sp.donVi;
             cout << "Don gia: "; cin >> sp.donGia;
-            cout << "Ti le khuyen mai: ";
-            cin >> sp.tiLeKhuyenMai;
             pm.addProduct(sp);
             cout << "=> Da them san pham thanh cong!\n";
         }
@@ -44,20 +42,20 @@ void menuSanPham(ProductManager& pm) {
             }
         }
         else if (luaChon==3){
-            string maSP;
-            cout<<"Nhap ma san pham can tim: ";
-            cin>>maSP;
-            pm.searchProduct(maSP);
+            string tuKhoa;
+            cout<<"Nhap tu khoa cho san pham can tim: ";
+            cin>> tuKhoa;
+            pm.searchProduct(tuKhoa);
         }
         else if(luaChon==4){
             string maSP;
             cout<<"Nhap ma san pham can cap nhat: ";cin>>maSP;
             Product newData;
             newData.maSP=maSP;
+            cin.ignore(); // Bo qua ky tu '\n' con lai sau khi cin >> maSP
             cout << "Ten SP moi: "; getline(cin, newData.tenSP);
             cout << "Don vi moi: "; cin >> newData.donVi;
             cout << "Don gia moi: "; cin >> newData.donGia;
-            cout << "Ti le khuyen mai moi: "; cin >> newData.tiLeKhuyenMai;
             if (pm.updateProduct(maSP, newData))
                 cout << "=> Cap nhat thanh cong!\n";
             else
@@ -89,7 +87,6 @@ void menuKhachHang(CustomerManager& cm) {
             cin.ignore();
             cout << "Ten KH: "; getline(cin, kh.tenKH);
             cout << "So dien thoai: "; cin >> kh.SDT;
-            kh.diemTichLuy = 0; // Khách hàng mới bắt đầu với 0 điểm
             cm.addCustomer(kh);
             cout << "=> Da them khach hang thanh cong!\n";
         }
@@ -102,9 +99,9 @@ void menuKhachHang(CustomerManager& cm) {
                 cout << "=> Loi: Khong tim thay khach hang!\n";
         }
         else if (luaChon == 3) {
-            string maKH;
-            cout << "Nhap ma KH can tim: "; cin >> maKH;
-            cm.searchCustomer(maKH);
+            string tuKhoa;
+            cout << "Nhap tuKhoa KH can tim: "; cin >>tuKhoa;
+            cm.searchCustomer(tuKhoa);
         }
         else if (luaChon == 4) {
             string maKH;
@@ -114,7 +111,6 @@ void menuKhachHang(CustomerManager& cm) {
             cin.ignore();
             cout << "Ten KH moi: "; getline(cin, newData.tenKH);
             cout << "SDT moi: "; cin >> newData.SDT;
-            cout << "Diem tich luy moi: "; cin >> newData.diemTichLuy;
             if (cm.updateCustomer(maKH, newData))
                 cout << "=> Cap nhat thanh cong!\n";
             else
@@ -134,7 +130,7 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
     do {
         cout << "\n--- QUAN LY BAN HANG & HOA DON ---\n";
         cout << "  1. Tao hoa don moi\n";
-        cout << "  2. Xem chi tiet mot hoa don\n";
+        cout << "  2. In mot hoa don\n";
         cout << "  3. Xem danh sach tat ca hoa don\n";
         cout << "  0. Quay lai menu chinh\n";
         cout << "Lua chon: ";
@@ -143,9 +139,9 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
         else if (luaChon == 2) {
             string maHD;
             cout << "Nhap ma hoa don: "; cin >> maHD;
-            sm.displayInvoice(maHD);
+            sm.printInvoice(maHD);
         }
-        else if (luaChon == 3) { sm.displayInvoice(); }
+        else if (luaChon == 3) { sm.displayAllInvoices(); }
         else if (luaChon != 0) { cout << "=> Lua chon khong hop le!\n"; }
     } while (luaChon != 0);
 }
@@ -172,8 +168,8 @@ int main (){
     SaleManager sm;
     ReportManager rm;
     // đọc dữ liệu từ file khi khởi động
-    pm.loadFromFile("sp.txt");
-    cm.loadFromFile("kh.txt");
+    pm.loadFromFile("sanpham.txt");   // Ten file phai trung voi saveToFile ben duoi
+    cm.loadFromFile("khachhang.txt");
     sm.loadFromFile("hoadon.txt", "chitiet.txt");
     int luaChon;
     do {
@@ -199,7 +195,7 @@ int main (){
         }
     } while (luaChon != 0);
     // ── Lưu dữ liệu vào file trước khi thoát ──
-    pm.saveToFile("sanpham.txt");
+    pm.saveToFile("sanpham.txt");      // Luu vao cung ten file da doc
     cm.saveToFile("khachhang.txt");
     sm.saveToFile("hoadon.txt", "chitiet.txt");
     cout << "=> Da luu xong. Tam biet!\n";
