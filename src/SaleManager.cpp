@@ -156,6 +156,13 @@ void SaleManager::createInvoice(CustomerManager& cm, const ProductManager& pm) {
     invoiceHead   = newNode;
 
     cout << "\n=> GIAO DICH THANH CONG. DA LUU VAO HE THONG!\n";
+
+    char inHD;
+    cout << "Ban co muon in hoa don khong? (y/n): ";
+    cin >> inHD;
+    if (inHD == 'y' || inHD == 'Y') {
+        printInvoice(newInvoice.maHD);
+    }
 }
 
 // Hiển thị chi tiết 1 hóa đơn theo mã
@@ -239,9 +246,6 @@ void SaleManager::displayAllInvoices() const {
 NodeInvoice*       SaleManager::getInvoiceHead() const { return invoiceHead; }
 NodeInvoiceDetail* SaleManager::getDetailHead()  const { return detailHead;  }
 
-// ── GHI FILE ──
-// hoadon.txt:  HD1|KH01|15|6|2026|450000|45000|495000|0|500000|5000
-// chitiet.txt: HD1|SP01|2|45000|0|90000
 void SaleManager::saveToFile(const std::string& invFile, const std::string& detFile) const {
     // 1. Ghi hoa don tong (Master)
     std::ofstream fInv(invFile);
