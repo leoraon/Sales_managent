@@ -139,7 +139,7 @@ void ProductManager::saveToFile(const std::string& filename) const {
         file << cur->data.maSP          << "|"
              << cur->data.tenSP         << "|"
              << cur->data.donVi         << "|"
-             << cur->data.donGia        << "|";
+             << cur->data.donGia        << "\n";
         cur = cur->next;
     }
     file.close();

@@ -1,0 +1,1 @@
+SP01|Ban phim co|Cai|850000|SP01|Gao ST25|Kg|35000|SP02|Nuoc mam Chin Su|Chai|25000|SP03|Dau an Simply|Lit|45000|SP04|Duong Bien Hoa|Kg|22000|SP05|Bot ngot Ajinomoto|Goi|18000|SP06|Sua Vinamilk 1L|Hop|32000|SP07|Mi Hao Hao|Thung|95000|SP08|Banh Oreo|Goi|15000|SP09|Bia Saigon Special|Lon|12000|SP10|Nuoc ngot Pepsi|Chai|10000|
