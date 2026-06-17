@@ -9,7 +9,7 @@ public:
     ProductManager(); // Hàm khởi tạo
     void addProduct(const Product& sp);
     bool deleteProduct(const std::string& maSP);
-    void searchProduct(const std::string& tuKhoa);
+    void searchProduct(const std::string& tuKhoa) const;
     bool updateProduct(const std::string& maSP,const Product& newData);
     void displayAll();
     // Tra cứu sản phẩm (const) - dùng bởi SaleManager

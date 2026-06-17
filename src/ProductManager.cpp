@@ -64,7 +64,7 @@ bool ProductManager::deleteProduct(const std::string& maSP){
     }
 
 //hàm tìm kiếm sp
-void ProductManager::searchProduct(const std::string& tuKhoa) {
+void ProductManager::searchProduct(const std::string& tuKhoa)const{
     NodeProduct* cur = head;
     bool timThay = false;
 

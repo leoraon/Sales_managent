@@ -24,13 +24,28 @@ void SaleManager::addInvoiceDetails(const std::string& maHD, const ProductManage
         detail.maHD = maHD;
         detail.chietKhau = 0;
 
-        cout << "Nhap ma san pham: ";
+        cout << "Nhap ma san pham (hoac nhap '?' de tim kiem theo ten): ";
         cin >> detail.maSP;
 
+        // Bổ sung luồng tìm kiếm nếu người dùng nhập '?'
+        if (detail.maSP == "?") {
+            string tuKhoa;
+            cout << "=> Nhap ten san pham hoac tu khoa can tim: ";
+            cin.ignore(); // Xoá bộ đệm trước khi dùng getline
+            getline(cin, tuKhoa);
+            
+            // In ra danh sách các sản phẩm khớp với từ khoá
+            pm.searchProduct(tuKhoa);
+            
+            cout << "\n=> Vui long nhap lai ma san pham ban muon chon tu danh sach tren: ";
+            cin >> detail.maSP;
+        }
+
+        // Sau đó tiếp tục lấy dữ liệu như cũ
         const Product* spData = pm.getProduct(detail.maSP);
 
         if (spData == NULL) {
-            cout << "Loi: San pham khong ton tai trong kho\n";
+            cout << "=> Loi: San pham khong ton tai trong kho. Vui long thu lai!\n";
         } else {
             cout << "Nhap So luong (" << spData->tenSP << "): ";
             cin >> detail.soLuong;
@@ -246,6 +261,9 @@ void SaleManager::displayAllInvoices() const {
 NodeInvoice*       SaleManager::getInvoiceHead() const { return invoiceHead; }
 NodeInvoiceDetail* SaleManager::getDetailHead()  const { return detailHead;  }
 
+// ====================================================================
+// ── GHI FILE ──
+// ====================================================================
 void SaleManager::saveToFile(const std::string& invFile, const std::string& detFile) const {
     // 1. Ghi hoa don tong (Master)
     std::ofstream fInv(invFile);
@@ -265,7 +283,7 @@ void SaleManager::saveToFile(const std::string& invFile, const std::string& detF
              << inv.thueVAT       << "|"
              << inv.tongThanhToan << "|"
              << inv.tienKhachTra  << "|"
-             << inv.tienTraLai    << "\n"; // Không có | ở cuối, rất chuẩn!
+             << inv.tienTraLai    << "\n";
         cur = cur->next;
     }
     fInv.close();
@@ -292,40 +310,37 @@ void SaleManager::saveToFile(const std::string& invFile, const std::string& detF
     std::cout << "=> Da luu toan bo du lieu ban hang thanh cong!\n";
 }
 
+// ====================================================================
 // ── DOC FILE ──
+// ====================================================================
 void SaleManager::loadFromFile(const std::string& invFile, const std::string& detFile) {
     // 1. Doc hoa don tong (Master)
     std::ifstream fInv(invFile);
     if (fInv.is_open()) {
         std::string line;
-        NodeInvoice* invoiceTail = nullptr; // Khởi tạo đuôi danh sách
+        NodeInvoice* invoiceTail = nullptr;
 
         while (std::getline(fInv, line)) {
             if (line.empty()) continue;
 
             std::stringstream ss(line);
             Invoice inv;
-            std::string tempStr; // Biến tạm để hứng các con số dưới dạng chữ
+            std::string tempStr;
 
-            // Đọc chuỗi
             std::getline(ss, inv.maHD, '|');
             std::getline(ss, inv.maKH, '|');
 
-            // Đọc số nguyên (int)
             std::getline(ss, tempStr, '|'); inv.ngayLap = std::stoi(tempStr);
             std::getline(ss, tempStr, '|'); inv.thangLap = std::stoi(tempStr);
             std::getline(ss, tempStr, '|'); inv.namLap = std::stoi(tempStr);
 
-            // Đọc số thực (double)
             std::getline(ss, tempStr, '|'); inv.tongTienHang = std::stod(tempStr);
             std::getline(ss, tempStr, '|'); inv.thueVAT = std::stod(tempStr);
             std::getline(ss, tempStr, '|'); inv.tongThanhToan = std::stod(tempStr);
             std::getline(ss, tempStr, '|'); inv.tienKhachTra = std::stod(tempStr);
             
-            // Tham số cuối cùng đọc đến hết dòng, không cần '|'
             std::getline(ss, tempStr);      inv.tienTraLai = std::stod(tempStr);
 
-            // Tạo Node và móc vào CUỐI danh sách (insertTail)
             NodeInvoice* newNode = new NodeInvoice;
             newNode->data = inv;
             newNode->next = nullptr;
@@ -339,13 +354,16 @@ void SaleManager::loadFromFile(const std::string& invFile, const std::string& de
             }
         }
         fInv.close();
+        std::cout << "=> Da doc du lieu tu " << invFile << " len he thong.\n"; 
+    } else {
+        std::cout << "=> File " << invFile << " chua ton tai. He thong se tao moi khi luu.\n";
     }
 
     // 2. Doc chi tiet hoa don (Detail)
     std::ifstream fDet(detFile);
     if (fDet.is_open()) {
         std::string line;
-        NodeInvoiceDetail* detailTail = nullptr; // Khởi tạo đuôi danh sách
+        NodeInvoiceDetail* detailTail = nullptr;
 
         while (std::getline(fDet, line)) {
             if (line.empty()) continue;
@@ -363,7 +381,6 @@ void SaleManager::loadFromFile(const std::string& invFile, const std::string& de
             
             std::getline(ss, tempStr);      det.thanhTien = std::stod(tempStr);
 
-            // Tạo Node và móc vào CUỐI danh sách (insertTail)
             NodeInvoiceDetail* newNode = new NodeInvoiceDetail;
             newNode->data = det;
             newNode->next = nullptr;
@@ -377,5 +394,8 @@ void SaleManager::loadFromFile(const std::string& invFile, const std::string& de
             }
         }
         fDet.close();
+        std::cout << "=> Da doc du lieu tu " << detFile << " len he thong.\n";
+    } else {
+        std::cout << "=> File " << detFile << " chua ton tai. He thong se tao moi khi luu.\n";
     }
 }

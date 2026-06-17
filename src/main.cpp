@@ -168,9 +168,9 @@ int main (){
     SaleManager sm;
     ReportManager rm;
     // đọc dữ liệu từ file khi khởi động
-    pm.loadFromFile("sanpham.txt");   // Ten file phai trung voi saveToFile ben duoi
-    cm.loadFromFile("khachhang.txt");
-    sm.loadFromFile("hoadon.txt", "chitiet.txt");
+    pm.loadFromFile("../data/sanpham.txt");   // Ten file phai trung voi saveToFile ben duoi
+    cm.loadFromFile("../data/khachhang.txt");
+    sm.loadFromFile("../data/hoadon.txt", "../chitiet.txt");
     int luaChon;
     do {
         cout << "\n========================================\n";
@@ -195,9 +195,9 @@ int main (){
         }
     } while (luaChon != 0);
     // ── Lưu dữ liệu vào file trước khi thoát ──
-    pm.saveToFile("sanpham.txt");      // Luu vao cung ten file da doc
-    cm.saveToFile("khachhang.txt");
-    sm.saveToFile("hoadon.txt", "chitiet.txt");
+    pm.saveToFile("../data/sanpham.txt");      // Luu vao cung ten file da doc
+    cm.saveToFile("../data/khachhang.txt");
+    sm.saveToFile("../data/hoadon.txt", "../chitiet.txt");
     cout << "=> Da luu xong. Tam biet!\n";
     return 0;
 }

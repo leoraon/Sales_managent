@@ -127,3 +127,4 @@ void ReportManager::getTop10BestSellers(const SaleManager& sm, const ProductMana
                   << setw(12) << dsStat[i].soLuong
                   << setw(18) << dsStat[i].doanhThu << " VND\n";
 }
+}
