@@ -1,1 +1,2000 @@
-SP01|Ban phim co|Cai|850000|SP01|Gao ST25|Kg|35000|SP02|Nuoc mam Chin Su|Chai|25000|SP03|Dau an Simply|Lit|45000|SP04|Duong Bien Hoa|Kg|22000|SP05|Bot ngot Ajinomoto|Goi|18000|SP06|Sua Vinamilk 1L|Hop|32000|SP07|Mi Hao Hao|Thung|95000|SP08|Banh Oreo|Goi|15000|SP09|Bia Saigon Special|Lon|12000|SP10|Nuoc ngot Pepsi|Chai|10000|
+SP0001|Bia Saigon Special 150ml|Lon|13000|
+SP0002|Bia Saigon Special 200ml|Lon|16000|
+SP0003|Bia Saigon Special 250ml|Lon|13000|
+SP0004|Bia Saigon Special 270ml|Lon|11000|
+SP0005|Bia Saigon Special 330ml|Lon|12000|
+SP0006|Bia Saigon Special 500ml|Lon|12000|
+SP0007|Bia Saigon Special 750ml|Lon|13000|
+SP0008|Bia Saigon Special 1L|Lon|13000|
+SP0009|Bia Saigon Export 150ml|Lon|14000|
+SP0010|Bia Saigon Export 200ml|Lon|13000|
+SP0011|Bia Saigon Export 250ml|Lon|11000|
+SP0012|Bia Saigon Export 270ml|Lon|12000|
+SP0013|Bia Saigon Export 330ml|Lon|12000|
+SP0014|Bia Saigon Export 500ml|Lon|13000|
+SP0015|Bia Saigon Export 750ml|Lon|10000|
+SP0016|Bia Saigon Export 1L|Lon|14000|
+SP0017|Bia Tiger 150ml|Lon|14000|
+SP0018|Bia Tiger 200ml|Lon|17000|
+SP0019|Bia Tiger 250ml|Lon|17000|
+SP0020|Bia Tiger 270ml|Lon|13000|
+SP0021|Bia Tiger 330ml|Lon|17000|
+SP0022|Bia Tiger 500ml|Lon|14000|
+SP0023|Bia Tiger 750ml|Lon|15000|
+SP0024|Bia Tiger 1L|Lon|17000|
+SP0025|Bia Heineken 150ml|Lon|16000|
+SP0026|Bia Heineken 200ml|Lon|14000|
+SP0027|Bia Heineken 250ml|Lon|18000|
+SP0028|Bia Heineken 270ml|Lon|15000|
+SP0029|Bia Heineken 330ml|Lon|16000|
+SP0030|Bia Heineken 500ml|Lon|16000|
+SP0031|Bia Heineken 750ml|Lon|21000|
+SP0032|Bia Heineken 1L|Lon|17000|
+SP0033|Bia 333 150ml|Lon|14000|
+SP0034|Bia 333 200ml|Lon|9000|
+SP0035|Bia 333 250ml|Lon|11000|
+SP0036|Bia 333 270ml|Lon|12000|
+SP0037|Bia 333 330ml|Lon|13000|
+SP0038|Bia 333 500ml|Lon|10000|
+SP0039|Bia 333 750ml|Lon|12000|
+SP0040|Bia 333 1L|Lon|11000|
+SP0041|Bia Ha Noi 150ml|Lon|9000|
+SP0042|Bia Ha Noi 200ml|Lon|11000|
+SP0043|Bia Ha Noi 250ml|Lon|9000|
+SP0044|Bia Ha Noi 270ml|Lon|10000|
+SP0045|Bia Ha Noi 330ml|Lon|11000|
+SP0046|Bia Ha Noi 500ml|Lon|9000|
+SP0047|Bia Ha Noi 750ml|Lon|12000|
+SP0048|Bia Ha Noi 1L|Lon|10000|
+SP0049|Bia Budweiser 150ml|Lon|18000|
+SP0050|Bia Budweiser 200ml|Lon|23000|
+SP0051|Bia Budweiser 250ml|Lon|16000|
+SP0052|Bia Budweiser 270ml|Lon|17000|
+SP0053|Bia Budweiser 330ml|Lon|15000|
+SP0054|Bia Budweiser 500ml|Lon|23000|
+SP0055|Bia Budweiser 750ml|Lon|17000|
+SP0056|Bia Budweiser 1L|Lon|20000|
+SP0057|Bia Carlsberg 150ml|Lon|18000|
+SP0058|Bia Carlsberg 200ml|Lon|17000|
+SP0059|Bia Carlsberg 250ml|Lon|16000|
+SP0060|Bia Carlsberg 270ml|Lon|19000|
+SP0061|Bia Carlsberg 330ml|Lon|18000|
+SP0062|Bia Carlsberg 500ml|Lon|18000|
+SP0063|Bia Carlsberg 750ml|Lon|19000|
+SP0064|Bia Carlsberg 1L|Lon|17000|
+SP0065|Bia Sapporo 150ml|Lon|16000|
+SP0066|Bia Sapporo 200ml|Lon|14000|
+SP0067|Bia Sapporo 250ml|Lon|21000|
+SP0068|Bia Sapporo 270ml|Lon|15000|
+SP0069|Bia Sapporo 330ml|Lon|21000|
+SP0070|Bia Sapporo 500ml|Lon|22000|
+SP0071|Bia Sapporo 750ml|Lon|21000|
+SP0072|Bia Sapporo 1L|Lon|21000|
+SP0073|Bia Corona 150ml|Lon|34000|
+SP0074|Bia Corona 200ml|Lon|24000|
+SP0075|Bia Corona 250ml|Lon|26000|
+SP0076|Bia Corona 270ml|Lon|34000|
+SP0077|Bia Corona 330ml|Lon|27000|
+SP0078|Bia Corona 500ml|Lon|32000|
+SP0079|Bia Corona 750ml|Lon|28000|
+SP0080|Bia Corona 1L|Lon|34000|
+SP0081|Bia Saigon Thung 6 lon|Thung|257000|
+SP0082|Bia Saigon Thung 12 lon|Thung|313000|
+SP0083|Bia Saigon Thung 18 lon|Thung|312000|
+SP0084|Bia Saigon Thung 24 lon|Thung|277000|
+SP0085|Bia Saigon Thung 30 goi|Thung|272000|
+SP0086|Bia Saigon Thung 48 goi|Thung|291000|
+SP0087|Bia Saigon Thung 60 goi|Thung|267000|
+SP0088|Bia Tiger Thung 6 lon|Thung|295000|
+SP0089|Bia Tiger Thung 12 lon|Thung|295000|
+SP0090|Bia Tiger Thung 18 lon|Thung|285000|
+SP0091|Bia Tiger Thung 24 lon|Thung|293000|
+SP0092|Bia Tiger Thung 30 goi|Thung|287000|
+SP0093|Bia Tiger Thung 48 goi|Thung|362000|
+SP0094|Bia Tiger Thung 60 goi|Thung|341000|
+SP0095|Bia Heineken Thung 6 lon|Thung|428000|
+SP0096|Bia Heineken Thung 12 lon|Thung|439000|
+SP0097|Bia Heineken Thung 18 lon|Thung|426000|
+SP0098|Bia Heineken Thung 24 lon|Thung|418000|
+SP0099|Bia Heineken Thung 30 goi|Thung|409000|
+SP0100|Bia Heineken Thung 48 goi|Thung|368000|
+SP0101|Bia Heineken Thung 60 goi|Thung|435000|
+SP0102|Bia 333 Thung 6 lon|Thung|244000|
+SP0103|Bia 333 Thung 12 lon|Thung|251000|
+SP0104|Bia 333 Thung 18 lon|Thung|235000|
+SP0105|Bia 333 Thung 24 lon|Thung|271000|
+SP0106|Bia 333 Thung 30 goi|Thung|243000|
+SP0107|Bia 333 Thung 48 goi|Thung|225000|
+SP0108|Bia 333 Thung 60 goi|Thung|244000|
+SP0109|Bia Ha Noi Thung 6 lon|Thung|202000|
+SP0110|Bia Ha Noi Thung 12 lon|Thung|241000|
+SP0111|Bia Ha Noi Thung 18 lon|Thung|248000|
+SP0112|Bia Ha Noi Thung 24 lon|Thung|273000|
+SP0113|Bia Ha Noi Thung 30 goi|Thung|243000|
+SP0114|Bia Ha Noi Thung 48 goi|Thung|229000|
+SP0115|Bia Ha Noi Thung 60 goi|Thung|267000|
+SP0116|Ruou Vodka Hanoi 100ml|Chai|90000|
+SP0117|Ruou Vodka Hanoi 150ml|Chai|56000|
+SP0118|Ruou Vodka Hanoi 200ml|Chai|87000|
+SP0119|Ruou Vodka Hanoi 250ml|Chai|69000|
+SP0120|Ruou Vodka Hanoi 330ml|Chai|69000|
+SP0121|Ruou Vodka Hanoi 500ml|Chai|77000|
+SP0122|Ruou Vodka Hanoi 750ml|Chai|73000|
+SP0123|Ruou Vodka Hanoi 1L|Chai|61000|
+SP0124|Ruou Vodka Hanoi 1.5L|Chai|62000|
+SP0125|Ruou Vodka Hanoi 2L|Chai|77000|
+SP0126|Ruou Vodka Nep Moi 100ml|Chai|53000|
+SP0127|Ruou Vodka Nep Moi 150ml|Chai|68000|
+SP0128|Ruou Vodka Nep Moi 200ml|Chai|58000|
+SP0129|Ruou Vodka Nep Moi 250ml|Chai|67000|
+SP0130|Ruou Vodka Nep Moi 330ml|Chai|74000|
+SP0131|Ruou Vodka Nep Moi 500ml|Chai|60000|
+SP0132|Ruou Vodka Nep Moi 750ml|Chai|60000|
+SP0133|Ruou Vodka Nep Moi 1L|Chai|52000|
+SP0134|Ruou Vodka Nep Moi 1.5L|Chai|65000|
+SP0135|Ruou Vodka Nep Moi 2L|Chai|60000|
+SP0136|Ruou Vang Do Dalat 100ml|Chai|116000|
+SP0137|Ruou Vang Do Dalat 150ml|Chai|131000|
+SP0138|Ruou Vang Do Dalat 200ml|Chai|124000|
+SP0139|Ruou Vang Do Dalat 250ml|Chai|96000|
+SP0140|Ruou Vang Do Dalat 330ml|Chai|110000|
+SP0141|Ruou Vang Do Dalat 500ml|Chai|117000|
+SP0142|Ruou Vang Do Dalat 750ml|Chai|114000|
+SP0143|Ruou Vang Do Dalat 1L|Chai|86000|
+SP0144|Ruou Vang Do Dalat 1.5L|Chai|130000|
+SP0145|Ruou Vang Do Dalat 2L|Chai|124000|
+SP0146|Ruou Vang Trang Dalat 100ml|Chai|107000|
+SP0147|Ruou Vang Trang Dalat 150ml|Chai|105000|
+SP0148|Ruou Vang Trang Dalat 200ml|Chai|100000|
+SP0149|Ruou Vang Trang Dalat 250ml|Chai|110000|
+SP0150|Ruou Vang Trang Dalat 330ml|Chai|92000|
+SP0151|Ruou Vang Trang Dalat 500ml|Chai|107000|
+SP0152|Ruou Vang Trang Dalat 750ml|Chai|117000|
+SP0153|Ruou Vang Trang Dalat 1L|Chai|122000|
+SP0154|Ruou Vang Trang Dalat 1.5L|Chai|110000|
+SP0155|Ruou Vang Trang Dalat 2L|Chai|86000|
+SP0156|Ruou Whisky JW Red 100ml|Chai|480000|
+SP0157|Ruou Whisky JW Red 150ml|Chai|437000|
+SP0158|Ruou Whisky JW Red 200ml|Chai|474000|
+SP0159|Ruou Whisky JW Red 250ml|Chai|539000|
+SP0160|Ruou Whisky JW Red 330ml|Chai|476000|
+SP0161|Ruou Whisky JW Red 500ml|Chai|582000|
+SP0162|Ruou Whisky JW Red 750ml|Chai|441000|
+SP0163|Ruou Whisky JW Red 1L|Chai|421000|
+SP0164|Ruou Whisky JW Red 1.5L|Chai|419000|
+SP0165|Ruou Whisky JW Red 2L|Chai|462000|
+SP0166|Ruou Nep Bau Da 100ml|Chai|38000|
+SP0167|Ruou Nep Bau Da 150ml|Chai|45000|
+SP0168|Ruou Nep Bau Da 200ml|Chai|34000|
+SP0169|Ruou Nep Bau Da 250ml|Chai|55000|
+SP0170|Ruou Nep Bau Da 330ml|Chai|45000|
+SP0171|Ruou Nep Bau Da 500ml|Chai|39000|
+SP0172|Ruou Nep Bau Da 750ml|Chai|36000|
+SP0173|Ruou Nep Bau Da 1L|Chai|50000|
+SP0174|Ruou Nep Bau Da 1.5L|Chai|33000|
+SP0175|Ruou Nep Bau Da 2L|Chai|40000|
+SP0176|Ruou Can Tay Nguyen 100ml|Chai|44000|
+SP0177|Ruou Can Tay Nguyen 150ml|Chai|28000|
+SP0178|Ruou Can Tay Nguyen 200ml|Chai|43000|
+SP0179|Ruou Can Tay Nguyen 250ml|Chai|40000|
+SP0180|Ruou Can Tay Nguyen 330ml|Chai|31000|
+SP0181|Ruou Can Tay Nguyen 500ml|Chai|44000|
+SP0182|Ruou Can Tay Nguyen 750ml|Chai|46000|
+SP0183|Ruou Can Tay Nguyen 1L|Chai|26000|
+SP0184|Ruou Can Tay Nguyen 1.5L|Chai|41000|
+SP0185|Ruou Can Tay Nguyen 2L|Chai|49000|
+SP0186|Nuoc ngot Pepsi 150ml|Lon|9000|
+SP0187|Nuoc ngot Pepsi 200ml|Lon|9000|
+SP0188|Nuoc ngot Pepsi 250ml|Lon|10000|
+SP0189|Nuoc ngot Pepsi 270ml|Lon|12000|
+SP0190|Nuoc ngot Pepsi 330ml|Lon|9000|
+SP0191|Nuoc ngot Pepsi 500ml|Lon|11000|
+SP0192|Nuoc ngot Pepsi 750ml|Lon|14000|
+SP0193|Nuoc ngot Pepsi 1L|Lon|9000|
+SP0194|Nuoc ngot Coca Cola 150ml|Lon|9000|
+SP0195|Nuoc ngot Coca Cola 200ml|Lon|9000|
+SP0196|Nuoc ngot Coca Cola 250ml|Lon|10000|
+SP0197|Nuoc ngot Coca Cola 270ml|Lon|8000|
+SP0198|Nuoc ngot Coca Cola 330ml|Lon|11000|
+SP0199|Nuoc ngot Coca Cola 500ml|Lon|12000|
+SP0200|Nuoc ngot Coca Cola 750ml|Lon|12000|
+SP0201|Nuoc ngot Coca Cola 1L|Lon|9000|
+SP0202|Nuoc ngot 7UP 150ml|Lon|10000|
+SP0203|Nuoc ngot 7UP 200ml|Lon|11000|
+SP0204|Nuoc ngot 7UP 250ml|Lon|9000|
+SP0205|Nuoc ngot 7UP 270ml|Lon|10000|
+SP0206|Nuoc ngot 7UP 330ml|Lon|11000|
+SP0207|Nuoc ngot 7UP 500ml|Lon|12000|
+SP0208|Nuoc ngot 7UP 750ml|Lon|10000|
+SP0209|Nuoc ngot 7UP 1L|Lon|9000|
+SP0210|Nuoc ngot Sprite 150ml|Lon|11000|
+SP0211|Nuoc ngot Sprite 200ml|Lon|13000|
+SP0212|Nuoc ngot Sprite 250ml|Lon|13000|
+SP0213|Nuoc ngot Sprite 270ml|Lon|9000|
+SP0214|Nuoc ngot Sprite 330ml|Lon|11000|
+SP0215|Nuoc ngot Sprite 500ml|Lon|13000|
+SP0216|Nuoc ngot Sprite 750ml|Lon|8000|
+SP0217|Nuoc ngot Sprite 1L|Lon|10000|
+SP0218|Nuoc ngot Fanta Cam 150ml|Lon|12000|
+SP0219|Nuoc ngot Fanta Cam 200ml|Lon|13000|
+SP0220|Nuoc ngot Fanta Cam 250ml|Lon|8000|
+SP0221|Nuoc ngot Fanta Cam 270ml|Lon|12000|
+SP0222|Nuoc ngot Fanta Cam 330ml|Lon|9000|
+SP0223|Nuoc ngot Fanta Cam 500ml|Lon|11000|
+SP0224|Nuoc ngot Fanta Cam 750ml|Lon|13000|
+SP0225|Nuoc ngot Fanta Cam 1L|Lon|9000|
+SP0226|Nuoc ngot Fanta Dau 150ml|Lon|10000|
+SP0227|Nuoc ngot Fanta Dau 200ml|Lon|10000|
+SP0228|Nuoc ngot Fanta Dau 250ml|Lon|12000|
+SP0229|Nuoc ngot Fanta Dau 270ml|Lon|14000|
+SP0230|Nuoc ngot Fanta Dau 330ml|Lon|11000|
+SP0231|Nuoc ngot Fanta Dau 500ml|Lon|14000|
+SP0232|Nuoc ngot Fanta Dau 750ml|Lon|12000|
+SP0233|Nuoc ngot Fanta Dau 1L|Lon|13000|
+SP0234|Nuoc ngot Mirinda 150ml|Lon|13000|
+SP0235|Nuoc ngot Mirinda 200ml|Lon|8000|
+SP0236|Nuoc ngot Mirinda 250ml|Lon|13000|
+SP0237|Nuoc ngot Mirinda 270ml|Lon|8000|
+SP0238|Nuoc ngot Mirinda 330ml|Lon|10000|
+SP0239|Nuoc ngot Mirinda 500ml|Lon|8000|
+SP0240|Nuoc ngot Mirinda 750ml|Lon|7000|
+SP0241|Nuoc ngot Mirinda 1L|Lon|9000|
+SP0242|Nuoc ngot Pepsi 100ml|Chai|14000|
+SP0243|Nuoc ngot Pepsi 150ml|Chai|12000|
+SP0244|Nuoc ngot Pepsi 200ml|Chai|10000|
+SP0245|Nuoc ngot Pepsi 250ml|Chai|12000|
+SP0246|Nuoc ngot Pepsi 330ml|Chai|11000|
+SP0247|Nuoc ngot Pepsi 500ml|Chai|15000|
+SP0248|Nuoc ngot Pepsi 750ml|Chai|18000|
+SP0249|Nuoc ngot Pepsi 1L|Chai|12000|
+SP0250|Nuoc ngot Pepsi 1.5L|Chai|14000|
+SP0251|Nuoc ngot Pepsi 2L|Chai|14000|
+SP0252|Nuoc ngot Coca Cola 100ml|Chai|18000|
+SP0253|Nuoc ngot Coca Cola 150ml|Chai|11000|
+SP0254|Nuoc ngot Coca Cola 200ml|Chai|9000|
+SP0255|Nuoc ngot Coca Cola 250ml|Chai|15000|
+SP0256|Nuoc ngot Coca Cola 330ml|Chai|15000|
+SP0257|Nuoc ngot Coca Cola 500ml|Chai|15000|
+SP0258|Nuoc ngot Coca Cola 750ml|Chai|15000|
+SP0259|Nuoc ngot Coca Cola 1L|Chai|13000|
+SP0260|Nuoc ngot Coca Cola 1.5L|Chai|18000|
+SP0261|Nuoc ngot Coca Cola 2L|Chai|10000|
+SP0262|Nuoc ngot 7UP 100ml|Chai|10000|
+SP0263|Nuoc ngot 7UP 150ml|Chai|9000|
+SP0264|Nuoc ngot 7UP 200ml|Chai|17000|
+SP0265|Nuoc ngot 7UP 250ml|Chai|16000|
+SP0266|Nuoc ngot 7UP 330ml|Chai|10000|
+SP0267|Nuoc ngot 7UP 500ml|Chai|9000|
+SP0268|Nuoc ngot 7UP 750ml|Chai|17000|
+SP0269|Nuoc ngot 7UP 1L|Chai|9000|
+SP0270|Nuoc ngot 7UP 1.5L|Chai|11000|
+SP0271|Nuoc ngot 7UP 2L|Chai|14000|
+SP0272|Nuoc tang luc Redbull 150ml|Lon|13000|
+SP0273|Nuoc tang luc Redbull 200ml|Lon|13000|
+SP0274|Nuoc tang luc Redbull 250ml|Lon|15000|
+SP0275|Nuoc tang luc Redbull 270ml|Lon|12000|
+SP0276|Nuoc tang luc Redbull 330ml|Lon|16000|
+SP0277|Nuoc tang luc Redbull 500ml|Lon|11000|
+SP0278|Nuoc tang luc Redbull 750ml|Lon|16000|
+SP0279|Nuoc tang luc Redbull 1L|Lon|15000|
+SP0280|Nuoc tang luc Sting 150ml|Lon|8000|
+SP0281|Nuoc tang luc Sting 200ml|Lon|10000|
+SP0282|Nuoc tang luc Sting 250ml|Lon|10000|
+SP0283|Nuoc tang luc Sting 270ml|Lon|10000|
+SP0284|Nuoc tang luc Sting 330ml|Lon|11000|
+SP0285|Nuoc tang luc Sting 500ml|Lon|14000|
+SP0286|Nuoc tang luc Sting 750ml|Lon|8000|
+SP0287|Nuoc tang luc Sting 1L|Lon|10000|
+SP0288|Nuoc tang luc Number1 150ml|Lon|12000|
+SP0289|Nuoc tang luc Number1 200ml|Lon|7000|
+SP0290|Nuoc tang luc Number1 250ml|Lon|11000|
+SP0291|Nuoc tang luc Number1 270ml|Lon|10000|
+SP0292|Nuoc tang luc Number1 330ml|Lon|9000|
+SP0293|Nuoc tang luc Number1 500ml|Lon|12000|
+SP0294|Nuoc tang luc Number1 750ml|Lon|12000|
+SP0295|Nuoc tang luc Number1 1L|Lon|9000|
+SP0296|Nuoc tang luc Warrior 150ml|Lon|11000|
+SP0297|Nuoc tang luc Warrior 200ml|Lon|11000|
+SP0298|Nuoc tang luc Warrior 250ml|Lon|12000|
+SP0299|Nuoc tang luc Warrior 270ml|Lon|14000|
+SP0300|Nuoc tang luc Warrior 330ml|Lon|11000|
+SP0301|Nuoc tang luc Warrior 500ml|Lon|14000|
+SP0302|Nuoc tang luc Warrior 750ml|Lon|11000|
+SP0303|Nuoc tang luc Warrior 1L|Lon|9000|
+SP0304|Nuoc tang luc Wake-up 150ml|Lon|9000|
+SP0305|Nuoc tang luc Wake-up 200ml|Lon|10000|
+SP0306|Nuoc tang luc Wake-up 250ml|Lon|12000|
+SP0307|Nuoc tang luc Wake-up 270ml|Lon|8000|
+SP0308|Nuoc tang luc Wake-up 330ml|Lon|14000|
+SP0309|Nuoc tang luc Wake-up 500ml|Lon|8000|
+SP0310|Nuoc tang luc Wake-up 750ml|Lon|8000|
+SP0311|Nuoc tang luc Wake-up 1L|Lon|10000|
+SP0312|Nuoc ep Tropicana Cam 100ml|Hop|14000|
+SP0313|Nuoc ep Tropicana Cam 150ml|Hop|13000|
+SP0314|Nuoc ep Tropicana Cam 180ml|Hop|18000|
+SP0315|Nuoc ep Tropicana Cam 200ml|Hop|16000|
+SP0316|Nuoc ep Tropicana Cam 250ml|Hop|18000|
+SP0317|Nuoc ep Tropicana Cam 330ml|Hop|18000|
+SP0318|Nuoc ep Tropicana Cam 500ml|Hop|15000|
+SP0319|Nuoc ep Tropicana Cam 750ml|Hop|20000|
+SP0320|Nuoc ep Tropicana Cam 1L|Hop|14000|
+SP0321|Nuoc ep Tropicana Cam 1.5L|Hop|17000|
+SP0322|Nuoc ep Tropicana Tao 100ml|Hop|17000|
+SP0323|Nuoc ep Tropicana Tao 150ml|Hop|18000|
+SP0324|Nuoc ep Tropicana Tao 180ml|Hop|13000|
+SP0325|Nuoc ep Tropicana Tao 200ml|Hop|16000|
+SP0326|Nuoc ep Tropicana Tao 250ml|Hop|18000|
+SP0327|Nuoc ep Tropicana Tao 330ml|Hop|17000|
+SP0328|Nuoc ep Tropicana Tao 500ml|Hop|14000|
+SP0329|Nuoc ep Tropicana Tao 750ml|Hop|15000|
+SP0330|Nuoc ep Tropicana Tao 1L|Hop|13000|
+SP0331|Nuoc ep Tropicana Tao 1.5L|Hop|22000|
+SP0332|Nuoc ep Twister Cam 100ml|Chai|15000|
+SP0333|Nuoc ep Twister Cam 150ml|Chai|16000|
+SP0334|Nuoc ep Twister Cam 200ml|Chai|15000|
+SP0335|Nuoc ep Twister Cam 250ml|Chai|10000|
+SP0336|Nuoc ep Twister Cam 330ml|Chai|18000|
+SP0337|Nuoc ep Twister Cam 500ml|Chai|17000|
+SP0338|Nuoc ep Twister Cam 750ml|Chai|12000|
+SP0339|Nuoc ep Twister Cam 1L|Chai|17000|
+SP0340|Nuoc ep Twister Cam 1.5L|Chai|16000|
+SP0341|Nuoc ep Twister Cam 2L|Chai|18000|
+SP0342|Nuoc ep Minute Maid 100ml|Hop|20000|
+SP0343|Nuoc ep Minute Maid 150ml|Hop|20000|
+SP0344|Nuoc ep Minute Maid 180ml|Hop|19000|
+SP0345|Nuoc ep Minute Maid 200ml|Hop|14000|
+SP0346|Nuoc ep Minute Maid 250ml|Hop|20000|
+SP0347|Nuoc ep Minute Maid 330ml|Hop|20000|
+SP0348|Nuoc ep Minute Maid 500ml|Hop|14000|
+SP0349|Nuoc ep Minute Maid 750ml|Hop|20000|
+SP0350|Nuoc ep Minute Maid 1L|Hop|18000|
+SP0351|Nuoc ep Minute Maid 1.5L|Hop|17000|
+SP0352|Nuoc ep Co Gai Ha Lan 100ml|Hop|12000|
+SP0353|Nuoc ep Co Gai Ha Lan 150ml|Hop|11000|
+SP0354|Nuoc ep Co Gai Ha Lan 180ml|Hop|15000|
+SP0355|Nuoc ep Co Gai Ha Lan 200ml|Hop|10000|
+SP0356|Nuoc ep Co Gai Ha Lan 250ml|Hop|13000|
+SP0357|Nuoc ep Co Gai Ha Lan 330ml|Hop|14000|
+SP0358|Nuoc ep Co Gai Ha Lan 500ml|Hop|18000|
+SP0359|Nuoc ep Co Gai Ha Lan 750ml|Hop|18000|
+SP0360|Nuoc ep Co Gai Ha Lan 1L|Hop|12000|
+SP0361|Nuoc ep Co Gai Ha Lan 1.5L|Hop|10000|
+SP0362|Nuoc ep Chuoi Vinamilk 100ml|Hop|14000|
+SP0363|Nuoc ep Chuoi Vinamilk 150ml|Hop|11000|
+SP0364|Nuoc ep Chuoi Vinamilk 180ml|Hop|10000|
+SP0365|Nuoc ep Chuoi Vinamilk 200ml|Hop|10000|
+SP0366|Nuoc ep Chuoi Vinamilk 250ml|Hop|10000|
+SP0367|Nuoc ep Chuoi Vinamilk 330ml|Hop|13000|
+SP0368|Nuoc ep Chuoi Vinamilk 500ml|Hop|11000|
+SP0369|Nuoc ep Chuoi Vinamilk 750ml|Hop|13000|
+SP0370|Nuoc ep Chuoi Vinamilk 1L|Hop|10000|
+SP0371|Nuoc ep Chuoi Vinamilk 1.5L|Hop|15000|
+SP0372|Sua tuoi Vinamilk ItDuong 100ml|Hop|33000|
+SP0373|Sua tuoi Vinamilk ItDuong 150ml|Hop|38000|
+SP0374|Sua tuoi Vinamilk ItDuong 180ml|Hop|37000|
+SP0375|Sua tuoi Vinamilk ItDuong 200ml|Hop|27000|
+SP0376|Sua tuoi Vinamilk ItDuong 250ml|Hop|33000|
+SP0377|Sua tuoi Vinamilk ItDuong 330ml|Hop|27000|
+SP0378|Sua tuoi Vinamilk ItDuong 500ml|Hop|34000|
+SP0379|Sua tuoi Vinamilk ItDuong 750ml|Hop|34000|
+SP0380|Sua tuoi Vinamilk ItDuong 1L|Hop|26000|
+SP0381|Sua tuoi Vinamilk ItDuong 1.5L|Hop|28000|
+SP0382|Sua tuoi Vinamilk CoThem 100ml|Hop|35000|
+SP0383|Sua tuoi Vinamilk CoThem 150ml|Hop|27000|
+SP0384|Sua tuoi Vinamilk CoThem 180ml|Hop|30000|
+SP0385|Sua tuoi Vinamilk CoThem 200ml|Hop|37000|
+SP0386|Sua tuoi Vinamilk CoThem 250ml|Hop|36000|
+SP0387|Sua tuoi Vinamilk CoThem 330ml|Hop|32000|
+SP0388|Sua tuoi Vinamilk CoThem 500ml|Hop|30000|
+SP0389|Sua tuoi Vinamilk CoThem 750ml|Hop|36000|
+SP0390|Sua tuoi Vinamilk CoThem 1L|Hop|29000|
+SP0391|Sua tuoi Vinamilk CoThem 1.5L|Hop|36000|
+SP0392|Sua tuoi TH True Milk 100ml|Hop|38000|
+SP0393|Sua tuoi TH True Milk 150ml|Hop|33000|
+SP0394|Sua tuoi TH True Milk 180ml|Hop|41000|
+SP0395|Sua tuoi TH True Milk 200ml|Hop|39000|
+SP0396|Sua tuoi TH True Milk 250ml|Hop|40000|
+SP0397|Sua tuoi TH True Milk 330ml|Hop|38000|
+SP0398|Sua tuoi TH True Milk 500ml|Hop|37000|
+SP0399|Sua tuoi TH True Milk 750ml|Hop|32000|
+SP0400|Sua tuoi TH True Milk 1L|Hop|34000|
+SP0401|Sua tuoi TH True Milk 1.5L|Hop|28000|
+SP0402|Sua tuoi Moc Chau 100ml|Hop|24000|
+SP0403|Sua tuoi Moc Chau 150ml|Hop|35000|
+SP0404|Sua tuoi Moc Chau 180ml|Hop|30000|
+SP0405|Sua tuoi Moc Chau 200ml|Hop|27000|
+SP0406|Sua tuoi Moc Chau 250ml|Hop|36000|
+SP0407|Sua tuoi Moc Chau 330ml|Hop|33000|
+SP0408|Sua tuoi Moc Chau 500ml|Hop|31000|
+SP0409|Sua tuoi Moc Chau 750ml|Hop|26000|
+SP0410|Sua tuoi Moc Chau 1L|Hop|33000|
+SP0411|Sua tuoi Moc Chau 1.5L|Hop|29000|
+SP0412|Sua tuoi Dalat Milk 100ml|Hop|38000|
+SP0413|Sua tuoi Dalat Milk 150ml|Hop|36000|
+SP0414|Sua tuoi Dalat Milk 180ml|Hop|26000|
+SP0415|Sua tuoi Dalat Milk 200ml|Hop|31000|
+SP0416|Sua tuoi Dalat Milk 250ml|Hop|31000|
+SP0417|Sua tuoi Dalat Milk 330ml|Hop|30000|
+SP0418|Sua tuoi Dalat Milk 500ml|Hop|35000|
+SP0419|Sua tuoi Dalat Milk 750ml|Hop|37000|
+SP0420|Sua tuoi Dalat Milk 1L|Hop|26000|
+SP0421|Sua tuoi Dalat Milk 1.5L|Hop|28000|
+SP0422|Sua tuoi Co Gai Ha Lan 100ml|Hop|39000|
+SP0423|Sua tuoi Co Gai Ha Lan 150ml|Hop|37000|
+SP0424|Sua tuoi Co Gai Ha Lan 180ml|Hop|33000|
+SP0425|Sua tuoi Co Gai Ha Lan 200ml|Hop|41000|
+SP0426|Sua tuoi Co Gai Ha Lan 250ml|Hop|30000|
+SP0427|Sua tuoi Co Gai Ha Lan 330ml|Hop|28000|
+SP0428|Sua tuoi Co Gai Ha Lan 500ml|Hop|28000|
+SP0429|Sua tuoi Co Gai Ha Lan 750ml|Hop|36000|
+SP0430|Sua tuoi Co Gai Ha Lan 1L|Hop|39000|
+SP0431|Sua tuoi Co Gai Ha Lan 1.5L|Hop|32000|
+SP0432|Sua Trai Cay Vinamilk Dau 100ml|Hop|9000|
+SP0433|Sua Trai Cay Vinamilk Dau 150ml|Hop|12000|
+SP0434|Sua Trai Cay Vinamilk Dau 180ml|Hop|9000|
+SP0435|Sua Trai Cay Vinamilk Dau 200ml|Hop|8000|
+SP0436|Sua Trai Cay Vinamilk Dau 250ml|Hop|10000|
+SP0437|Sua Trai Cay Vinamilk Dau 330ml|Hop|8000|
+SP0438|Sua Trai Cay Vinamilk Dau 500ml|Hop|12000|
+SP0439|Sua Trai Cay Vinamilk Dau 750ml|Hop|13000|
+SP0440|Sua Trai Cay Vinamilk Dau 1L|Hop|9000|
+SP0441|Sua Trai Cay Vinamilk Dau 1.5L|Hop|11000|
+SP0442|Sua Trai Cay Vinamilk Xoai 100ml|Hop|15000|
+SP0443|Sua Trai Cay Vinamilk Xoai 150ml|Hop|10000|
+SP0444|Sua Trai Cay Vinamilk Xoai 180ml|Hop|9000|
+SP0445|Sua Trai Cay Vinamilk Xoai 200ml|Hop|9000|
+SP0446|Sua Trai Cay Vinamilk Xoai 250ml|Hop|14000|
+SP0447|Sua Trai Cay Vinamilk Xoai 330ml|Hop|10000|
+SP0448|Sua Trai Cay Vinamilk Xoai 500ml|Hop|14000|
+SP0449|Sua Trai Cay Vinamilk Xoai 750ml|Hop|10000|
+SP0450|Sua Trai Cay Vinamilk Xoai 1L|Hop|15000|
+SP0451|Sua Trai Cay Vinamilk Xoai 1.5L|Hop|14000|
+SP0452|Sua Trai Cay TH 100ml|Hop|16000|
+SP0453|Sua Trai Cay TH 150ml|Hop|11000|
+SP0454|Sua Trai Cay TH 180ml|Hop|10000|
+SP0455|Sua Trai Cay TH 200ml|Hop|10000|
+SP0456|Sua Trai Cay TH 250ml|Hop|11000|
+SP0457|Sua Trai Cay TH 330ml|Hop|13000|
+SP0458|Sua Trai Cay TH 500ml|Hop|16000|
+SP0459|Sua Trai Cay TH 750ml|Hop|18000|
+SP0460|Sua Trai Cay TH 1L|Hop|10000|
+SP0461|Sua Trai Cay TH 1.5L|Hop|18000|
+SP0462|Sua dac Ong Tho 100ml|Hop|24000|
+SP0463|Sua dac Ong Tho 150ml|Hop|24000|
+SP0464|Sua dac Ong Tho 180ml|Hop|26000|
+SP0465|Sua dac Ong Tho 200ml|Hop|19000|
+SP0466|Sua dac Ong Tho 250ml|Hop|24000|
+SP0467|Sua dac Ong Tho 330ml|Hop|26000|
+SP0468|Sua dac Ong Tho 500ml|Hop|23000|
+SP0469|Sua dac Ong Tho 750ml|Hop|18000|
+SP0470|Sua dac Ong Tho 1L|Hop|24000|
+SP0471|Sua dac Ong Tho 1.5L|Hop|28000|
+SP0472|Sua dac Ngoi Sao 100ml|Hop|22000|
+SP0473|Sua dac Ngoi Sao 150ml|Hop|22000|
+SP0474|Sua dac Ngoi Sao 180ml|Hop|23000|
+SP0475|Sua dac Ngoi Sao 200ml|Hop|24000|
+SP0476|Sua dac Ngoi Sao 250ml|Hop|19000|
+SP0477|Sua dac Ngoi Sao 330ml|Hop|19000|
+SP0478|Sua dac Ngoi Sao 500ml|Hop|17000|
+SP0479|Sua dac Ngoi Sao 750ml|Hop|25000|
+SP0480|Sua dac Ngoi Sao 1L|Hop|17000|
+SP0481|Sua dac Ngoi Sao 1.5L|Hop|26000|
+SP0482|Sua dac Co Gai 100ml|Hop|27000|
+SP0483|Sua dac Co Gai 150ml|Hop|19000|
+SP0484|Sua dac Co Gai 180ml|Hop|19000|
+SP0485|Sua dac Co Gai 200ml|Hop|20000|
+SP0486|Sua dac Co Gai 250ml|Hop|20000|
+SP0487|Sua dac Co Gai 330ml|Hop|24000|
+SP0488|Sua dac Co Gai 500ml|Hop|27000|
+SP0489|Sua dac Co Gai 750ml|Hop|18000|
+SP0490|Sua dac Co Gai 1L|Hop|24000|
+SP0491|Sua dac Co Gai 1.5L|Hop|26000|
+SP0492|Sua bot Dielac Alpha 100ml|Hop|149000|
+SP0493|Sua bot Dielac Alpha 150ml|Hop|169000|
+SP0494|Sua bot Dielac Alpha 180ml|Hop|139000|
+SP0495|Sua bot Dielac Alpha 200ml|Hop|112000|
+SP0496|Sua bot Dielac Alpha 250ml|Hop|127000|
+SP0497|Sua bot Dielac Alpha 330ml|Hop|124000|
+SP0498|Sua bot Dielac Alpha 500ml|Hop|164000|
+SP0499|Sua bot Dielac Alpha 750ml|Hop|128000|
+SP0500|Sua bot Dielac Alpha 1L|Hop|115000|
+SP0501|Sua bot Dielac Alpha 1.5L|Hop|146000|
+SP0502|Sua bot Dielac Grow 100ml|Hop|193000|
+SP0503|Sua bot Dielac Grow 150ml|Hop|135000|
+SP0504|Sua bot Dielac Grow 180ml|Hop|182000|
+SP0505|Sua bot Dielac Grow 200ml|Hop|128000|
+SP0506|Sua bot Dielac Grow 250ml|Hop|113000|
+SP0507|Sua bot Dielac Grow 330ml|Hop|112000|
+SP0508|Sua bot Dielac Grow 500ml|Hop|199000|
+SP0509|Sua bot Dielac Grow 750ml|Hop|182000|
+SP0510|Sua bot Dielac Grow 1L|Hop|135000|
+SP0511|Sua bot Dielac Grow 1.5L|Hop|138000|
+SP0512|Sua bot Nan Optipro 100ml|Hop|169000|
+SP0513|Sua bot Nan Optipro 150ml|Hop|153000|
+SP0514|Sua bot Nan Optipro 180ml|Hop|160000|
+SP0515|Sua bot Nan Optipro 200ml|Hop|218000|
+SP0516|Sua bot Nan Optipro 250ml|Hop|164000|
+SP0517|Sua bot Nan Optipro 330ml|Hop|149000|
+SP0518|Sua bot Nan Optipro 500ml|Hop|205000|
+SP0519|Sua bot Nan Optipro 750ml|Hop|161000|
+SP0520|Sua bot Nan Optipro 1L|Hop|142000|
+SP0521|Sua bot Nan Optipro 1.5L|Hop|133000|
+SP0522|Sua bot Similac 100ml|Hop|225000|
+SP0523|Sua bot Similac 150ml|Hop|231000|
+SP0524|Sua bot Similac 180ml|Hop|239000|
+SP0525|Sua bot Similac 200ml|Hop|213000|
+SP0526|Sua bot Similac 250ml|Hop|139000|
+SP0527|Sua bot Similac 330ml|Hop|175000|
+SP0528|Sua bot Similac 500ml|Hop|229000|
+SP0529|Sua bot Similac 750ml|Hop|149000|
+SP0530|Sua bot Similac 1L|Hop|224000|
+SP0531|Sua bot Similac 1.5L|Hop|201000|
+SP0532|Sua bot Friso Gold 100ml|Hop|187000|
+SP0533|Sua bot Friso Gold 150ml|Hop|182000|
+SP0534|Sua bot Friso Gold 180ml|Hop|191000|
+SP0535|Sua bot Friso Gold 200ml|Hop|148000|
+SP0536|Sua bot Friso Gold 250ml|Hop|197000|
+SP0537|Sua bot Friso Gold 330ml|Hop|211000|
+SP0538|Sua bot Friso Gold 500ml|Hop|202000|
+SP0539|Sua bot Friso Gold 750ml|Hop|245000|
+SP0540|Sua bot Friso Gold 1L|Hop|206000|
+SP0541|Sua bot Friso Gold 1.5L|Hop|209000|
+SP0542|Sua bot Enfamil 100ml|Hop|131000|
+SP0543|Sua bot Enfamil 150ml|Hop|143000|
+SP0544|Sua bot Enfamil 180ml|Hop|229000|
+SP0545|Sua bot Enfamil 200ml|Hop|167000|
+SP0546|Sua bot Enfamil 250ml|Hop|240000|
+SP0547|Sua bot Enfamil 330ml|Hop|127000|
+SP0548|Sua bot Enfamil 500ml|Hop|226000|
+SP0549|Sua bot Enfamil 750ml|Hop|181000|
+SP0550|Sua bot Enfamil 1L|Hop|220000|
+SP0551|Sua bot Enfamil 1.5L|Hop|180000|
+SP0552|Sua bot Aptamil 100ml|Hop|210000|
+SP0553|Sua bot Aptamil 150ml|Hop|254000|
+SP0554|Sua bot Aptamil 180ml|Hop|186000|
+SP0555|Sua bot Aptamil 200ml|Hop|167000|
+SP0556|Sua bot Aptamil 250ml|Hop|239000|
+SP0557|Sua bot Aptamil 330ml|Hop|167000|
+SP0558|Sua bot Aptamil 500ml|Hop|135000|
+SP0559|Sua bot Aptamil 750ml|Hop|244000|
+SP0560|Sua bot Aptamil 1L|Hop|248000|
+SP0561|Sua bot Aptamil 1.5L|Hop|214000|
+SP0562|Tra Lipton Tui Loc 100ml|Hop|28000|
+SP0563|Tra Lipton Tui Loc 150ml|Hop|23000|
+SP0564|Tra Lipton Tui Loc 180ml|Hop|27000|
+SP0565|Tra Lipton Tui Loc 200ml|Hop|30000|
+SP0566|Tra Lipton Tui Loc 250ml|Hop|28000|
+SP0567|Tra Lipton Tui Loc 330ml|Hop|21000|
+SP0568|Tra Lipton Tui Loc 500ml|Hop|28000|
+SP0569|Tra Lipton Tui Loc 750ml|Hop|31000|
+SP0570|Tra Lipton Tui Loc 1L|Hop|32000|
+SP0571|Tra Lipton Tui Loc 1.5L|Hop|29000|
+SP0572|Tra Dilmah Tui Loc 100ml|Hop|38000|
+SP0573|Tra Dilmah Tui Loc 150ml|Hop|29000|
+SP0574|Tra Dilmah Tui Loc 180ml|Hop|39000|
+SP0575|Tra Dilmah Tui Loc 200ml|Hop|34000|
+SP0576|Tra Dilmah Tui Loc 250ml|Hop|22000|
+SP0577|Tra Dilmah Tui Loc 330ml|Hop|26000|
+SP0578|Tra Dilmah Tui Loc 500ml|Hop|40000|
+SP0579|Tra Dilmah Tui Loc 750ml|Hop|36000|
+SP0580|Tra Dilmah Tui Loc 1L|Hop|22000|
+SP0581|Tra Dilmah Tui Loc 1.5L|Hop|31000|
+SP0582|Tra Cozy Tui Loc 100ml|Hop|29000|
+SP0583|Tra Cozy Tui Loc 150ml|Hop|26000|
+SP0584|Tra Cozy Tui Loc 180ml|Hop|21000|
+SP0585|Tra Cozy Tui Loc 200ml|Hop|16000|
+SP0586|Tra Cozy Tui Loc 250ml|Hop|23000|
+SP0587|Tra Cozy Tui Loc 330ml|Hop|29000|
+SP0588|Tra Cozy Tui Loc 500ml|Hop|22000|
+SP0589|Tra Cozy Tui Loc 750ml|Hop|26000|
+SP0590|Tra Cozy Tui Loc 1L|Hop|22000|
+SP0591|Tra Cozy Tui Loc 1.5L|Hop|29000|
+SP0592|Tra O Long Phuc Long 30g|Goi|45000|
+SP0593|Tra O Long Phuc Long 50g|Goi|31000|
+SP0594|Tra O Long Phuc Long 75g|Goi|32000|
+SP0595|Tra O Long Phuc Long 100g|Goi|46000|
+SP0596|Tra O Long Phuc Long 150g|Goi|29000|
+SP0597|Tra O Long Phuc Long 200g|Goi|36000|
+SP0598|Tra O Long Phuc Long 300g|Goi|36000|
+SP0599|Tra O Long Phuc Long 500g|Goi|45000|
+SP0600|Tra O Long Phuc Long 750g|Goi|49000|
+SP0601|Tra O Long Phuc Long 1Kg|Goi|38000|
+SP0602|Tra Xanh Thai Nguyen 30g|Goi|42000|
+SP0603|Tra Xanh Thai Nguyen 50g|Goi|55000|
+SP0604|Tra Xanh Thai Nguyen 75g|Goi|34000|
+SP0605|Tra Xanh Thai Nguyen 100g|Goi|51000|
+SP0606|Tra Xanh Thai Nguyen 150g|Goi|45000|
+SP0607|Tra Xanh Thai Nguyen 200g|Goi|35000|
+SP0608|Tra Xanh Thai Nguyen 300g|Goi|46000|
+SP0609|Tra Xanh Thai Nguyen 500g|Goi|31000|
+SP0610|Tra Xanh Thai Nguyen 750g|Goi|35000|
+SP0611|Tra Xanh Thai Nguyen 1Kg|Goi|50000|
+SP0612|Tra Den Biet Thu 100ml|Hop|39000|
+SP0613|Tra Den Biet Thu 150ml|Hop|28000|
+SP0614|Tra Den Biet Thu 180ml|Hop|23000|
+SP0615|Tra Den Biet Thu 200ml|Hop|35000|
+SP0616|Tra Den Biet Thu 250ml|Hop|29000|
+SP0617|Tra Den Biet Thu 330ml|Hop|31000|
+SP0618|Tra Den Biet Thu 500ml|Hop|40000|
+SP0619|Tra Den Biet Thu 750ml|Hop|32000|
+SP0620|Tra Den Biet Thu 1L|Hop|22000|
+SP0621|Tra Den Biet Thu 1.5L|Hop|34000|
+SP0622|Tra Hoa Tan Lipton IceTea 30g|Goi|24000|
+SP0623|Tra Hoa Tan Lipton IceTea 50g|Goi|19000|
+SP0624|Tra Hoa Tan Lipton IceTea 75g|Goi|28000|
+SP0625|Tra Hoa Tan Lipton IceTea 100g|Goi|21000|
+SP0626|Tra Hoa Tan Lipton IceTea 150g|Goi|27000|
+SP0627|Tra Hoa Tan Lipton IceTea 200g|Goi|24000|
+SP0628|Tra Hoa Tan Lipton IceTea 300g|Goi|20000|
+SP0629|Tra Hoa Tan Lipton IceTea 500g|Goi|22000|
+SP0630|Tra Hoa Tan Lipton IceTea 750g|Goi|23000|
+SP0631|Tra Hoa Tan Lipton IceTea 1Kg|Goi|17000|
+SP0632|Tra Hoa Tan Nestea 30g|Goi|24000|
+SP0633|Tra Hoa Tan Nestea 50g|Goi|17000|
+SP0634|Tra Hoa Tan Nestea 75g|Goi|22000|
+SP0635|Tra Hoa Tan Nestea 100g|Goi|26000|
+SP0636|Tra Hoa Tan Nestea 150g|Goi|18000|
+SP0637|Tra Hoa Tan Nestea 200g|Goi|19000|
+SP0638|Tra Hoa Tan Nestea 300g|Goi|24000|
+SP0639|Tra Hoa Tan Nestea 500g|Goi|25000|
+SP0640|Tra Hoa Tan Nestea 750g|Goi|15000|
+SP0641|Tra Hoa Tan Nestea 1Kg|Goi|17000|
+SP0642|Ca phe Trung Nguyen G7 30g|Goi|46000|
+SP0643|Ca phe Trung Nguyen G7 50g|Goi|46000|
+SP0644|Ca phe Trung Nguyen G7 75g|Goi|54000|
+SP0645|Ca phe Trung Nguyen G7 100g|Goi|52000|
+SP0646|Ca phe Trung Nguyen G7 150g|Goi|46000|
+SP0647|Ca phe Trung Nguyen G7 200g|Goi|44000|
+SP0648|Ca phe Trung Nguyen G7 300g|Goi|25000|
+SP0649|Ca phe Trung Nguyen G7 500g|Goi|42000|
+SP0650|Ca phe Trung Nguyen G7 750g|Goi|52000|
+SP0651|Ca phe Trung Nguyen G7 1Kg|Goi|38000|
+SP0652|Ca phe Nescafe 3in1 30g|Goi|24000|
+SP0653|Ca phe Nescafe 3in1 50g|Goi|42000|
+SP0654|Ca phe Nescafe 3in1 75g|Goi|24000|
+SP0655|Ca phe Nescafe 3in1 100g|Goi|28000|
+SP0656|Ca phe Nescafe 3in1 150g|Goi|36000|
+SP0657|Ca phe Nescafe 3in1 200g|Goi|35000|
+SP0658|Ca phe Nescafe 3in1 300g|Goi|40000|
+SP0659|Ca phe Nescafe 3in1 500g|Goi|31000|
+SP0660|Ca phe Nescafe 3in1 750g|Goi|43000|
+SP0661|Ca phe Nescafe 3in1 1Kg|Goi|35000|
+SP0662|Ca phe Vinacafe 30g|Goi|19000|
+SP0663|Ca phe Vinacafe 50g|Goi|32000|
+SP0664|Ca phe Vinacafe 75g|Goi|20000|
+SP0665|Ca phe Vinacafe 100g|Goi|36000|
+SP0666|Ca phe Vinacafe 150g|Goi|24000|
+SP0667|Ca phe Vinacafe 200g|Goi|32000|
+SP0668|Ca phe Vinacafe 300g|Goi|38000|
+SP0669|Ca phe Vinacafe 500g|Goi|35000|
+SP0670|Ca phe Vinacafe 750g|Goi|20000|
+SP0671|Ca phe Vinacafe 1Kg|Goi|18000|
+SP0672|Ca phe Highlands Hoa Tan 30g|Goi|54000|
+SP0673|Ca phe Highlands Hoa Tan 50g|Goi|36000|
+SP0674|Ca phe Highlands Hoa Tan 75g|Goi|41000|
+SP0675|Ca phe Highlands Hoa Tan 100g|Goi|55000|
+SP0676|Ca phe Highlands Hoa Tan 150g|Goi|54000|
+SP0677|Ca phe Highlands Hoa Tan 200g|Goi|43000|
+SP0678|Ca phe Highlands Hoa Tan 300g|Goi|35000|
+SP0679|Ca phe Highlands Hoa Tan 500g|Goi|56000|
+SP0680|Ca phe Highlands Hoa Tan 750g|Goi|39000|
+SP0681|Ca phe Highlands Hoa Tan 1Kg|Goi|55000|
+SP0682|Ca phe Trung Nguyen Rang Xay 30g|Goi|51000|
+SP0683|Ca phe Trung Nguyen Rang Xay 50g|Goi|37000|
+SP0684|Ca phe Trung Nguyen Rang Xay 75g|Goi|52000|
+SP0685|Ca phe Trung Nguyen Rang Xay 100g|Goi|63000|
+SP0686|Ca phe Trung Nguyen Rang Xay 150g|Goi|67000|
+SP0687|Ca phe Trung Nguyen Rang Xay 200g|Goi|60000|
+SP0688|Ca phe Trung Nguyen Rang Xay 300g|Goi|37000|
+SP0689|Ca phe Trung Nguyen Rang Xay 500g|Goi|61000|
+SP0690|Ca phe Trung Nguyen Rang Xay 750g|Goi|51000|
+SP0691|Ca phe Trung Nguyen Rang Xay 1Kg|Goi|35000|
+SP0692|Ca phe Giang 30g|Goi|78000|
+SP0693|Ca phe Giang 50g|Goi|40000|
+SP0694|Ca phe Giang 75g|Goi|68000|
+SP0695|Ca phe Giang 100g|Goi|79000|
+SP0696|Ca phe Giang 150g|Goi|54000|
+SP0697|Ca phe Giang 200g|Goi|67000|
+SP0698|Ca phe Giang 300g|Goi|52000|
+SP0699|Ca phe Giang 500g|Goi|73000|
+SP0700|Ca phe Giang 750g|Goi|61000|
+SP0701|Ca phe Giang 1Kg|Goi|75000|
+SP0702|Nuoc suoi Aquafina 100ml|Chai|9000|
+SP0703|Nuoc suoi Aquafina 150ml|Chai|10000|
+SP0704|Nuoc suoi Aquafina 200ml|Chai|6000|
+SP0705|Nuoc suoi Aquafina 250ml|Chai|8000|
+SP0706|Nuoc suoi Aquafina 330ml|Chai|9000|
+SP0707|Nuoc suoi Aquafina 500ml|Chai|9000|
+SP0708|Nuoc suoi Aquafina 750ml|Chai|10000|
+SP0709|Nuoc suoi Aquafina 1L|Chai|9000|
+SP0710|Nuoc suoi Aquafina 1.5L|Chai|7000|
+SP0711|Nuoc suoi Aquafina 2L|Chai|5000|
+SP0712|Nuoc suoi Lavie 100ml|Chai|8000|
+SP0713|Nuoc suoi Lavie 150ml|Chai|8000|
+SP0714|Nuoc suoi Lavie 200ml|Chai|6000|
+SP0715|Nuoc suoi Lavie 250ml|Chai|10000|
+SP0716|Nuoc suoi Lavie 330ml|Chai|10000|
+SP0717|Nuoc suoi Lavie 500ml|Chai|8000|
+SP0718|Nuoc suoi Lavie 750ml|Chai|6000|
+SP0719|Nuoc suoi Lavie 1L|Chai|9000|
+SP0720|Nuoc suoi Lavie 1.5L|Chai|9000|
+SP0721|Nuoc suoi Lavie 2L|Chai|10000|
+SP0722|Nuoc suoi Vinh Hao 100ml|Chai|9000|
+SP0723|Nuoc suoi Vinh Hao 150ml|Chai|9000|
+SP0724|Nuoc suoi Vinh Hao 200ml|Chai|7000|
+SP0725|Nuoc suoi Vinh Hao 250ml|Chai|7000|
+SP0726|Nuoc suoi Vinh Hao 330ml|Chai|5000|
+SP0727|Nuoc suoi Vinh Hao 500ml|Chai|9000|
+SP0728|Nuoc suoi Vinh Hao 750ml|Chai|5000|
+SP0729|Nuoc suoi Vinh Hao 1L|Chai|6000|
+SP0730|Nuoc suoi Vinh Hao 1.5L|Chai|5000|
+SP0731|Nuoc suoi Vinh Hao 2L|Chai|8000|
+SP0732|Nuoc suoi Joy 100ml|Chai|6000|
+SP0733|Nuoc suoi Joy 150ml|Chai|6000|
+SP0734|Nuoc suoi Joy 200ml|Chai|7000|
+SP0735|Nuoc suoi Joy 250ml|Chai|8000|
+SP0736|Nuoc suoi Joy 330ml|Chai|5000|
+SP0737|Nuoc suoi Joy 500ml|Chai|5000|
+SP0738|Nuoc suoi Joy 750ml|Chai|5000|
+SP0739|Nuoc suoi Joy 1L|Chai|6000|
+SP0740|Nuoc suoi Joy 1.5L|Chai|5000|
+SP0741|Nuoc suoi Joy 2L|Chai|5000|
+SP0742|Nuoc suoi Dasani 100ml|Chai|6000|
+SP0743|Nuoc suoi Dasani 150ml|Chai|6000|
+SP0744|Nuoc suoi Dasani 200ml|Chai|7000|
+SP0745|Nuoc suoi Dasani 250ml|Chai|8000|
+SP0746|Nuoc suoi Dasani 330ml|Chai|8000|
+SP0747|Nuoc suoi Dasani 500ml|Chai|9000|
+SP0748|Nuoc suoi Dasani 750ml|Chai|10000|
+SP0749|Nuoc suoi Dasani 1L|Chai|5000|
+SP0750|Nuoc suoi Dasani 1.5L|Chai|6000|
+SP0751|Nuoc suoi Dasani 2L|Chai|10000|
+SP0752|Binh nuoc loc 20L Aquafina 20L|Binh|48000|
+SP0753|Binh nuoc loc 20L Lavie 20L|Binh|56000|
+SP0754|Mi Hao Hao Tom Chua Cay 30g|Goi|7000|
+SP0755|Mi Hao Hao Tom Chua Cay 50g|Goi|6000|
+SP0756|Mi Hao Hao Tom Chua Cay 75g|Goi|7000|
+SP0757|Mi Hao Hao Tom Chua Cay 100g|Goi|5000|
+SP0758|Mi Hao Hao Tom Chua Cay 150g|Goi|4000|
+SP0759|Mi Hao Hao Tom Chua Cay 200g|Goi|6000|
+SP0760|Mi Hao Hao Tom Chua Cay 300g|Goi|5000|
+SP0761|Mi Hao Hao Tom Chua Cay 500g|Goi|6000|
+SP0762|Mi Hao Hao Tom Chua Cay 750g|Goi|7000|
+SP0763|Mi Hao Hao Tom Chua Cay 1Kg|Goi|5000|
+SP0764|Mi Hao Hao Suon Heo 30g|Goi|5000|
+SP0765|Mi Hao Hao Suon Heo 50g|Goi|5000|
+SP0766|Mi Hao Hao Suon Heo 75g|Goi|6000|
+SP0767|Mi Hao Hao Suon Heo 100g|Goi|7000|
+SP0768|Mi Hao Hao Suon Heo 150g|Goi|6000|
+SP0769|Mi Hao Hao Suon Heo 200g|Goi|4000|
+SP0770|Mi Hao Hao Suon Heo 300g|Goi|4000|
+SP0771|Mi Hao Hao Suon Heo 500g|Goi|7000|
+SP0772|Mi Hao Hao Suon Heo 750g|Goi|4000|
+SP0773|Mi Hao Hao Suon Heo 1Kg|Goi|7000|
+SP0774|Mi 3 Mien Bo 30g|Goi|4000|
+SP0775|Mi 3 Mien Bo 50g|Goi|5000|
+SP0776|Mi 3 Mien Bo 75g|Goi|6000|
+SP0777|Mi 3 Mien Bo 100g|Goi|4000|
+SP0778|Mi 3 Mien Bo 150g|Goi|6000|
+SP0779|Mi 3 Mien Bo 200g|Goi|4000|
+SP0780|Mi 3 Mien Bo 300g|Goi|6000|
+SP0781|Mi 3 Mien Bo 500g|Goi|6000|
+SP0782|Mi 3 Mien Bo 750g|Goi|4000|
+SP0783|Mi 3 Mien Bo 1Kg|Goi|7000|
+SP0784|Mi 3 Mien Ga 30g|Goi|5000|
+SP0785|Mi 3 Mien Ga 50g|Goi|4000|
+SP0786|Mi 3 Mien Ga 75g|Goi|5000|
+SP0787|Mi 3 Mien Ga 100g|Goi|4000|
+SP0788|Mi 3 Mien Ga 150g|Goi|7000|
+SP0789|Mi 3 Mien Ga 200g|Goi|4000|
+SP0790|Mi 3 Mien Ga 300g|Goi|6000|
+SP0791|Mi 3 Mien Ga 500g|Goi|6000|
+SP0792|Mi 3 Mien Ga 750g|Goi|7000|
+SP0793|Mi 3 Mien Ga 1Kg|Goi|4000|
+SP0794|Mi 3 Mien Hai San 30g|Goi|6000|
+SP0795|Mi 3 Mien Hai San 50g|Goi|7000|
+SP0796|Mi 3 Mien Hai San 75g|Goi|6000|
+SP0797|Mi 3 Mien Hai San 100g|Goi|5000|
+SP0798|Mi 3 Mien Hai San 150g|Goi|4000|
+SP0799|Mi 3 Mien Hai San 200g|Goi|5000|
+SP0800|Mi 3 Mien Hai San 300g|Goi|6000|
+SP0801|Mi 3 Mien Hai San 500g|Goi|6000|
+SP0802|Mi 3 Mien Hai San 750g|Goi|6000|
+SP0803|Mi 3 Mien Hai San 1Kg|Goi|6000|
+SP0804|Mi Omachi Tom 30g|Goi|10000|
+SP0805|Mi Omachi Tom 50g|Goi|7000|
+SP0806|Mi Omachi Tom 75g|Goi|6000|
+SP0807|Mi Omachi Tom 100g|Goi|6000|
+SP0808|Mi Omachi Tom 150g|Goi|9000|
+SP0809|Mi Omachi Tom 200g|Goi|9000|
+SP0810|Mi Omachi Tom 300g|Goi|6000|
+SP0811|Mi Omachi Tom 500g|Goi|10000|
+SP0812|Mi Omachi Tom 750g|Goi|8000|
+SP0813|Mi Omachi Tom 1Kg|Goi|6000|
+SP0814|Mi Omachi Bo Sot Tieu 30g|Goi|8000|
+SP0815|Mi Omachi Bo Sot Tieu 50g|Goi|8000|
+SP0816|Mi Omachi Bo Sot Tieu 75g|Goi|10000|
+SP0817|Mi Omachi Bo Sot Tieu 100g|Goi|8000|
+SP0818|Mi Omachi Bo Sot Tieu 150g|Goi|7000|
+SP0819|Mi Omachi Bo Sot Tieu 200g|Goi|8000|
+SP0820|Mi Omachi Bo Sot Tieu 300g|Goi|9000|
+SP0821|Mi Omachi Bo Sot Tieu 500g|Goi|6000|
+SP0822|Mi Omachi Bo Sot Tieu 750g|Goi|6000|
+SP0823|Mi Omachi Bo Sot Tieu 1Kg|Goi|8000|
+SP0824|Mi Omachi Kho Sot Tieu 30g|Goi|7000|
+SP0825|Mi Omachi Kho Sot Tieu 50g|Goi|8000|
+SP0826|Mi Omachi Kho Sot Tieu 75g|Goi|7000|
+SP0827|Mi Omachi Kho Sot Tieu 100g|Goi|6000|
+SP0828|Mi Omachi Kho Sot Tieu 150g|Goi|10000|
+SP0829|Mi Omachi Kho Sot Tieu 200g|Goi|9000|
+SP0830|Mi Omachi Kho Sot Tieu 300g|Goi|6000|
+SP0831|Mi Omachi Kho Sot Tieu 500g|Goi|6000|
+SP0832|Mi Omachi Kho Sot Tieu 750g|Goi|10000|
+SP0833|Mi Omachi Kho Sot Tieu 1Kg|Goi|8000|
+SP0834|Mi Kokomi Tom 30g|Goi|5000|
+SP0835|Mi Kokomi Tom 50g|Goi|5000|
+SP0836|Mi Kokomi Tom 75g|Goi|5000|
+SP0837|Mi Kokomi Tom 100g|Goi|3000|
+SP0838|Mi Kokomi Tom 150g|Goi|3000|
+SP0839|Mi Kokomi Tom 200g|Goi|6000|
+SP0840|Mi Kokomi Tom 300g|Goi|5000|
+SP0841|Mi Kokomi Tom 500g|Goi|6000|
+SP0842|Mi Kokomi Tom 750g|Goi|3000|
+SP0843|Mi Kokomi Tom 1Kg|Goi|5000|
+SP0844|Mi Lau Thai 30g|Goi|7000|
+SP0845|Mi Lau Thai 50g|Goi|10000|
+SP0846|Mi Lau Thai 75g|Goi|10000|
+SP0847|Mi Lau Thai 100g|Goi|8000|
+SP0848|Mi Lau Thai 150g|Goi|9000|
+SP0849|Mi Lau Thai 200g|Goi|7000|
+SP0850|Mi Lau Thai 300g|Goi|8000|
+SP0851|Mi Lau Thai 500g|Goi|9000|
+SP0852|Mi Lau Thai 750g|Goi|12000|
+SP0853|Mi Lau Thai 1Kg|Goi|11000|
+SP0854|Mi Kawa Bo Ham 30g|Goi|9000|
+SP0855|Mi Kawa Bo Ham 50g|Goi|5000|
+SP0856|Mi Kawa Bo Ham 75g|Goi|9000|
+SP0857|Mi Kawa Bo Ham 100g|Goi|6000|
+SP0858|Mi Kawa Bo Ham 150g|Goi|5000|
+SP0859|Mi Kawa Bo Ham 200g|Goi|8000|
+SP0860|Mi Kawa Bo Ham 300g|Goi|6000|
+SP0861|Mi Kawa Bo Ham 500g|Goi|6000|
+SP0862|Mi Kawa Bo Ham 750g|Goi|6000|
+SP0863|Mi Kawa Bo Ham 1Kg|Goi|5000|
+SP0864|Mi Hao Hao Thung 6 lon|Thung|127000|
+SP0865|Mi Hao Hao Thung 12 lon|Thung|84000|
+SP0866|Mi Hao Hao Thung 18 lon|Thung|123000|
+SP0867|Mi Hao Hao Thung 24 lon|Thung|129000|
+SP0868|Mi Hao Hao Thung 30 goi|Thung|94000|
+SP0869|Mi Hao Hao Thung 48 goi|Thung|85000|
+SP0870|Mi Hao Hao Thung 60 goi|Thung|114000|
+SP0871|Mi Omachi Thung 6 lon|Thung|123000|
+SP0872|Mi Omachi Thung 12 lon|Thung|141000|
+SP0873|Mi Omachi Thung 18 lon|Thung|170000|
+SP0874|Mi Omachi Thung 24 lon|Thung|111000|
+SP0875|Mi Omachi Thung 30 goi|Thung|154000|
+SP0876|Mi Omachi Thung 48 goi|Thung|124000|
+SP0877|Mi Omachi Thung 60 goi|Thung|158000|
+SP0878|Mi 3 Mien Thung 6 lon|Thung|81000|
+SP0879|Mi 3 Mien Thung 12 lon|Thung|99000|
+SP0880|Mi 3 Mien Thung 18 lon|Thung|115000|
+SP0881|Mi 3 Mien Thung 24 lon|Thung|107000|
+SP0882|Mi 3 Mien Thung 30 goi|Thung|87000|
+SP0883|Mi 3 Mien Thung 48 goi|Thung|102000|
+SP0884|Mi 3 Mien Thung 60 goi|Thung|80000|
+SP0885|Pho bo An Lien Acecook 30g|Goi|7000|
+SP0886|Pho bo An Lien Acecook 50g|Goi|6000|
+SP0887|Pho bo An Lien Acecook 75g|Goi|10000|
+SP0888|Pho bo An Lien Acecook 100g|Goi|8000|
+SP0889|Pho bo An Lien Acecook 150g|Goi|11000|
+SP0890|Pho bo An Lien Acecook 200g|Goi|9000|
+SP0891|Pho bo An Lien Acecook 300g|Goi|7000|
+SP0892|Pho bo An Lien Acecook 500g|Goi|6000|
+SP0893|Pho bo An Lien Acecook 750g|Goi|9000|
+SP0894|Pho bo An Lien Acecook 1Kg|Goi|8000|
+SP0895|Pho ga An Lien 30g|Goi|11000|
+SP0896|Pho ga An Lien 50g|Goi|11000|
+SP0897|Pho ga An Lien 75g|Goi|8000|
+SP0898|Pho ga An Lien 100g|Goi|7000|
+SP0899|Pho ga An Lien 150g|Goi|10000|
+SP0900|Pho ga An Lien 200g|Goi|10000|
+SP0901|Pho ga An Lien 300g|Goi|10000|
+SP0902|Pho ga An Lien 500g|Goi|8000|
+SP0903|Pho ga An Lien 750g|Goi|6000|
+SP0904|Pho ga An Lien 1Kg|Goi|11000|
+SP0905|Bun Bo Hue An Lien 30g|Goi|8000|
+SP0906|Bun Bo Hue An Lien 50g|Goi|7000|
+SP0907|Bun Bo Hue An Lien 75g|Goi|8000|
+SP0908|Bun Bo Hue An Lien 100g|Goi|8000|
+SP0909|Bun Bo Hue An Lien 150g|Goi|7000|
+SP0910|Bun Bo Hue An Lien 200g|Goi|8000|
+SP0911|Bun Bo Hue An Lien 300g|Goi|7000|
+SP0912|Bun Bo Hue An Lien 500g|Goi|10000|
+SP0913|Bun Bo Hue An Lien 750g|Goi|6000|
+SP0914|Bun Bo Hue An Lien 1Kg|Goi|7000|
+SP0915|Bun Rieu An Lien 30g|Goi|10000|
+SP0916|Bun Rieu An Lien 50g|Goi|8000|
+SP0917|Bun Rieu An Lien 75g|Goi|5000|
+SP0918|Bun Rieu An Lien 100g|Goi|10000|
+SP0919|Bun Rieu An Lien 150g|Goi|10000|
+SP0920|Bun Rieu An Lien 200g|Goi|7000|
+SP0921|Bun Rieu An Lien 300g|Goi|9000|
+SP0922|Bun Rieu An Lien 500g|Goi|9000|
+SP0923|Bun Rieu An Lien 750g|Goi|5000|
+SP0924|Bun Rieu An Lien 1Kg|Goi|6000|
+SP0925|Chao Sau Rieng An Lien 30g|Goi|6000|
+SP0926|Chao Sau Rieng An Lien 50g|Goi|5000|
+SP0927|Chao Sau Rieng An Lien 75g|Goi|7000|
+SP0928|Chao Sau Rieng An Lien 100g|Goi|7000|
+SP0929|Chao Sau Rieng An Lien 150g|Goi|7000|
+SP0930|Chao Sau Rieng An Lien 200g|Goi|8000|
+SP0931|Chao Sau Rieng An Lien 300g|Goi|8000|
+SP0932|Chao Sau Rieng An Lien 500g|Goi|7000|
+SP0933|Chao Sau Rieng An Lien 750g|Goi|9000|
+SP0934|Chao Sau Rieng An Lien 1Kg|Goi|6000|
+SP0935|Chao Trung An Lien 30g|Goi|6000|
+SP0936|Chao Trung An Lien 50g|Goi|8000|
+SP0937|Chao Trung An Lien 75g|Goi|8000|
+SP0938|Chao Trung An Lien 100g|Goi|6000|
+SP0939|Chao Trung An Lien 150g|Goi|8000|
+SP0940|Chao Trung An Lien 200g|Goi|5000|
+SP0941|Chao Trung An Lien 300g|Goi|8000|
+SP0942|Chao Trung An Lien 500g|Goi|9000|
+SP0943|Chao Trung An Lien 750g|Goi|7000|
+SP0944|Chao Trung An Lien 1Kg|Goi|5000|
+SP0945|Mien Ga An Lien 30g|Goi|9000|
+SP0946|Mien Ga An Lien 50g|Goi|6000|
+SP0947|Mien Ga An Lien 75g|Goi|10000|
+SP0948|Mien Ga An Lien 100g|Goi|10000|
+SP0949|Mien Ga An Lien 150g|Goi|5000|
+SP0950|Mien Ga An Lien 200g|Goi|7000|
+SP0951|Mien Ga An Lien 300g|Goi|10000|
+SP0952|Mien Ga An Lien 500g|Goi|5000|
+SP0953|Mien Ga An Lien 750g|Goi|5000|
+SP0954|Mien Ga An Lien 1Kg|Goi|10000|
+SP0955|Mien Tom An Lien 30g|Goi|8000|
+SP0956|Mien Tom An Lien 50g|Goi|5000|
+SP0957|Mien Tom An Lien 75g|Goi|5000|
+SP0958|Mien Tom An Lien 100g|Goi|5000|
+SP0959|Mien Tom An Lien 150g|Goi|8000|
+SP0960|Mien Tom An Lien 200g|Goi|9000|
+SP0961|Mien Tom An Lien 300g|Goi|5000|
+SP0962|Mien Tom An Lien 500g|Goi|9000|
+SP0963|Mien Tom An Lien 750g|Goi|10000|
+SP0964|Mien Tom An Lien 1Kg|Goi|9000|
+SP0965|Nam Huong Kho 30g|Goi|26000|
+SP0966|Nam Huong Kho 50g|Goi|25000|
+SP0967|Nam Huong Kho 75g|Goi|49000|
+SP0968|Nam Huong Kho 100g|Goi|49000|
+SP0969|Nam Huong Kho 150g|Goi|55000|
+SP0970|Nam Huong Kho 200g|Goi|55000|
+SP0971|Nam Huong Kho 300g|Goi|35000|
+SP0972|Nam Huong Kho 500g|Goi|29000|
+SP0973|Nam Huong Kho 750g|Goi|52000|
+SP0974|Nam Huong Kho 1Kg|Goi|54000|
+SP0975|Nam Dong Co Kho 30g|Goi|58000|
+SP0976|Nam Dong Co Kho 50g|Goi|41000|
+SP0977|Nam Dong Co Kho 75g|Goi|49000|
+SP0978|Nam Dong Co Kho 100g|Goi|41000|
+SP0979|Nam Dong Co Kho 150g|Goi|56000|
+SP0980|Nam Dong Co Kho 200g|Goi|57000|
+SP0981|Nam Dong Co Kho 300g|Goi|63000|
+SP0982|Nam Dong Co Kho 500g|Goi|30000|
+SP0983|Nam Dong Co Kho 750g|Goi|46000|
+SP0984|Nam Dong Co Kho 1Kg|Goi|52000|
+SP0985|Moc Nhi Kho 30g|Goi|39000|
+SP0986|Moc Nhi Kho 50g|Goi|23000|
+SP0987|Moc Nhi Kho 75g|Goi|28000|
+SP0988|Moc Nhi Kho 100g|Goi|35000|
+SP0989|Moc Nhi Kho 150g|Goi|43000|
+SP0990|Moc Nhi Kho 200g|Goi|27000|
+SP0991|Moc Nhi Kho 300g|Goi|40000|
+SP0992|Moc Nhi Kho 500g|Goi|27000|
+SP0993|Moc Nhi Kho 750g|Goi|32000|
+SP0994|Moc Nhi Kho 1Kg|Goi|20000|
+SP0995|Mang Kho 30g|Goi|15000|
+SP0996|Mang Kho 50g|Goi|17000|
+SP0997|Mang Kho 75g|Goi|21000|
+SP0998|Mang Kho 100g|Goi|31000|
+SP0999|Mang Kho 150g|Goi|33000|
+SP1000|Mang Kho 200g|Goi|24000|
+SP1001|Mang Kho 300g|Goi|22000|
+SP1002|Mang Kho 500g|Goi|27000|
+SP1003|Mang Kho 750g|Goi|30000|
+SP1004|Mang Kho 1Kg|Goi|23000|
+SP1005|Hanh Tim Kho 100g|Kg|36000|
+SP1006|Hanh Tim Kho 200g|Kg|37000|
+SP1007|Hanh Tim Kho 250g|Kg|36000|
+SP1008|Hanh Tim Kho 400g|Kg|39000|
+SP1009|Hanh Tim Kho 500g|Kg|60000|
+SP1010|Hanh Tim Kho 750g|Kg|43000|
+SP1011|Hanh Tim Kho 1Kg|Kg|52000|
+SP1012|Hanh Tim Kho 2Kg|Kg|31000|
+SP1013|Hanh Tim Kho 3Kg|Kg|55000|
+SP1014|Hanh Tim Kho 5Kg|Kg|57000|
+SP1015|Toi Kho Boc Vo 30g|Goi|40000|
+SP1016|Toi Kho Boc Vo 50g|Goi|27000|
+SP1017|Toi Kho Boc Vo 75g|Goi|34000|
+SP1018|Toi Kho Boc Vo 100g|Goi|44000|
+SP1019|Toi Kho Boc Vo 150g|Goi|39000|
+SP1020|Toi Kho Boc Vo 200g|Goi|35000|
+SP1021|Toi Kho Boc Vo 300g|Goi|23000|
+SP1022|Toi Kho Boc Vo 500g|Goi|23000|
+SP1023|Toi Kho Boc Vo 750g|Goi|28000|
+SP1024|Toi Kho Boc Vo 1Kg|Goi|40000|
+SP1025|Ca Kho Viet Nam 30g|Goi|73000|
+SP1026|Ca Kho Viet Nam 50g|Goi|42000|
+SP1027|Ca Kho Viet Nam 75g|Goi|50000|
+SP1028|Ca Kho Viet Nam 100g|Goi|47000|
+SP1029|Ca Kho Viet Nam 150g|Goi|72000|
+SP1030|Ca Kho Viet Nam 200g|Goi|73000|
+SP1031|Ca Kho Viet Nam 300g|Goi|67000|
+SP1032|Ca Kho Viet Nam 500g|Goi|56000|
+SP1033|Ca Kho Viet Nam 750g|Goi|48000|
+SP1034|Ca Kho Viet Nam 1Kg|Goi|72000|
+SP1035|Muc Kho 30g|Goi|137000|
+SP1036|Muc Kho 50g|Goi|80000|
+SP1037|Muc Kho 75g|Goi|111000|
+SP1038|Muc Kho 100g|Goi|95000|
+SP1039|Muc Kho 150g|Goi|157000|
+SP1040|Muc Kho 200g|Goi|171000|
+SP1041|Muc Kho 300g|Goi|164000|
+SP1042|Muc Kho 500g|Goi|94000|
+SP1043|Muc Kho 750g|Goi|146000|
+SP1044|Muc Kho 1Kg|Goi|170000|
+SP1045|Tom Kho 30g|Goi|84000|
+SP1046|Tom Kho 50g|Goi|111000|
+SP1047|Tom Kho 75g|Goi|117000|
+SP1048|Tom Kho 100g|Goi|110000|
+SP1049|Tom Kho 150g|Goi|125000|
+SP1050|Tom Kho 200g|Goi|63000|
+SP1051|Tom Kho 300g|Goi|99000|
+SP1052|Tom Kho 500g|Goi|108000|
+SP1053|Tom Kho 750g|Goi|62000|
+SP1054|Tom Kho 1Kg|Goi|74000|
+SP1055|Thit Bo Kho 30g|Goi|52000|
+SP1056|Thit Bo Kho 50g|Goi|61000|
+SP1057|Thit Bo Kho 75g|Goi|104000|
+SP1058|Thit Bo Kho 100g|Goi|51000|
+SP1059|Thit Bo Kho 150g|Goi|65000|
+SP1060|Thit Bo Kho 200g|Goi|80000|
+SP1061|Thit Bo Kho 300g|Goi|67000|
+SP1062|Thit Bo Kho 500g|Goi|51000|
+SP1063|Thit Bo Kho 750g|Goi|92000|
+SP1064|Thit Bo Kho 1Kg|Goi|84000|
+SP1065|Dau Phong Rang Muoi 30g|Goi|22000|
+SP1066|Dau Phong Rang Muoi 50g|Goi|27000|
+SP1067|Dau Phong Rang Muoi 75g|Goi|27000|
+SP1068|Dau Phong Rang Muoi 100g|Goi|18000|
+SP1069|Dau Phong Rang Muoi 150g|Goi|28000|
+SP1070|Dau Phong Rang Muoi 200g|Goi|15000|
+SP1071|Dau Phong Rang Muoi 300g|Goi|17000|
+SP1072|Dau Phong Rang Muoi 500g|Goi|24000|
+SP1073|Dau Phong Rang Muoi 750g|Goi|15000|
+SP1074|Dau Phong Rang Muoi 1Kg|Goi|23000|
+SP1075|Dau Xanh Nguyen Hat 100g|Kg|27000|
+SP1076|Dau Xanh Nguyen Hat 200g|Kg|34000|
+SP1077|Dau Xanh Nguyen Hat 250g|Kg|36000|
+SP1078|Dau Xanh Nguyen Hat 400g|Kg|31000|
+SP1079|Dau Xanh Nguyen Hat 500g|Kg|25000|
+SP1080|Dau Xanh Nguyen Hat 750g|Kg|32000|
+SP1081|Dau Xanh Nguyen Hat 1Kg|Kg|30000|
+SP1082|Dau Xanh Nguyen Hat 2Kg|Kg|40000|
+SP1083|Dau Xanh Nguyen Hat 3Kg|Kg|34000|
+SP1084|Dau Xanh Nguyen Hat 5Kg|Kg|37000|
+SP1085|Dau Den Nguyen Hat 100g|Kg|35000|
+SP1086|Dau Den Nguyen Hat 200g|Kg|26000|
+SP1087|Dau Den Nguyen Hat 250g|Kg|28000|
+SP1088|Dau Den Nguyen Hat 400g|Kg|24000|
+SP1089|Dau Den Nguyen Hat 500g|Kg|26000|
+SP1090|Dau Den Nguyen Hat 750g|Kg|24000|
+SP1091|Dau Den Nguyen Hat 1Kg|Kg|24000|
+SP1092|Dau Den Nguyen Hat 2Kg|Kg|18000|
+SP1093|Dau Den Nguyen Hat 3Kg|Kg|26000|
+SP1094|Dau Den Nguyen Hat 5Kg|Kg|35000|
+SP1095|Dau Do Nguyen Hat 100g|Kg|33000|
+SP1096|Dau Do Nguyen Hat 200g|Kg|30000|
+SP1097|Dau Do Nguyen Hat 250g|Kg|22000|
+SP1098|Dau Do Nguyen Hat 400g|Kg|33000|
+SP1099|Dau Do Nguyen Hat 500g|Kg|42000|
+SP1100|Dau Do Nguyen Hat 750g|Kg|42000|
+SP1101|Dau Do Nguyen Hat 1Kg|Kg|37000|
+SP1102|Dau Do Nguyen Hat 2Kg|Kg|32000|
+SP1103|Dau Do Nguyen Hat 3Kg|Kg|30000|
+SP1104|Dau Do Nguyen Hat 5Kg|Kg|40000|
+SP1105|Dau Nanh Nguyen Hat 100g|Kg|22000|
+SP1106|Dau Nanh Nguyen Hat 200g|Kg|20000|
+SP1107|Dau Nanh Nguyen Hat 250g|Kg|27000|
+SP1108|Dau Nanh Nguyen Hat 400g|Kg|26000|
+SP1109|Dau Nanh Nguyen Hat 500g|Kg|30000|
+SP1110|Dau Nanh Nguyen Hat 750g|Kg|30000|
+SP1111|Dau Nanh Nguyen Hat 1Kg|Kg|18000|
+SP1112|Dau Nanh Nguyen Hat 2Kg|Kg|21000|
+SP1113|Dau Nanh Nguyen Hat 3Kg|Kg|30000|
+SP1114|Dau Nanh Nguyen Hat 5Kg|Kg|22000|
+SP1115|Hat Di 30g|Goi|57000|
+SP1116|Hat Di 50g|Goi|45000|
+SP1117|Hat Di 75g|Goi|51000|
+SP1118|Hat Di 100g|Goi|73000|
+SP1119|Hat Di 150g|Goi|67000|
+SP1120|Hat Di 200g|Goi|74000|
+SP1121|Hat Di 300g|Goi|47000|
+SP1122|Hat Di 500g|Goi|60000|
+SP1123|Hat Di 750g|Goi|46000|
+SP1124|Hat Di 1Kg|Goi|41000|
+SP1125|Hat Mac Ca 30g|Goi|92000|
+SP1126|Hat Mac Ca 50g|Goi|79000|
+SP1127|Hat Mac Ca 75g|Goi|127000|
+SP1128|Hat Mac Ca 100g|Goi|116000|
+SP1129|Hat Mac Ca 150g|Goi|65000|
+SP1130|Hat Mac Ca 200g|Goi|121000|
+SP1131|Hat Mac Ca 300g|Goi|76000|
+SP1132|Hat Mac Ca 500g|Goi|90000|
+SP1133|Hat Mac Ca 750g|Goi|99000|
+SP1134|Hat Mac Ca 1Kg|Goi|86000|
+SP1135|Hat Bie 30g|Goi|37000|
+SP1136|Hat Bie 50g|Goi|61000|
+SP1137|Hat Bie 75g|Goi|44000|
+SP1138|Hat Bie 100g|Goi|55000|
+SP1139|Hat Bie 150g|Goi|36000|
+SP1140|Hat Bie 200g|Goi|31000|
+SP1141|Hat Bie 300g|Goi|34000|
+SP1142|Hat Bie 500g|Goi|46000|
+SP1143|Hat Bie 750g|Goi|37000|
+SP1144|Hat Bie 1Kg|Goi|38000|
+SP1145|Bot ngot Ajinomoto 30g|Goi|18000|
+SP1146|Bot ngot Ajinomoto 50g|Goi|27000|
+SP1147|Bot ngot Ajinomoto 75g|Goi|18000|
+SP1148|Bot ngot Ajinomoto 100g|Goi|16000|
+SP1149|Bot ngot Ajinomoto 150g|Goi|27000|
+SP1150|Bot ngot Ajinomoto 200g|Goi|26000|
+SP1151|Bot ngot Ajinomoto 300g|Goi|19000|
+SP1152|Bot ngot Ajinomoto 500g|Goi|18000|
+SP1153|Bot ngot Ajinomoto 750g|Goi|25000|
+SP1154|Bot ngot Ajinomoto 1Kg|Goi|22000|
+SP1155|Bot ngot Miwon 30g|Goi|18000|
+SP1156|Bot ngot Miwon 50g|Goi|22000|
+SP1157|Bot ngot Miwon 75g|Goi|24000|
+SP1158|Bot ngot Miwon 100g|Goi|13000|
+SP1159|Bot ngot Miwon 150g|Goi|20000|
+SP1160|Bot ngot Miwon 200g|Goi|18000|
+SP1161|Bot ngot Miwon 300g|Goi|15000|
+SP1162|Bot ngot Miwon 500g|Goi|15000|
+SP1163|Bot ngot Miwon 750g|Goi|22000|
+SP1164|Bot ngot Miwon 1Kg|Goi|15000|
+SP1165|Bot ngot Vedan 30g|Goi|19000|
+SP1166|Bot ngot Vedan 50g|Goi|21000|
+SP1167|Bot ngot Vedan 75g|Goi|15000|
+SP1168|Bot ngot Vedan 100g|Goi|17000|
+SP1169|Bot ngot Vedan 150g|Goi|21000|
+SP1170|Bot ngot Vedan 200g|Goi|19000|
+SP1171|Bot ngot Vedan 300g|Goi|18000|
+SP1172|Bot ngot Vedan 500g|Goi|14000|
+SP1173|Bot ngot Vedan 750g|Goi|15000|
+SP1174|Bot ngot Vedan 1Kg|Goi|13000|
+SP1175|Muoi I-ot 30g|Goi|9000|
+SP1176|Muoi I-ot 50g|Goi|7000|
+SP1177|Muoi I-ot 75g|Goi|8000|
+SP1178|Muoi I-ot 100g|Goi|5000|
+SP1179|Muoi I-ot 150g|Goi|4000|
+SP1180|Muoi I-ot 200g|Goi|7000|
+SP1181|Muoi I-ot 300g|Goi|7000|
+SP1182|Muoi I-ot 500g|Goi|8000|
+SP1183|Muoi I-ot 750g|Goi|4000|
+SP1184|Muoi I-ot 1Kg|Goi|8000|
+SP1185|Muoi bien sach 100g|Kg|17000|
+SP1186|Muoi bien sach 200g|Kg|16000|
+SP1187|Muoi bien sach 250g|Kg|17000|
+SP1188|Muoi bien sach 400g|Kg|13000|
+SP1189|Muoi bien sach 500g|Kg|14000|
+SP1190|Muoi bien sach 750g|Kg|10000|
+SP1191|Muoi bien sach 1Kg|Kg|9000|
+SP1192|Muoi bien sach 2Kg|Kg|12000|
+SP1193|Muoi bien sach 3Kg|Kg|16000|
+SP1194|Muoi bien sach 5Kg|Kg|11000|
+SP1195|Duong Bien Hoa 100g|Kg|19000|
+SP1196|Duong Bien Hoa 200g|Kg|18000|
+SP1197|Duong Bien Hoa 250g|Kg|20000|
+SP1198|Duong Bien Hoa 400g|Kg|22000|
+SP1199|Duong Bien Hoa 500g|Kg|21000|
+SP1200|Duong Bien Hoa 750g|Kg|25000|
+SP1201|Duong Bien Hoa 1Kg|Kg|26000|
+SP1202|Duong Bien Hoa 2Kg|Kg|24000|
+SP1203|Duong Bien Hoa 3Kg|Kg|19000|
+SP1204|Duong Bien Hoa 5Kg|Kg|21000|
+SP1205|Duong Quang Ngai 100g|Kg|19000|
+SP1206|Duong Quang Ngai 200g|Kg|20000|
+SP1207|Duong Quang Ngai 250g|Kg|24000|
+SP1208|Duong Quang Ngai 400g|Kg|22000|
+SP1209|Duong Quang Ngai 500g|Kg|22000|
+SP1210|Duong Quang Ngai 750g|Kg|20000|
+SP1211|Duong Quang Ngai 1Kg|Kg|24000|
+SP1212|Duong Quang Ngai 2Kg|Kg|22000|
+SP1213|Duong Quang Ngai 3Kg|Kg|20000|
+SP1214|Duong Quang Ngai 5Kg|Kg|25000|
+SP1215|Duong nau 100g|Kg|28000|
+SP1216|Duong nau 200g|Kg|22000|
+SP1217|Duong nau 250g|Kg|25000|
+SP1218|Duong nau 400g|Kg|28000|
+SP1219|Duong nau 500g|Kg|24000|
+SP1220|Duong nau 750g|Kg|21000|
+SP1221|Duong nau 1Kg|Kg|29000|
+SP1222|Duong nau 2Kg|Kg|30000|
+SP1223|Duong nau 3Kg|Kg|25000|
+SP1224|Duong nau 5Kg|Kg|23000|
+SP1225|Tieu den xay 30g|Goi|37000|
+SP1226|Tieu den xay 50g|Goi|22000|
+SP1227|Tieu den xay 75g|Goi|22000|
+SP1228|Tieu den xay 100g|Goi|45000|
+SP1229|Tieu den xay 150g|Goi|24000|
+SP1230|Tieu den xay 200g|Goi|25000|
+SP1231|Tieu den xay 300g|Goi|25000|
+SP1232|Tieu den xay 500g|Goi|22000|
+SP1233|Tieu den xay 750g|Goi|23000|
+SP1234|Tieu den xay 1Kg|Goi|44000|
+SP1235|Tieu trang xay 30g|Goi|35000|
+SP1236|Tieu trang xay 50g|Goi|24000|
+SP1237|Tieu trang xay 75g|Goi|45000|
+SP1238|Tieu trang xay 100g|Goi|46000|
+SP1239|Tieu trang xay 150g|Goi|28000|
+SP1240|Tieu trang xay 200g|Goi|28000|
+SP1241|Tieu trang xay 300g|Goi|29000|
+SP1242|Tieu trang xay 500g|Goi|44000|
+SP1243|Tieu trang xay 750g|Goi|28000|
+SP1244|Tieu trang xay 1Kg|Goi|37000|
+SP1245|Bot nghe 30g|Goi|17000|
+SP1246|Bot nghe 50g|Goi|16000|
+SP1247|Bot nghe 75g|Goi|16000|
+SP1248|Bot nghe 100g|Goi|31000|
+SP1249|Bot nghe 150g|Goi|16000|
+SP1250|Bot nghe 200g|Goi|19000|
+SP1251|Bot nghe 300g|Goi|16000|
+SP1252|Bot nghe 500g|Goi|19000|
+SP1253|Bot nghe 750g|Goi|31000|
+SP1254|Bot nghe 1Kg|Goi|20000|
+SP1255|Ot bot 30g|Goi|28000|
+SP1256|Ot bot 50g|Goi|16000|
+SP1257|Ot bot 75g|Goi|23000|
+SP1258|Ot bot 100g|Goi|23000|
+SP1259|Ot bot 150g|Goi|34000|
+SP1260|Ot bot 200g|Goi|33000|
+SP1261|Ot bot 300g|Goi|25000|
+SP1262|Ot bot 500g|Goi|24000|
+SP1263|Ot bot 750g|Goi|33000|
+SP1264|Ot bot 1Kg|Goi|24000|
+SP1265|Bot cari 30g|Goi|18000|
+SP1266|Bot cari 50g|Goi|16000|
+SP1267|Bot cari 75g|Goi|25000|
+SP1268|Bot cari 100g|Goi|20000|
+SP1269|Bot cari 150g|Goi|19000|
+SP1270|Bot cari 200g|Goi|18000|
+SP1271|Bot cari 300g|Goi|18000|
+SP1272|Bot cari 500g|Goi|16000|
+SP1273|Bot cari 750g|Goi|12000|
+SP1274|Bot cari 1Kg|Goi|13000|
+SP1275|Bot toi 30g|Goi|14000|
+SP1276|Bot toi 50g|Goi|10000|
+SP1277|Bot toi 75g|Goi|15000|
+SP1278|Bot toi 100g|Goi|21000|
+SP1279|Bot toi 150g|Goi|19000|
+SP1280|Bot toi 200g|Goi|17000|
+SP1281|Bot toi 300g|Goi|14000|
+SP1282|Bot toi 500g|Goi|22000|
+SP1283|Bot toi 750g|Goi|13000|
+SP1284|Bot toi 1Kg|Goi|16000|
+SP1285|Dau an Simply 250ml|Lit|50000|
+SP1286|Dau an Simply 500ml|Lit|52000|
+SP1287|Dau an Simply 750ml|Lit|42000|
+SP1288|Dau an Simply 1L|Lit|47000|
+SP1289|Dau an Simply 1.5L|Lit|55000|
+SP1290|Dau an Simply 2L|Lit|53000|
+SP1291|Dau an Simply 3L|Lit|46000|
+SP1292|Dau an Simply 5L|Lit|51000|
+SP1293|Dau an Neptune 250ml|Lit|35000|
+SP1294|Dau an Neptune 500ml|Lit|48000|
+SP1295|Dau an Neptune 750ml|Lit|36000|
+SP1296|Dau an Neptune 1L|Lit|37000|
+SP1297|Dau an Neptune 1.5L|Lit|45000|
+SP1298|Dau an Neptune 2L|Lit|51000|
+SP1299|Dau an Neptune 3L|Lit|41000|
+SP1300|Dau an Neptune 5L|Lit|50000|
+SP1301|Dau an Tuong An 250ml|Lit|45000|
+SP1302|Dau an Tuong An 500ml|Lit|47000|
+SP1303|Dau an Tuong An 750ml|Lit|33000|
+SP1304|Dau an Tuong An 1L|Lit|33000|
+SP1305|Dau an Tuong An 1.5L|Lit|47000|
+SP1306|Dau an Tuong An 2L|Lit|35000|
+SP1307|Dau an Tuong An 3L|Lit|48000|
+SP1308|Dau an Tuong An 5L|Lit|39000|
+SP1309|Dau an Meizan 250ml|Lit|38000|
+SP1310|Dau an Meizan 500ml|Lit|33000|
+SP1311|Dau an Meizan 750ml|Lit|36000|
+SP1312|Dau an Meizan 1L|Lit|37000|
+SP1313|Dau an Meizan 1.5L|Lit|38000|
+SP1314|Dau an Meizan 2L|Lit|41000|
+SP1315|Dau an Meizan 3L|Lit|36000|
+SP1316|Dau an Meizan 5L|Lit|30000|
+SP1317|Dau an Cai Lan 250ml|Lit|50000|
+SP1318|Dau an Cai Lan 500ml|Lit|42000|
+SP1319|Dau an Cai Lan 750ml|Lit|45000|
+SP1320|Dau an Cai Lan 1L|Lit|42000|
+SP1321|Dau an Cai Lan 1.5L|Lit|50000|
+SP1322|Dau an Cai Lan 2L|Lit|33000|
+SP1323|Dau an Cai Lan 3L|Lit|37000|
+SP1324|Dau an Cai Lan 5L|Lit|38000|
+SP1325|Nuoc mam Chin Su 100ml|Chai|36000|
+SP1326|Nuoc mam Chin Su 150ml|Chai|27000|
+SP1327|Nuoc mam Chin Su 200ml|Chai|34000|
+SP1328|Nuoc mam Chin Su 250ml|Chai|38000|
+SP1329|Nuoc mam Chin Su 330ml|Chai|36000|
+SP1330|Nuoc mam Chin Su 500ml|Chai|37000|
+SP1331|Nuoc mam Chin Su 750ml|Chai|36000|
+SP1332|Nuoc mam Chin Su 1L|Chai|30000|
+SP1333|Nuoc mam Chin Su 1.5L|Chai|24000|
+SP1334|Nuoc mam Chin Su 2L|Chai|23000|
+SP1335|Nuoc mam Phu Quoc 100ml|Chai|38000|
+SP1336|Nuoc mam Phu Quoc 150ml|Chai|47000|
+SP1337|Nuoc mam Phu Quoc 200ml|Chai|36000|
+SP1338|Nuoc mam Phu Quoc 250ml|Chai|42000|
+SP1339|Nuoc mam Phu Quoc 330ml|Chai|32000|
+SP1340|Nuoc mam Phu Quoc 500ml|Chai|41000|
+SP1341|Nuoc mam Phu Quoc 750ml|Chai|32000|
+SP1342|Nuoc mam Phu Quoc 1L|Chai|34000|
+SP1343|Nuoc mam Phu Quoc 1.5L|Chai|28000|
+SP1344|Nuoc mam Phu Quoc 2L|Chai|41000|
+SP1345|Nuoc mam Nam Ngu 100ml|Chai|18000|
+SP1346|Nuoc mam Nam Ngu 150ml|Chai|22000|
+SP1347|Nuoc mam Nam Ngu 200ml|Chai|30000|
+SP1348|Nuoc mam Nam Ngu 250ml|Chai|23000|
+SP1349|Nuoc mam Nam Ngu 330ml|Chai|27000|
+SP1350|Nuoc mam Nam Ngu 500ml|Chai|20000|
+SP1351|Nuoc mam Nam Ngu 750ml|Chai|18000|
+SP1352|Nuoc mam Nam Ngu 1L|Chai|28000|
+SP1353|Nuoc mam Nam Ngu 1.5L|Chai|28000|
+SP1354|Nuoc mam Nam Ngu 2L|Chai|23000|
+SP1355|Nuoc mam Ca Com 100ml|Chai|42000|
+SP1356|Nuoc mam Ca Com 150ml|Chai|39000|
+SP1357|Nuoc mam Ca Com 200ml|Chai|31000|
+SP1358|Nuoc mam Ca Com 250ml|Chai|34000|
+SP1359|Nuoc mam Ca Com 330ml|Chai|42000|
+SP1360|Nuoc mam Ca Com 500ml|Chai|54000|
+SP1361|Nuoc mam Ca Com 750ml|Chai|42000|
+SP1362|Nuoc mam Ca Com 1L|Chai|36000|
+SP1363|Nuoc mam Ca Com 1.5L|Chai|52000|
+SP1364|Nuoc mam Ca Com 2L|Chai|34000|
+SP1365|Nuoc tuong Maggi 100ml|Chai|18000|
+SP1366|Nuoc tuong Maggi 150ml|Chai|24000|
+SP1367|Nuoc tuong Maggi 200ml|Chai|22000|
+SP1368|Nuoc tuong Maggi 250ml|Chai|27000|
+SP1369|Nuoc tuong Maggi 330ml|Chai|24000|
+SP1370|Nuoc tuong Maggi 500ml|Chai|19000|
+SP1371|Nuoc tuong Maggi 750ml|Chai|20000|
+SP1372|Nuoc tuong Maggi 1L|Chai|20000|
+SP1373|Nuoc tuong Maggi 1.5L|Chai|26000|
+SP1374|Nuoc tuong Maggi 2L|Chai|27000|
+SP1375|Nuoc tuong Chin Su 100ml|Chai|20000|
+SP1376|Nuoc tuong Chin Su 150ml|Chai|16000|
+SP1377|Nuoc tuong Chin Su 200ml|Chai|21000|
+SP1378|Nuoc tuong Chin Su 250ml|Chai|15000|
+SP1379|Nuoc tuong Chin Su 330ml|Chai|20000|
+SP1380|Nuoc tuong Chin Su 500ml|Chai|28000|
+SP1381|Nuoc tuong Chin Su 750ml|Chai|18000|
+SP1382|Nuoc tuong Chin Su 1L|Chai|19000|
+SP1383|Nuoc tuong Chin Su 1.5L|Chai|28000|
+SP1384|Nuoc tuong Chin Su 2L|Chai|15000|
+SP1385|Nuoc tuong Tam Thai Tu 100ml|Chai|22000|
+SP1386|Nuoc tuong Tam Thai Tu 150ml|Chai|22000|
+SP1387|Nuoc tuong Tam Thai Tu 200ml|Chai|20000|
+SP1388|Nuoc tuong Tam Thai Tu 250ml|Chai|20000|
+SP1389|Nuoc tuong Tam Thai Tu 330ml|Chai|15000|
+SP1390|Nuoc tuong Tam Thai Tu 500ml|Chai|20000|
+SP1391|Nuoc tuong Tam Thai Tu 750ml|Chai|18000|
+SP1392|Nuoc tuong Tam Thai Tu 1L|Chai|15000|
+SP1393|Nuoc tuong Tam Thai Tu 1.5L|Chai|17000|
+SP1394|Nuoc tuong Tam Thai Tu 2L|Chai|14000|
+SP1395|Tuong ot Chin Su 100ml|Chai|25000|
+SP1396|Tuong ot Chin Su 150ml|Chai|28000|
+SP1397|Tuong ot Chin Su 200ml|Chai|16000|
+SP1398|Tuong ot Chin Su 250ml|Chai|23000|
+SP1399|Tuong ot Chin Su 330ml|Chai|26000|
+SP1400|Tuong ot Chin Su 500ml|Chai|29000|
+SP1401|Tuong ot Chin Su 750ml|Chai|22000|
+SP1402|Tuong ot Chin Su 1L|Chai|16000|
+SP1403|Tuong ot Chin Su 1.5L|Chai|27000|
+SP1404|Tuong ot Chin Su 2L|Chai|16000|
+SP1405|Tuong ot Cholimex 100ml|Chai|18000|
+SP1406|Tuong ot Cholimex 150ml|Chai|20000|
+SP1407|Tuong ot Cholimex 200ml|Chai|20000|
+SP1408|Tuong ot Cholimex 250ml|Chai|25000|
+SP1409|Tuong ot Cholimex 330ml|Chai|18000|
+SP1410|Tuong ot Cholimex 500ml|Chai|21000|
+SP1411|Tuong ot Cholimex 750ml|Chai|19000|
+SP1412|Tuong ot Cholimex 1L|Chai|25000|
+SP1413|Tuong ot Cholimex 1.5L|Chai|18000|
+SP1414|Tuong ot Cholimex 2L|Chai|16000|
+SP1415|Tuong ca Chin Su 100ml|Chai|26000|
+SP1416|Tuong ca Chin Su 150ml|Chai|14000|
+SP1417|Tuong ca Chin Su 200ml|Chai|14000|
+SP1418|Tuong ca Chin Su 250ml|Chai|18000|
+SP1419|Tuong ca Chin Su 330ml|Chai|23000|
+SP1420|Tuong ca Chin Su 500ml|Chai|27000|
+SP1421|Tuong ca Chin Su 750ml|Chai|25000|
+SP1422|Tuong ca Chin Su 1L|Chai|23000|
+SP1423|Tuong ca Chin Su 1.5L|Chai|22000|
+SP1424|Tuong ca Chin Su 2L|Chai|21000|
+SP1425|Dau hao Lee Kum Kee 100ml|Chai|38000|
+SP1426|Dau hao Lee Kum Kee 150ml|Chai|41000|
+SP1427|Dau hao Lee Kum Kee 200ml|Chai|44000|
+SP1428|Dau hao Lee Kum Kee 250ml|Chai|38000|
+SP1429|Dau hao Lee Kum Kee 330ml|Chai|35000|
+SP1430|Dau hao Lee Kum Kee 500ml|Chai|57000|
+SP1431|Dau hao Lee Kum Kee 750ml|Chai|50000|
+SP1432|Dau hao Lee Kum Kee 1L|Chai|34000|
+SP1433|Dau hao Lee Kum Kee 1.5L|Chai|57000|
+SP1434|Dau hao Lee Kum Kee 2L|Chai|51000|
+SP1435|Hat nem Knorr 30g|Goi|30000|
+SP1436|Hat nem Knorr 50g|Goi|24000|
+SP1437|Hat nem Knorr 75g|Goi|38000|
+SP1438|Hat nem Knorr 100g|Goi|21000|
+SP1439|Hat nem Knorr 150g|Goi|32000|
+SP1440|Hat nem Knorr 200g|Goi|38000|
+SP1441|Hat nem Knorr 300g|Goi|35000|
+SP1442|Hat nem Knorr 500g|Goi|29000|
+SP1443|Hat nem Knorr 750g|Goi|23000|
+SP1444|Hat nem Knorr 1Kg|Goi|23000|
+SP1445|Hat nem Maggi 30g|Goi|26000|
+SP1446|Hat nem Maggi 50g|Goi|16000|
+SP1447|Hat nem Maggi 75g|Goi|22000|
+SP1448|Hat nem Maggi 100g|Goi|32000|
+SP1449|Hat nem Maggi 150g|Goi|21000|
+SP1450|Hat nem Maggi 200g|Goi|18000|
+SP1451|Hat nem Maggi 300g|Goi|29000|
+SP1452|Hat nem Maggi 500g|Goi|22000|
+SP1453|Hat nem Maggi 750g|Goi|19000|
+SP1454|Hat nem Maggi 1Kg|Goi|22000|
+SP1455|Hat nem Aji-ngon 30g|Goi|14000|
+SP1456|Hat nem Aji-ngon 50g|Goi|21000|
+SP1457|Hat nem Aji-ngon 75g|Goi|20000|
+SP1458|Hat nem Aji-ngon 100g|Goi|23000|
+SP1459|Hat nem Aji-ngon 150g|Goi|15000|
+SP1460|Hat nem Aji-ngon 200g|Goi|23000|
+SP1461|Hat nem Aji-ngon 300g|Goi|24000|
+SP1462|Hat nem Aji-ngon 500g|Goi|27000|
+SP1463|Hat nem Aji-ngon 750g|Goi|21000|
+SP1464|Hat nem Aji-ngon 1Kg|Goi|17000|
+SP1465|Giam gao 100ml|Chai|11000|
+SP1466|Giam gao 150ml|Chai|17000|
+SP1467|Giam gao 200ml|Chai|12000|
+SP1468|Giam gao 250ml|Chai|21000|
+SP1469|Giam gao 330ml|Chai|16000|
+SP1470|Giam gao 500ml|Chai|19000|
+SP1471|Giam gao 750ml|Chai|15000|
+SP1472|Giam gao 1L|Chai|19000|
+SP1473|Giam gao 1.5L|Chai|13000|
+SP1474|Giam gao 2L|Chai|20000|
+SP1475|Mu tat Yellow 25g|Tuyp|23000|
+SP1476|Mu tat Yellow 40g|Tuyp|22000|
+SP1477|Mu tat Yellow 50g|Tuyp|26000|
+SP1478|Mu tat Yellow 75g|Tuyp|23000|
+SP1479|Mu tat Yellow 100g|Tuyp|18000|
+SP1480|Mu tat Yellow 150g|Tuyp|26000|
+SP1481|Mu tat Yellow 175g|Tuyp|24000|
+SP1482|Mu tat Yellow 200g|Tuyp|28000|
+SP1483|Mu tat Yellow 250g|Tuyp|22000|
+SP1484|Sot mayonnaise Hellmann 100ml|Chai|47000|
+SP1485|Sot mayonnaise Hellmann 150ml|Chai|27000|
+SP1486|Sot mayonnaise Hellmann 200ml|Chai|38000|
+SP1487|Sot mayonnaise Hellmann 250ml|Chai|38000|
+SP1488|Sot mayonnaise Hellmann 330ml|Chai|26000|
+SP1489|Sot mayonnaise Hellmann 500ml|Chai|44000|
+SP1490|Sot mayonnaise Hellmann 750ml|Chai|45000|
+SP1491|Sot mayonnaise Hellmann 1L|Chai|46000|
+SP1492|Sot mayonnaise Hellmann 1.5L|Chai|31000|
+SP1493|Sot mayonnaise Hellmann 2L|Chai|25000|
+SP1494|Dau goi Sunsilk 100ml|Chai|31000|
+SP1495|Dau goi Sunsilk 150ml|Chai|51000|
+SP1496|Dau goi Sunsilk 200ml|Chai|49000|
+SP1497|Dau goi Sunsilk 250ml|Chai|40000|
+SP1498|Dau goi Sunsilk 330ml|Chai|32000|
+SP1499|Dau goi Sunsilk 500ml|Chai|36000|
+SP1500|Dau goi Sunsilk 750ml|Chai|53000|
+SP1501|Dau goi Sunsilk 1L|Chai|31000|
+SP1502|Dau goi Sunsilk 1.5L|Chai|37000|
+SP1503|Dau goi Sunsilk 2L|Chai|37000|
+SP1504|Dau goi Pantene 100ml|Chai|60000|
+SP1505|Dau goi Pantene 150ml|Chai|55000|
+SP1506|Dau goi Pantene 200ml|Chai|46000|
+SP1507|Dau goi Pantene 250ml|Chai|35000|
+SP1508|Dau goi Pantene 330ml|Chai|37000|
+SP1509|Dau goi Pantene 500ml|Chai|47000|
+SP1510|Dau goi Pantene 750ml|Chai|56000|
+SP1511|Dau goi Pantene 1L|Chai|54000|
+SP1512|Dau goi Pantene 1.5L|Chai|45000|
+SP1513|Dau goi Pantene 2L|Chai|35000|
+SP1514|Dau goi Clear 100ml|Chai|57000|
+SP1515|Dau goi Clear 150ml|Chai|38000|
+SP1516|Dau goi Clear 200ml|Chai|39000|
+SP1517|Dau goi Clear 250ml|Chai|39000|
+SP1518|Dau goi Clear 330ml|Chai|59000|
+SP1519|Dau goi Clear 500ml|Chai|39000|
+SP1520|Dau goi Clear 750ml|Chai|46000|
+SP1521|Dau goi Clear 1L|Chai|49000|
+SP1522|Dau goi Clear 1.5L|Chai|44000|
+SP1523|Dau goi Clear 2L|Chai|59000|
+SP1524|Dau goi Dove 100ml|Chai|36000|
+SP1525|Dau goi Dove 150ml|Chai|58000|
+SP1526|Dau goi Dove 200ml|Chai|61000|
+SP1527|Dau goi Dove 250ml|Chai|43000|
+SP1528|Dau goi Dove 330ml|Chai|66000|
+SP1529|Dau goi Dove 500ml|Chai|44000|
+SP1530|Dau goi Dove 750ml|Chai|58000|
+SP1531|Dau goi Dove 1L|Chai|70000|
+SP1532|Dau goi Dove 1.5L|Chai|41000|
+SP1533|Dau goi Dove 2L|Chai|35000|
+SP1534|Dau goi Head Shoulders 100ml|Chai|38000|
+SP1535|Dau goi Head Shoulders 150ml|Chai|62000|
+SP1536|Dau goi Head Shoulders 200ml|Chai|41000|
+SP1537|Dau goi Head Shoulders 250ml|Chai|35000|
+SP1538|Dau goi Head Shoulders 330ml|Chai|64000|
+SP1539|Dau goi Head Shoulders 500ml|Chai|53000|
+SP1540|Dau goi Head Shoulders 750ml|Chai|68000|
+SP1541|Dau goi Head Shoulders 1L|Chai|36000|
+SP1542|Dau goi Head Shoulders 1.5L|Chai|58000|
+SP1543|Dau goi Head Shoulders 2L|Chai|68000|
+SP1544|Dau goi Rejoice 100ml|Chai|34000|
+SP1545|Dau goi Rejoice 150ml|Chai|46000|
+SP1546|Dau goi Rejoice 200ml|Chai|41000|
+SP1547|Dau goi Rejoice 250ml|Chai|43000|
+SP1548|Dau goi Rejoice 330ml|Chai|42000|
+SP1549|Dau goi Rejoice 500ml|Chai|40000|
+SP1550|Dau goi Rejoice 750ml|Chai|27000|
+SP1551|Dau goi Rejoice 1L|Chai|42000|
+SP1552|Dau goi Rejoice 1.5L|Chai|31000|
+SP1553|Dau goi Rejoice 2L|Chai|30000|
+SP1554|Dau xa Pantene 100ml|Chai|49000|
+SP1555|Dau xa Pantene 150ml|Chai|53000|
+SP1556|Dau xa Pantene 200ml|Chai|36000|
+SP1557|Dau xa Pantene 250ml|Chai|55000|
+SP1558|Dau xa Pantene 330ml|Chai|39000|
+SP1559|Dau xa Pantene 500ml|Chai|52000|
+SP1560|Dau xa Pantene 750ml|Chai|58000|
+SP1561|Dau xa Pantene 1L|Chai|39000|
+SP1562|Dau xa Pantene 1.5L|Chai|42000|
+SP1563|Dau xa Pantene 2L|Chai|52000|
+SP1564|Dau xa Dove 100ml|Chai|46000|
+SP1565|Dau xa Dove 150ml|Chai|59000|
+SP1566|Dau xa Dove 200ml|Chai|44000|
+SP1567|Dau xa Dove 250ml|Chai|52000|
+SP1568|Dau xa Dove 330ml|Chai|48000|
+SP1569|Dau xa Dove 500ml|Chai|57000|
+SP1570|Dau xa Dove 750ml|Chai|44000|
+SP1571|Dau xa Dove 1L|Chai|38000|
+SP1572|Dau xa Dove 1.5L|Chai|63000|
+SP1573|Dau xa Dove 2L|Chai|55000|
+SP1574|Dau xa Sunsilk 100ml|Chai|30000|
+SP1575|Dau xa Sunsilk 150ml|Chai|46000|
+SP1576|Dau xa Sunsilk 200ml|Chai|47000|
+SP1577|Dau xa Sunsilk 250ml|Chai|51000|
+SP1578|Dau xa Sunsilk 330ml|Chai|40000|
+SP1579|Dau xa Sunsilk 500ml|Chai|33000|
+SP1580|Dau xa Sunsilk 750ml|Chai|55000|
+SP1581|Dau xa Sunsilk 1L|Chai|28000|
+SP1582|Dau xa Sunsilk 1.5L|Chai|32000|
+SP1583|Dau xa Sunsilk 2L|Chai|51000|
+SP1584|Sua tam Dove 100ml|Chai|51000|
+SP1585|Sua tam Dove 150ml|Chai|47000|
+SP1586|Sua tam Dove 200ml|Chai|59000|
+SP1587|Sua tam Dove 250ml|Chai|41000|
+SP1588|Sua tam Dove 330ml|Chai|31000|
+SP1589|Sua tam Dove 500ml|Chai|55000|
+SP1590|Sua tam Dove 750ml|Chai|54000|
+SP1591|Sua tam Dove 1L|Chai|43000|
+SP1592|Sua tam Dove 1.5L|Chai|33000|
+SP1593|Sua tam Dove 2L|Chai|31000|
+SP1594|Sua tam Lifebuoy 100ml|Chai|45000|
+SP1595|Sua tam Lifebuoy 150ml|Chai|45000|
+SP1596|Sua tam Lifebuoy 200ml|Chai|46000|
+SP1597|Sua tam Lifebuoy 250ml|Chai|35000|
+SP1598|Sua tam Lifebuoy 330ml|Chai|41000|
+SP1599|Sua tam Lifebuoy 500ml|Chai|25000|
+SP1600|Sua tam Lifebuoy 750ml|Chai|33000|
+SP1601|Sua tam Lifebuoy 1L|Chai|41000|
+SP1602|Sua tam Lifebuoy 1.5L|Chai|35000|
+SP1603|Sua tam Lifebuoy 2L|Chai|38000|
+SP1604|Sua tam Enchanteur 100ml|Chai|52000|
+SP1605|Sua tam Enchanteur 150ml|Chai|47000|
+SP1606|Sua tam Enchanteur 200ml|Chai|55000|
+SP1607|Sua tam Enchanteur 250ml|Chai|40000|
+SP1608|Sua tam Enchanteur 330ml|Chai|55000|
+SP1609|Sua tam Enchanteur 500ml|Chai|51000|
+SP1610|Sua tam Enchanteur 750ml|Chai|53000|
+SP1611|Sua tam Enchanteur 1L|Chai|55000|
+SP1612|Sua tam Enchanteur 1.5L|Chai|42000|
+SP1613|Sua tam Enchanteur 2L|Chai|34000|
+SP1614|Sua tam Palmolive 100ml|Chai|41000|
+SP1615|Sua tam Palmolive 150ml|Chai|51000|
+SP1616|Sua tam Palmolive 200ml|Chai|44000|
+SP1617|Sua tam Palmolive 250ml|Chai|45000|
+SP1618|Sua tam Palmolive 330ml|Chai|39000|
+SP1619|Sua tam Palmolive 500ml|Chai|44000|
+SP1620|Sua tam Palmolive 750ml|Chai|40000|
+SP1621|Sua tam Palmolive 1L|Chai|30000|
+SP1622|Sua tam Palmolive 1.5L|Chai|26000|
+SP1623|Sua tam Palmolive 2L|Chai|50000|
+SP1624|Sua rua mat Ponds 25g|Tuyp|45000|
+SP1625|Sua rua mat Ponds 40g|Tuyp|54000|
+SP1626|Sua rua mat Ponds 50g|Tuyp|58000|
+SP1627|Sua rua mat Ponds 75g|Tuyp|57000|
+SP1628|Sua rua mat Ponds 100g|Tuyp|65000|
+SP1629|Sua rua mat Ponds 150g|Tuyp|45000|
+SP1630|Sua rua mat Ponds 175g|Tuyp|32000|
+SP1631|Sua rua mat Ponds 200g|Tuyp|59000|
+SP1632|Sua rua mat Ponds 250g|Tuyp|36000|
+SP1633|Sua rua mat Garnier 25g|Tuyp|43000|
+SP1634|Sua rua mat Garnier 40g|Tuyp|56000|
+SP1635|Sua rua mat Garnier 50g|Tuyp|35000|
+SP1636|Sua rua mat Garnier 75g|Tuyp|64000|
+SP1637|Sua rua mat Garnier 100g|Tuyp|48000|
+SP1638|Sua rua mat Garnier 150g|Tuyp|59000|
+SP1639|Sua rua mat Garnier 175g|Tuyp|56000|
+SP1640|Sua rua mat Garnier 200g|Tuyp|40000|
+SP1641|Sua rua mat Garnier 250g|Tuyp|65000|
+SP1642|Sua rua mat Cetaphil 25g|Tuyp|65000|
+SP1643|Sua rua mat Cetaphil 40g|Tuyp|57000|
+SP1644|Sua rua mat Cetaphil 50g|Tuyp|109000|
+SP1645|Sua rua mat Cetaphil 75g|Tuyp|62000|
+SP1646|Sua rua mat Cetaphil 100g|Tuyp|96000|
+SP1647|Sua rua mat Cetaphil 150g|Tuyp|77000|
+SP1648|Sua rua mat Cetaphil 175g|Tuyp|107000|
+SP1649|Sua rua mat Cetaphil 200g|Tuyp|120000|
+SP1650|Sua rua mat Cetaphil 250g|Tuyp|81000|
+SP1651|Nuoc rua tay Lifebuoy 100ml|Chai|38000|
+SP1652|Nuoc rua tay Lifebuoy 150ml|Chai|21000|
+SP1653|Nuoc rua tay Lifebuoy 200ml|Chai|23000|
+SP1654|Nuoc rua tay Lifebuoy 250ml|Chai|26000|
+SP1655|Nuoc rua tay Lifebuoy 330ml|Chai|21000|
+SP1656|Nuoc rua tay Lifebuoy 500ml|Chai|25000|
+SP1657|Nuoc rua tay Lifebuoy 750ml|Chai|30000|
+SP1658|Nuoc rua tay Lifebuoy 1L|Chai|27000|
+SP1659|Nuoc rua tay Lifebuoy 1.5L|Chai|21000|
+SP1660|Nuoc rua tay Lifebuoy 2L|Chai|36000|
+SP1661|Nuoc rua tay Dettol 100ml|Chai|46000|
+SP1662|Nuoc rua tay Dettol 150ml|Chai|29000|
+SP1663|Nuoc rua tay Dettol 200ml|Chai|23000|
+SP1664|Nuoc rua tay Dettol 250ml|Chai|31000|
+SP1665|Nuoc rua tay Dettol 330ml|Chai|40000|
+SP1666|Nuoc rua tay Dettol 500ml|Chai|34000|
+SP1667|Nuoc rua tay Dettol 750ml|Chai|36000|
+SP1668|Nuoc rua tay Dettol 1L|Chai|43000|
+SP1669|Nuoc rua tay Dettol 1.5L|Chai|22000|
+SP1670|Nuoc rua tay Dettol 2L|Chai|27000|
+SP1671|Xa phong Lifebuoy 50g|Banh|18000|
+SP1672|Xa phong Lifebuoy 75g|Banh|11000|
+SP1673|Xa phong Lifebuoy 90g|Banh|15000|
+SP1674|Xa phong Lifebuoy 100g|Banh|14000|
+SP1675|Xa phong Lifebuoy 125g|Banh|9000|
+SP1676|Xa phong Lifebuoy 150g|Banh|17000|
+SP1677|Xa phong Lifebuoy 180g|Banh|8000|
+SP1678|Xa phong Lifebuoy 200g|Banh|8000|
+SP1679|Xa phong Dove 50g|Banh|22000|
+SP1680|Xa phong Dove 75g|Banh|18000|
+SP1681|Xa phong Dove 90g|Banh|18000|
+SP1682|Xa phong Dove 100g|Banh|12000|
+SP1683|Xa phong Dove 125g|Banh|13000|
+SP1684|Xa phong Dove 150g|Banh|21000|
+SP1685|Xa phong Dove 180g|Banh|18000|
+SP1686|Xa phong Dove 200g|Banh|12000|
+SP1687|Xa phong Lux 50g|Banh|17000|
+SP1688|Xa phong Lux 75g|Banh|17000|
+SP1689|Xa phong Lux 90g|Banh|16000|
+SP1690|Xa phong Lux 100g|Banh|20000|
+SP1691|Xa phong Lux 125g|Banh|20000|
+SP1692|Xa phong Lux 150g|Banh|12000|
+SP1693|Xa phong Lux 180g|Banh|17000|
+SP1694|Xa phong Lux 200g|Banh|13000|
+SP1695|Bot giat Omo 100g|Kg|58000|
+SP1696|Bot giat Omo 200g|Kg|72000|
+SP1697|Bot giat Omo 250g|Kg|66000|
+SP1698|Bot giat Omo 400g|Kg|53000|
+SP1699|Bot giat Omo 500g|Kg|70000|
+SP1700|Bot giat Omo 750g|Kg|48000|
+SP1701|Bot giat Omo 1Kg|Kg|54000|
+SP1702|Bot giat Omo 2Kg|Kg|51000|
+SP1703|Bot giat Omo 3Kg|Kg|66000|
+SP1704|Bot giat Omo 5Kg|Kg|56000|
+SP1705|Bot giat Tide 100g|Kg|36000|
+SP1706|Bot giat Tide 200g|Kg|56000|
+SP1707|Bot giat Tide 250g|Kg|67000|
+SP1708|Bot giat Tide 400g|Kg|27000|
+SP1709|Bot giat Tide 500g|Kg|46000|
+SP1710|Bot giat Tide 750g|Kg|62000|
+SP1711|Bot giat Tide 1Kg|Kg|47000|
+SP1712|Bot giat Tide 2Kg|Kg|59000|
+SP1713|Bot giat Tide 3Kg|Kg|31000|
+SP1714|Bot giat Tide 5Kg|Kg|28000|
+SP1715|Bot giat Ariel 100g|Kg|33000|
+SP1716|Bot giat Ariel 200g|Kg|46000|
+SP1717|Bot giat Ariel 250g|Kg|43000|
+SP1718|Bot giat Ariel 400g|Kg|79000|
+SP1719|Bot giat Ariel 500g|Kg|36000|
+SP1720|Bot giat Ariel 750g|Kg|73000|
+SP1721|Bot giat Ariel 1Kg|Kg|54000|
+SP1722|Bot giat Ariel 2Kg|Kg|29000|
+SP1723|Bot giat Ariel 3Kg|Kg|39000|
+SP1724|Bot giat Ariel 5Kg|Kg|65000|
+SP1725|Bot giat Surf 100g|Kg|46000|
+SP1726|Bot giat Surf 200g|Kg|31000|
+SP1727|Bot giat Surf 250g|Kg|64000|
+SP1728|Bot giat Surf 400g|Kg|21000|
+SP1729|Bot giat Surf 500g|Kg|33000|
+SP1730|Bot giat Surf 750g|Kg|29000|
+SP1731|Bot giat Surf 1Kg|Kg|28000|
+SP1732|Bot giat Surf 2Kg|Kg|61000|
+SP1733|Bot giat Surf 3Kg|Kg|27000|
+SP1734|Bot giat Surf 5Kg|Kg|65000|
+SP1735|Nuoc giat Omo Matic 100ml|Chai|80000|
+SP1736|Nuoc giat Omo Matic 150ml|Chai|49000|
+SP1737|Nuoc giat Omo Matic 200ml|Chai|82000|
+SP1738|Nuoc giat Omo Matic 250ml|Chai|70000|
+SP1739|Nuoc giat Omo Matic 330ml|Chai|49000|
+SP1740|Nuoc giat Omo Matic 500ml|Chai|69000|
+SP1741|Nuoc giat Omo Matic 750ml|Chai|78000|
+SP1742|Nuoc giat Omo Matic 1L|Chai|60000|
+SP1743|Nuoc giat Omo Matic 1.5L|Chai|36000|
+SP1744|Nuoc giat Omo Matic 2L|Chai|79000|
+SP1745|Nuoc giat Ariel Matic 100ml|Chai|81000|
+SP1746|Nuoc giat Ariel Matic 150ml|Chai|38000|
+SP1747|Nuoc giat Ariel Matic 200ml|Chai|75000|
+SP1748|Nuoc giat Ariel Matic 250ml|Chai|86000|
+SP1749|Nuoc giat Ariel Matic 330ml|Chai|50000|
+SP1750|Nuoc giat Ariel Matic 500ml|Chai|81000|
+SP1751|Nuoc giat Ariel Matic 750ml|Chai|86000|
+SP1752|Nuoc giat Ariel Matic 1L|Chai|80000|
+SP1753|Nuoc giat Ariel Matic 1.5L|Chai|44000|
+SP1754|Nuoc giat Ariel Matic 2L|Chai|73000|
+SP1755|Nuoc xa vai Comfort 100ml|Chai|46000|
+SP1756|Nuoc xa vai Comfort 150ml|Chai|58000|
+SP1757|Nuoc xa vai Comfort 200ml|Chai|28000|
+SP1758|Nuoc xa vai Comfort 250ml|Chai|40000|
+SP1759|Nuoc xa vai Comfort 330ml|Chai|42000|
+SP1760|Nuoc xa vai Comfort 500ml|Chai|29000|
+SP1761|Nuoc xa vai Comfort 750ml|Chai|37000|
+SP1762|Nuoc xa vai Comfort 1L|Chai|44000|
+SP1763|Nuoc xa vai Comfort 1.5L|Chai|33000|
+SP1764|Nuoc xa vai Comfort 2L|Chai|45000|
+SP1765|Nuoc xa vai Downy 100ml|Chai|52000|
+SP1766|Nuoc xa vai Downy 150ml|Chai|30000|
+SP1767|Nuoc xa vai Downy 200ml|Chai|37000|
+SP1768|Nuoc xa vai Downy 250ml|Chai|47000|
+SP1769|Nuoc xa vai Downy 330ml|Chai|64000|
+SP1770|Nuoc xa vai Downy 500ml|Chai|46000|
+SP1771|Nuoc xa vai Downy 750ml|Chai|44000|
+SP1772|Nuoc xa vai Downy 1L|Chai|52000|
+SP1773|Nuoc xa vai Downy 1.5L|Chai|62000|
+SP1774|Nuoc xa vai Downy 2L|Chai|32000|
+SP1775|Nuoc xa vai Lenor 100ml|Chai|59000|
+SP1776|Nuoc xa vai Lenor 150ml|Chai|44000|
+SP1777|Nuoc xa vai Lenor 200ml|Chai|67000|
+SP1778|Nuoc xa vai Lenor 250ml|Chai|68000|
+SP1779|Nuoc xa vai Lenor 330ml|Chai|53000|
+SP1780|Nuoc xa vai Lenor 500ml|Chai|33000|
+SP1781|Nuoc xa vai Lenor 750ml|Chai|66000|
+SP1782|Nuoc xa vai Lenor 1L|Chai|56000|
+SP1783|Nuoc xa vai Lenor 1.5L|Chai|33000|
+SP1784|Nuoc xa vai Lenor 2L|Chai|37000|
+SP1785|Nuoc tay Javen Vim 100ml|Chai|31000|
+SP1786|Nuoc tay Javen Vim 150ml|Chai|23000|
+SP1787|Nuoc tay Javen Vim 200ml|Chai|19000|
+SP1788|Nuoc tay Javen Vim 250ml|Chai|17000|
+SP1789|Nuoc tay Javen Vim 330ml|Chai|24000|
+SP1790|Nuoc tay Javen Vim 500ml|Chai|28000|
+SP1791|Nuoc tay Javen Vim 750ml|Chai|25000|
+SP1792|Nuoc tay Javen Vim 1L|Chai|24000|
+SP1793|Nuoc tay Javen Vim 1.5L|Chai|21000|
+SP1794|Nuoc tay Javen Vim 2L|Chai|20000|
+SP1795|Nuoc rua chen Sunlight 100ml|Chai|23000|
+SP1796|Nuoc rua chen Sunlight 150ml|Chai|41000|
+SP1797|Nuoc rua chen Sunlight 200ml|Chai|32000|
+SP1798|Nuoc rua chen Sunlight 250ml|Chai|31000|
+SP1799|Nuoc rua chen Sunlight 330ml|Chai|30000|
+SP1800|Nuoc rua chen Sunlight 500ml|Chai|35000|
+SP1801|Nuoc rua chen Sunlight 750ml|Chai|26000|
+SP1802|Nuoc rua chen Sunlight 1L|Chai|33000|
+SP1803|Nuoc rua chen Sunlight 1.5L|Chai|32000|
+SP1804|Nuoc rua chen Sunlight 2L|Chai|28000|
+SP1805|Nuoc rua chen Vim 100ml|Chai|28000|
+SP1806|Nuoc rua chen Vim 150ml|Chai|33000|
+SP1807|Nuoc rua chen Vim 200ml|Chai|23000|
+SP1808|Nuoc rua chen Vim 250ml|Chai|30000|
+SP1809|Nuoc rua chen Vim 330ml|Chai|19000|
+SP1810|Nuoc rua chen Vim 500ml|Chai|18000|
+SP1811|Nuoc rua chen Vim 750ml|Chai|35000|
+SP1812|Nuoc rua chen Vim 1L|Chai|34000|
+SP1813|Nuoc rua chen Vim 1.5L|Chai|39000|
+SP1814|Nuoc rua chen Vim 2L|Chai|23000|
+SP1815|Nuoc rua chen My Hao 100ml|Chai|35000|
+SP1816|Nuoc rua chen My Hao 150ml|Chai|31000|
+SP1817|Nuoc rua chen My Hao 200ml|Chai|19000|
+SP1818|Nuoc rua chen My Hao 250ml|Chai|19000|
+SP1819|Nuoc rua chen My Hao 330ml|Chai|22000|
+SP1820|Nuoc rua chen My Hao 500ml|Chai|34000|
+SP1821|Nuoc rua chen My Hao 750ml|Chai|22000|
+SP1822|Nuoc rua chen My Hao 1L|Chai|32000|
+SP1823|Nuoc rua chen My Hao 1.5L|Chai|35000|
+SP1824|Nuoc rua chen My Hao 2L|Chai|25000|
+SP1825|Nuoc rua chen Fairy 100ml|Chai|25000|
+SP1826|Nuoc rua chen Fairy 150ml|Chai|33000|
+SP1827|Nuoc rua chen Fairy 200ml|Chai|47000|
+SP1828|Nuoc rua chen Fairy 250ml|Chai|38000|
+SP1829|Nuoc rua chen Fairy 330ml|Chai|48000|
+SP1830|Nuoc rua chen Fairy 500ml|Chai|51000|
+SP1831|Nuoc rua chen Fairy 750ml|Chai|49000|
+SP1832|Nuoc rua chen Fairy 1L|Chai|27000|
+SP1833|Nuoc rua chen Fairy 1.5L|Chai|25000|
+SP1834|Nuoc rua chen Fairy 2L|Chai|37000|
+SP1835|Nuoc lau nha Flash 100ml|Chai|39000|
+SP1836|Nuoc lau nha Flash 150ml|Chai|45000|
+SP1837|Nuoc lau nha Flash 200ml|Chai|33000|
+SP1838|Nuoc lau nha Flash 250ml|Chai|40000|
+SP1839|Nuoc lau nha Flash 330ml|Chai|43000|
+SP1840|Nuoc lau nha Flash 500ml|Chai|39000|
+SP1841|Nuoc lau nha Flash 750ml|Chai|45000|
+SP1842|Nuoc lau nha Flash 1L|Chai|21000|
+SP1843|Nuoc lau nha Flash 1.5L|Chai|20000|
+SP1844|Nuoc lau nha Flash 2L|Chai|30000|
+SP1845|Nuoc lau nha Vim 100ml|Chai|18000|
+SP1846|Nuoc lau nha Vim 150ml|Chai|25000|
+SP1847|Nuoc lau nha Vim 200ml|Chai|40000|
+SP1848|Nuoc lau nha Vim 250ml|Chai|19000|
+SP1849|Nuoc lau nha Vim 330ml|Chai|24000|
+SP1850|Nuoc lau nha Vim 500ml|Chai|27000|
+SP1851|Nuoc lau nha Vim 750ml|Chai|34000|
+SP1852|Nuoc lau nha Vim 1L|Chai|23000|
+SP1853|Nuoc lau nha Vim 1.5L|Chai|33000|
+SP1854|Nuoc lau nha Vim 2L|Chai|37000|
+SP1855|Nuoc lau kinh Windex 100ml|Chai|39000|
+SP1856|Nuoc lau kinh Windex 150ml|Chai|48000|
+SP1857|Nuoc lau kinh Windex 200ml|Chai|32000|
+SP1858|Nuoc lau kinh Windex 250ml|Chai|45000|
+SP1859|Nuoc lau kinh Windex 330ml|Chai|29000|
+SP1860|Nuoc lau kinh Windex 500ml|Chai|47000|
+SP1861|Nuoc lau kinh Windex 750ml|Chai|29000|
+SP1862|Nuoc lau kinh Windex 1L|Chai|47000|
+SP1863|Nuoc lau kinh Windex 1.5L|Chai|43000|
+SP1864|Nuoc lau kinh Windex 2L|Chai|23000|
+SP1865|Nuoc lau bep Mr Muscle 100ml|Chai|39000|
+SP1866|Nuoc lau bep Mr Muscle 150ml|Chai|31000|
+SP1867|Nuoc lau bep Mr Muscle 200ml|Chai|39000|
+SP1868|Nuoc lau bep Mr Muscle 250ml|Chai|42000|
+SP1869|Nuoc lau bep Mr Muscle 330ml|Chai|47000|
+SP1870|Nuoc lau bep Mr Muscle 500ml|Chai|33000|
+SP1871|Nuoc lau bep Mr Muscle 750ml|Chai|37000|
+SP1872|Nuoc lau bep Mr Muscle 1L|Chai|32000|
+SP1873|Nuoc lau bep Mr Muscle 1.5L|Chai|38000|
+SP1874|Nuoc lau bep Mr Muscle 2L|Chai|27000|
+SP1875|Giay ve sinh Pulppy 30g|Goi|18000|
+SP1876|Giay ve sinh Pulppy 50g|Goi|18000|
+SP1877|Giay ve sinh Pulppy 75g|Goi|24000|
+SP1878|Giay ve sinh Pulppy 100g|Goi|38000|
+SP1879|Giay ve sinh Pulppy 150g|Goi|37000|
+SP1880|Giay ve sinh Pulppy 200g|Goi|18000|
+SP1881|Giay ve sinh Pulppy 300g|Goi|27000|
+SP1882|Giay ve sinh Pulppy 500g|Goi|33000|
+SP1883|Giay ve sinh Pulppy 750g|Goi|26000|
+SP1884|Giay ve sinh Pulppy 1Kg|Goi|30000|
+SP1885|Giay ve sinh Bless You 30g|Goi|22000|
+SP1886|Giay ve sinh Bless You 50g|Goi|26000|
+SP1887|Giay ve sinh Bless You 75g|Goi|15000|
+SP1888|Giay ve sinh Bless You 100g|Goi|16000|
+SP1889|Giay ve sinh Bless You 150g|Goi|16000|
+SP1890|Giay ve sinh Bless You 200g|Goi|26000|
+SP1891|Giay ve sinh Bless You 300g|Goi|34000|
+SP1892|Giay ve sinh Bless You 500g|Goi|31000|
+SP1893|Giay ve sinh Bless You 750g|Goi|19000|
+SP1894|Giay ve sinh Bless You 1Kg|Goi|35000|
+SP1895|Giay ve sinh Tisue 30g|Goi|28000|
+SP1896|Giay ve sinh Tisue 50g|Goi|24000|
+SP1897|Giay ve sinh Tisue 75g|Goi|13000|
+SP1898|Giay ve sinh Tisue 100g|Goi|20000|
+SP1899|Giay ve sinh Tisue 150g|Goi|18000|
+SP1900|Giay ve sinh Tisue 200g|Goi|25000|
+SP1901|Giay ve sinh Tisue 300g|Goi|12000|
+SP1902|Giay ve sinh Tisue 500g|Goi|19000|
+SP1903|Giay ve sinh Tisue 750g|Goi|16000|
+SP1904|Giay ve sinh Tisue 1Kg|Goi|18000|
+SP1905|Khan giay Kleenex 100ml|Hop|21000|
+SP1906|Khan giay Kleenex 150ml|Hop|34000|
+SP1907|Khan giay Kleenex 180ml|Hop|24000|
+SP1908|Khan giay Kleenex 200ml|Hop|18000|
+SP1909|Khan giay Kleenex 250ml|Hop|33000|
+SP1910|Khan giay Kleenex 330ml|Hop|28000|
+SP1911|Khan giay Kleenex 500ml|Hop|21000|
+SP1912|Khan giay Kleenex 750ml|Hop|21000|
+SP1913|Khan giay Kleenex 1L|Hop|18000|
+SP1914|Khan giay Kleenex 1.5L|Hop|22000|
+SP1915|Khan giay Tempo 100ml|Hop|30000|
+SP1916|Khan giay Tempo 150ml|Hop|33000|
+SP1917|Khan giay Tempo 180ml|Hop|25000|
+SP1918|Khan giay Tempo 200ml|Hop|30000|
+SP1919|Khan giay Tempo 250ml|Hop|26000|
+SP1920|Khan giay Tempo 330ml|Hop|35000|
+SP1921|Khan giay Tempo 500ml|Hop|33000|
+SP1922|Khan giay Tempo 750ml|Hop|36000|
+SP1923|Khan giay Tempo 1L|Hop|35000|
+SP1924|Khan giay Tempo 1.5L|Hop|33000|
+SP1925|Khan uot Bobby 30g|Goi|15000|
+SP1926|Khan uot Bobby 50g|Goi|14000|
+SP1927|Khan uot Bobby 75g|Goi|13000|
+SP1928|Khan uot Bobby 100g|Goi|20000|
+SP1929|Khan uot Bobby 150g|Goi|20000|
+SP1930|Khan uot Bobby 200g|Goi|16000|
+SP1931|Khan uot Bobby 300g|Goi|23000|
+SP1932|Khan uot Bobby 500g|Goi|13000|
+SP1933|Khan uot Bobby 750g|Goi|14000|
+SP1934|Khan uot Bobby 1Kg|Goi|21000|
+SP1935|Khan uot Huggies 30g|Goi|26000|
+SP1936|Khan uot Huggies 50g|Goi|30000|
+SP1937|Khan uot Huggies 75g|Goi|23000|
+SP1938|Khan uot Huggies 100g|Goi|27000|
+SP1939|Khan uot Huggies 150g|Goi|15000|
+SP1940|Khan uot Huggies 200g|Goi|21000|
+SP1941|Khan uot Huggies 300g|Goi|17000|
+SP1942|Khan uot Huggies 500g|Goi|22000|
+SP1943|Khan uot Huggies 750g|Goi|29000|
+SP1944|Khan uot Huggies 1Kg|Goi|24000|
+SP1945|Khan uot Diana 30g|Goi|20000|
+SP1946|Khan uot Diana 50g|Goi|24000|
+SP1947|Khan uot Diana 75g|Goi|21000|
+SP1948|Khan uot Diana 100g|Goi|24000|
+SP1949|Khan uot Diana 150g|Goi|15000|
+SP1950|Khan uot Diana 200g|Goi|23000|
+SP1951|Khan uot Diana 300g|Goi|20000|
+SP1952|Khan uot Diana 500g|Goi|16000|
+SP1953|Khan uot Diana 750g|Goi|23000|
+SP1954|Khan uot Diana 1Kg|Goi|14000|
+SP1955|Ta Huggies Newborn 30g|Goi|156000|
+SP1956|Ta Huggies Newborn 50g|Goi|147000|
+SP1957|Ta Huggies Newborn 75g|Goi|154000|
+SP1958|Ta Huggies Newborn 100g|Goi|118000|
+SP1959|Ta Huggies Newborn 150g|Goi|137000|
+SP1960|Ta Huggies Newborn 200g|Goi|85000|
+SP1961|Ta Huggies Newborn 300g|Goi|89000|
+SP1962|Ta Huggies Newborn 500g|Goi|100000|
+SP1963|Ta Huggies Newborn 750g|Goi|95000|
+SP1964|Ta Huggies Newborn 1Kg|Goi|141000|
+SP1965|Ta Huggies Size M 30g|Goi|109000|
+SP1966|Ta Huggies Size M 50g|Goi|112000|
+SP1967|Ta Huggies Size M 75g|Goi|173000|
+SP1968|Ta Huggies Size M 100g|Goi|123000|
+SP1969|Ta Huggies Size M 150g|Goi|142000|
+SP1970|Ta Huggies Size M 200g|Goi|172000|
+SP1971|Ta Huggies Size M 300g|Goi|93000|
+SP1972|Ta Huggies Size M 500g|Goi|131000|
+SP1973|Ta Huggies Size M 750g|Goi|140000|
+SP1974|Ta Huggies Size M 1Kg|Goi|98000|
+SP1975|Ta Huggies Size L 30g|Goi|150000|
+SP1976|Ta Huggies Size L 50g|Goi|105000|
+SP1977|Ta Huggies Size L 75g|Goi|190000|
+SP1978|Ta Huggies Size L 100g|Goi|130000|
+SP1979|Ta Huggies Size L 150g|Goi|124000|
+SP1980|Ta Huggies Size L 200g|Goi|143000|
+SP1981|Ta Huggies Size L 300g|Goi|132000|
+SP1982|Ta Huggies Size L 500g|Goi|106000|
+SP1983|Ta Huggies Size L 750g|Goi|155000|
+SP1984|Ta Huggies Size L 1Kg|Goi|175000|
+SP1985|Ta Pampers Size M 30g|Goi|100000|
+SP1986|Ta Pampers Size M 50g|Goi|114000|
+SP1987|Ta Pampers Size M 75g|Goi|116000|
+SP1988|Ta Pampers Size M 100g|Goi|96000|
+SP1989|Ta Pampers Size M 150g|Goi|88000|
+SP1990|Ta Pampers Size M 200g|Goi|99000|
+SP1991|Ta Pampers Size M 300g|Goi|148000|
+SP1992|Ta Pampers Size M 500g|Goi|105000|
+SP1993|Ta Pampers Size M 750g|Goi|94000|
+SP1994|Ta Pampers Size M 1Kg|Goi|133000|
+SP1995|Ta Pampers Size L 30g|Goi|125000|
+SP1996|Ta Pampers Size L 50g|Goi|133000|
+SP1997|Ta Pampers Size L 75g|Goi|98000|
+SP1998|Ta Pampers Size L 100g|Goi|148000|
+SP1999|Ta Pampers Size L 150g|Goi|131000|
+SP2000|Ta Pampers Size L 200g|Goi|140000|
