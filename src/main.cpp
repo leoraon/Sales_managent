@@ -170,7 +170,7 @@ int main (){
     // đọc dữ liệu từ file khi khởi động
     pm.loadFromFile("../data/sanpham.txt");   // Ten file phai trung voi saveToFile ben duoi
     cm.loadFromFile("../data/khachhang.txt");
-    sm.loadFromFile("../data/hoadon.txt", "../chitiet.txt");
+    sm.loadFromFile("../data/hoadon.txt", "../data/chitiet.txt");
     int luaChon;
     do {
         cout << "\n========================================\n";
@@ -197,7 +197,7 @@ int main (){
     // ── Lưu dữ liệu vào file trước khi thoát ──
     pm.saveToFile("../data/sanpham.txt");      // Luu vao cung ten file da doc
     cm.saveToFile("../data/khachhang.txt");
-    sm.saveToFile("../data/hoadon.txt", "../chitiet.txt");
+    sm.saveToFile("../data/hoadon.txt", "../data/chitiet.txt");
     cout << "=> Da luu xong. Tam biet!\n";
     return 0;
 }
