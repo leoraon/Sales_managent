@@ -17,4 +17,6 @@ public:
     // ── Bước D: Lưu/đọc file ── (Manager tự quản lý file của chính nó)
     void saveToFile(const std::string& filename) const ;
     void loadFromFile(const std::string& filename);
+    //bổ sung 
+    void capNhatBodem();
 };

@@ -20,5 +20,6 @@ public:
     //phục vụ I/o file
     void saveToFile(const std::string& filename) const;
     void loadFromFile(const std::string& filename);
+    void capNhatBodem(); // Cập nhật bộ đếm sau khi đọc file
 };
 //class này như là kiểu tự xây dựng danh sách liên kết rồi

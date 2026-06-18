@@ -22,4 +22,6 @@ public:
    // Getter cho ReportManager truy xuất dữ liệu nội bộ
    NodeInvoice*       getInvoiceHead() const;
    NodeInvoiceDetail* getDetailHead()  const;
+   // Hiện lịch sử giao dịch của một khách hàng
+   void hienThiLichSuKH(const std::string& maKH) const;
 };

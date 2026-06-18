@@ -1,11 +1,65 @@
 #include <iostream>
 #include <iomanip>
-#include<string>
+#include <string>
+#include <windows.h>
 #include "CustomerManager.h"
 #include "ProductManager.h"
 #include "SaleManager.h"
 #include "ReportManager.h"
 using namespace std;
+
+// ── Hàm xóa sản phẩm (dùng chung nhiều nơi) ──
+void xoaSanPham(ProductManager& pm) {
+    string maSP;
+    cout << "Nhap ma SP can xoa: "; cin >> maSP;
+    if (pm.deleteProduct(maSP))
+        cout << "=> Da xoa san pham " << maSP << " thanh cong!\n";
+    else
+        cout << "=> Loi: Khong tim thay san pham " << maSP << "!\n";
+}
+
+// ── Hàm cập nhật sản phẩm (dùng chung nhiều nơi) ──
+void capNhatSanPham(ProductManager& pm) {
+    string maSP;
+    const Product* cu = nullptr;
+
+    // Bước 1: Nhập mã SP, lặp lại nếu sai
+    do {
+        cout << "Nhap ma SP can cap nhat: "; cin >> maSP;
+        cu = pm.getProduct(maSP);
+        if (cu == nullptr)
+            cout << "=> Khong tim thay SP \"" << maSP << "\". Nhap lai!\n";
+    } while (cu == nullptr);
+
+    // Bước 2: Hiện thông tin hiện tại
+    cout << "\n--- THONG TIN HIEN TAI ---\n";
+    cout << "Ten SP : " << cu->tenSP  << "\n";
+    cout << "Don vi : " << cu->donVi  << "\n";
+    cout << "Don gia: " << cu->donGia << "\n";
+    cout << "(Nhan Enter de giu nguyen, nhap moi de thay doi)\n\n";
+
+    // Bước 3: Nhập thông tin mới - Enter để giữ nguyên
+    Product newData;
+    newData.maSP = maSP;
+    string input;
+    cin.ignore();
+
+    cout << "Ten SP moi [" << cu->tenSP << "]: ";
+    getline(cin, input);
+    newData.tenSP = input.empty() ? cu->tenSP : input;
+
+    cout << "Don vi moi [" << cu->donVi << "]: ";
+    getline(cin, input);
+    newData.donVi = input.empty() ? cu->donVi : input;
+
+    cout << "Don gia moi [" << cu->donGia << "]: ";
+    getline(cin, input);
+    newData.donGia = input.empty() ? cu->donGia : stod(input);
+
+    // Bước 4: Cập nhật
+    pm.updateProduct(maSP, newData);
+    cout << "=> Cap nhat thanh cong!\n";
+}
 
 // SUB-MENU: QUẢN LÝ SẢN PHẨM
 void menuSanPham(ProductManager& pm) {
@@ -20,56 +74,103 @@ void menuSanPham(ProductManager& pm) {
         cout << "0. Quay lai menu chinh\n";
         cout << "Lua chon: ";
         cin >> luaChon;
+
         if (luaChon == 1) {
             Product sp;
-            cout << "Ma SP: "; cin >> sp.maSP;
+            sp.maSP = Product::sinhMaSP();
+            cout << "Ma SP tuong ung: " << sp.maSP << "\n";
+            cout << "Ten SP: ";
             cin.ignore();
-            cout << "Ten SP: "; getline(cin, sp.tenSP);
-            cout << "Don vi tinh: "; cin >> sp.donVi;
+            getline(cin, sp.tenSP);
+            cout << "Don vi tinh: "; getline(cin, sp.donVi);
             cout << "Don gia: "; cin >> sp.donGia;
             pm.addProduct(sp);
             cout << "=> Da them san pham thanh cong!\n";
         }
-        else if (luaChon==2){
-            string maSP;
-            cout<<"Nhap ma san pham can xoa:";
-            cin >> maSP;
-            if(pm.deleteProduct(maSP)){
-                cout<<"Da xoa san pham "<<maSP<<"thanh cong!\n";
-            }
-            else{
-                cout<<"Loi:Khong tim thay san pham"<<maSP<<"!\n";
-            }
+        else if (luaChon == 2) {
+            xoaSanPham(pm);
         }
-        else if (luaChon==3){
+        else if (luaChon == 3) {
             string tuKhoa;
-            cout<<"Nhap tu khoa cho san pham can tim: ";
-            cin>> tuKhoa;
+            cout << "Nhap tu khoa cho san pham can tim: ";
+            cin.ignore();
+            getline(cin, tuKhoa);
             pm.searchProduct(tuKhoa);
+
+            // Hành động sau tìm kiếm
+            int luaChonSau;
+            cout << "\nBan muon lam gi tiep theo?\n";
+            cout << "  1. Xoa san pham vua tim\n";
+            cout << "  2. Cap nhat san pham vua tim\n";
+            cout << "  0. Quay lai\n";
+            cout << "Lua chon: ";
+            cin >> luaChonSau;
+
+            if      (luaChonSau == 1) xoaSanPham(pm);
+            else if (luaChonSau == 2) capNhatSanPham(pm);
         }
-        else if(luaChon==4){
-            string maSP;
-            cout<<"Nhap ma san pham can cap nhat: ";cin>>maSP;
-            Product newData;
-            newData.maSP=maSP;
-            cin.ignore(); // Bo qua ky tu '\n' con lai sau khi cin >> maSP
-            cout << "Ten SP moi: "; getline(cin, newData.tenSP);
-            cout << "Don vi moi: "; cin >> newData.donVi;
-            cout << "Don gia moi: "; cin >> newData.donGia;
-            if (pm.updateProduct(maSP, newData))
-                cout << "=> Cap nhat thanh cong!\n";
-            else
-                cout << "=> Loi: Khong tim thay san pham!\n";
+        else if (luaChon == 4) {
+            capNhatSanPham(pm);
         }
-        else if (luaChon==5){
+        else if (luaChon == 5) {
             pm.displayAll();
         }
-        else if (luaChon!=0){
-             cout << "=> Lua chon khong hop le!\n";
+        else if (luaChon != 0) {
+            cout << "=> Lua chon khong hop le!\n";
         }
     } while (luaChon != 0);
 }
-void menuKhachHang(CustomerManager& cm) {
+
+// ── Hàm xóa khách hàng (dùng chung nhiều nơi) ──
+void xoaKhachHang(CustomerManager& cm) {
+    string maKH;
+    cout << "Nhap ma KH can xoa: "; cin >> maKH;
+    if (cm.deleteCustomer(maKH))
+        cout << "=> Da xoa khach hang " << maKH << " thanh cong!\n";
+    else
+        cout << "=> Loi: Khong tim thay khach hang " << maKH << "!\n";
+}
+
+// ── Hàm cập nhật khách hàng (dùng chung nhiều nơi) ──
+void capNhatKhachHang(CustomerManager& cm) {
+    string maKH;
+    Customer* cu = nullptr;
+
+    // Bước 1: Nhập mã KH, lặp lại nếu sai
+    do {
+        cout << "Nhap ma KH can cap nhat: "; cin >> maKH;
+        cu = cm.getCustomer(maKH);
+        if (cu == nullptr)
+            cout << "=> Khong tim thay KH \"" << maKH << "\". Nhap lai!\n";
+    } while (cu == nullptr);
+
+    // Bước 2: Hiện thông tin hiện tại
+    cout << "\n--- THONG TIN HIEN TAI ---\n";
+    cout << "Ten KH: " << cu->tenKH << "\n";
+    cout << "SDT   : " << cu->SDT   << "\n";
+    cout << "(Nhan Enter de giu nguyen, nhap moi de thay doi)\n\n";
+
+    // Bước 3: Nhập thông tin mới - Enter để giữ nguyên
+    Customer newData;
+    newData.maKH = maKH;
+    string input;
+    cin.ignore();
+
+    cout << "Ten KH moi [" << cu->tenKH << "]: ";
+    getline(cin, input);
+    newData.tenKH = input.empty() ? cu->tenKH : input;
+
+    cout << "SDT moi [" << cu->SDT << "]: ";
+    getline(cin, input);
+    newData.SDT = input.empty() ? cu->SDT : input;
+
+    // Bước 4: Cập nhật
+    cm.updateCustomer(maKH, newData);
+    cout << "=> Cap nhat thanh cong!\n";
+}
+
+// SUB-MENU: QUẢN LÝ KHÁCH HÀNG
+void menuKhachHang(CustomerManager& cm, const SaleManager& sm) {
     int luaChon;
     do {
         cout << "\n--- QUAN LY KHACH HANG ---\n";
@@ -81,9 +182,11 @@ void menuKhachHang(CustomerManager& cm) {
         cout << "0. Quay lai menu chinh\n";
         cout << "Lua chon: ";
         cin >> luaChon;
+
         if (luaChon == 1) {
             Customer kh;
-            cout << "Ma KH: "; cin >> kh.maKH;
+            kh.maKH = Customer::sinhMaKH();
+            cout << "Ma KH tuong ung: " << kh.maKH << "\n";
             cin.ignore();
             cout << "Ten KH: "; getline(cin, kh.tenKH);
             cout << "So dien thoai: "; cin >> kh.SDT;
@@ -91,30 +194,35 @@ void menuKhachHang(CustomerManager& cm) {
             cout << "=> Da them khach hang thanh cong!\n";
         }
         else if (luaChon == 2) {
-            string maKH;
-            cout << "Nhap ma KH can xoa: "; cin >> maKH;
-            if (cm.deleteCustomer(maKH))
-                cout << "=> Da xoa khach hang " << maKH << "!\n";
-            else
-                cout << "=> Loi: Khong tim thay khach hang!\n";
+            xoaKhachHang(cm);
         }
         else if (luaChon == 3) {
             string tuKhoa;
-            cout << "Nhap tuKhoa KH can tim: "; cin >>tuKhoa;
+            cout << "Nhap tu khoa KH can tim: ";
+            cin.ignore();
+            getline(cin, tuKhoa);
             cm.searchCustomer(tuKhoa);
+
+            // Hành động sau tìm kiếm
+            int luaChonSau;
+            cout << "\nBan muon lam gi tiep theo?\n";
+            cout << "  1. Xoa khach hang vua tim\n";
+            cout << "  2. Cap nhat khach hang vua tim\n";
+            cout << "  3. Xem lich su giao dich\n";
+            cout << "  0. Quay lai\n";
+            cout << "Lua chon: ";
+            cin >> luaChonSau;
+
+            if      (luaChonSau == 1) xoaKhachHang(cm);
+            else if (luaChonSau == 2) capNhatKhachHang(cm);
+            else if (luaChonSau == 3) {
+                string maKH;
+                cout << "Nhap ma KH can xem lich su: "; cin >> maKH;
+                sm.hienThiLichSuKH(maKH);
+            }
         }
         else if (luaChon == 4) {
-            string maKH;
-            cout << "Nhap ma KH can cap nhat: "; cin >> maKH;
-            Customer newData;
-            newData.maKH = maKH;
-            cin.ignore();
-            cout << "Ten KH moi: "; getline(cin, newData.tenKH);
-            cout << "SDT moi: "; cin >> newData.SDT;
-            if (cm.updateCustomer(maKH, newData))
-                cout << "=> Cap nhat thanh cong!\n";
-            else
-                cout << "=> Loi: Khong tim thay khach hang!\n";
+            capNhatKhachHang(cm);
         }
         else if (luaChon == 5) {
             cm.displayAll();
@@ -125,6 +233,7 @@ void menuKhachHang(CustomerManager& cm) {
     } while (luaChon != 0);
 }
 
+// SUB-MENU: QUẢN LÝ BÁN HÀNG & HÓA ĐƠN
 void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm) {
     int luaChon;
     do {
@@ -146,7 +255,7 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
     } while (luaChon != 0);
 }
 
-// : Bao cao & Thong ke ──
+// SUB-MENU: BÁO CÁO & THỐNG KÊ
 void menuBaoCao(ReportManager& rm, const SaleManager& sm, const ProductManager& pm) {
     int luaChon;
     do {
@@ -162,15 +271,20 @@ void menuBaoCao(ReportManager& rm, const SaleManager& sm, const ProductManager& 
     } while (luaChon != 0);
 }
 
-int main (){
+int main() {
+    SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
+
     ProductManager pm;
     CustomerManager cm;
     SaleManager sm;
     ReportManager rm;
-    // đọc dữ liệu từ file khi khởi động
-    pm.loadFromFile("../data/sanpham.txt");   // Ten file phai trung voi saveToFile ben duoi
+
+    // Đọc dữ liệu từ file khi khởi động
+    pm.loadFromFile("../data/sanpham.txt");
     cm.loadFromFile("../data/khachhang.txt");
     sm.loadFromFile("../data/hoadon.txt", "../data/chitiet.txt");
+
     int luaChon;
     do {
         cout << "\n========================================\n";
@@ -186,16 +300,17 @@ int main (){
         cin >> luaChon;
 
         switch (luaChon) {
-            case 1: menuSanPham(pm);          break;
-            case 2: menuKhachHang(cm);        break;
-            case 3: menuBanHang(sm,cm,pm);    break;
-            case 4: menuBaoCao(rm,sm,pm);     break;
+            case 1: menuSanPham(pm);        break;
+            case 2: menuKhachHang(cm, sm);      break;
+            case 3: menuBanHang(sm,cm,pm);  break;
+            case 4: menuBaoCao(rm,sm,pm);   break;
             case 0: cout << "\nDang luu du lieu...\n"; break;
             default: cout << "=> Lua chon khong hop le! Vui long thu lai.\n";
         }
     } while (luaChon != 0);
-    // ── Lưu dữ liệu vào file trước khi thoát ──
-    pm.saveToFile("../data/sanpham.txt");      // Luu vao cung ten file da doc
+
+    // Lưu dữ liệu vào file trước khi thoát
+    pm.saveToFile("../data/sanpham.txt");
     cm.saveToFile("../data/khachhang.txt");
     sm.saveToFile("../data/hoadon.txt", "../data/chitiet.txt");
     cout << "=> Da luu xong. Tam biet!\n";

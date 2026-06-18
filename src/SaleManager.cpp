@@ -261,6 +261,40 @@ void SaleManager::displayAllInvoices() const {
 NodeInvoice*       SaleManager::getInvoiceHead() const { return invoiceHead; }
 NodeInvoiceDetail* SaleManager::getDetailHead()  const { return detailHead;  }
 
+// Hiện lịch sử giao dịch của một khách hàng theo mã KH
+void SaleManager::hienThiLichSuKH(const std::string& maKH) const {
+    cout << "\n====== LICH SU GIAO DICH KH: " << maKH << " ======\n";
+    cout << left  << setw(12) << "Ma HD"
+                  << setw(15) << "Ngay lap"
+         << right << setw(20) << "Tong thanh toan" << "\n";
+    cout << string(47, '-') << "\n";
+
+    bool coHD = false;
+    NodeInvoice* cur = invoiceHead;
+
+    while (cur != nullptr) {
+        if (cur->data.maKH == maKH) {
+            // Định dạng ngày: DD/MM/YYYY
+            string ngay = to_string(cur->data.ngayLap)  + "/" +
+                          to_string(cur->data.thangLap) + "/" +
+                          to_string(cur->data.namLap);
+
+            cout << fixed << setprecision(0);
+            cout << left  << setw(12) << cur->data.maHD
+                          << setw(15) << ngay
+                 << right << setw(20) << cur->data.tongThanhToan << " VND\n";
+            coHD = true;
+        }
+        cur = cur->next;
+    }
+
+    if (!coHD)
+        cout << "=> Khach hang nay chua co giao dich nao.\n";
+
+    cout << defaultfloat;
+}
+
+
 // ====================================================================
 // ── GHI FILE ──
 // ====================================================================

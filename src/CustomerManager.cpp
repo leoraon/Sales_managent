@@ -58,17 +58,27 @@ NodeCustomer*CustomerManager::findNode(const std::string& maKH){
 }
 void CustomerManager::searchCustomer(const std::string& tuKhoa) {
     NodeCustomer* cur = head;
-    bool timThay = false; 
-    cout << "\n KET QUA TIM KIEM \n";   
+    bool timThay = false;
+
+    // In bảng tiêu đề
+    std::cout << "\n---------------- KET QUA TIM KIEM ----------------\n";
+    std::cout << "| Ma KH   | Ten khach hang        | SDT           |\n";
+    std::cout << "---------------------------------------------------\n";
+
     while (cur != nullptr) {
-        if (cur->data.tenKH == tuKhoa || cur->data.SDT == tuKhoa) {
-            cur->data.displayRow(); 
-            timThay = true; 
+        // Tìm kiếm theo chuỗi con (find) 
+        bool khopMa  = (cur->data.maKH  == tuKhoa);
+        bool khopTen = (cur->data.tenKH.find(tuKhoa) != std::string::npos);
+        bool khopSDT = (cur->data.SDT.find(tuKhoa)   != std::string::npos);
+
+        if (khopMa || khopTen || khopSDT) {
+            cur->data.displayRow();
+            timThay = true;
         }
-        cur = cur->next; 
+        cur = cur->next;
     }
     if (!timThay) {
-        cout << "=> Khong tim thay khach hang nao co ten hoac SDT: " << tuKhoa << "\n";
+        std::cout << "=> Khong tim thay khach hang nao khop voi: " << tuKhoa << "\n";
     }
 }
 
@@ -167,4 +177,20 @@ void CustomerManager::loadFromFile(const std::string& filename) {
 
     inFile.close();
     std::cout << "=> Da doc du lieu tu " << filename << " len he thong.\n";
+    capNhatBodem(); // Cập nhật bộ đếm sau khi đọc file
+}
+
+// Tìm mã KH lớn nhất trong danh sách để cập nhật bộ đếm
+void CustomerManager::capNhatBodem() {
+    int maxSo = 0;
+    NodeCustomer* cur = head;
+    while (cur != nullptr) {
+        std::string ma = cur->data.maKH; // Ví dụ: "KH0012"
+        if (ma.size() > 2 && ma.substr(0, 2) == "KH") {
+            int so = std::stoi(ma.substr(2)); // "0012" → 12
+            if (so > maxSo) maxSo = so;
+        }
+        cur = cur->next;
+    }
+    Customer::demKH = maxSo;
 }

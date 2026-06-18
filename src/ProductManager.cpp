@@ -193,4 +193,24 @@ void ProductManager::loadFromFile(const std::string& filename) {
 
     file.close();
     std::cout << "=> Da doc du lieu tu " << filename << " len he thong.\n";
+    capNhatBodem();
+}
+
+void ProductManager::capNhatBodem() {
+    int maxSo = 0;
+    NodeProduct* cur = head;
+
+    while (cur != nullptr) {
+        std::string ma = cur->data.maSP; // "SP0023"
+
+        // Mã phải bắt đầu bằng "SP" và phần sau là số
+        if (ma.size() > 2 && ma.substr(0, 2) == "SP") {
+            std::string phanSo = ma.substr(2); // "SP0023" → "0023"
+            int so = std::stoi(phanSo);         // "0023" → 23
+            if (so > maxSo) maxSo = so;
+        }
+        cur = cur->next;
+    }
+
+    Product::demSP = maxSo;
 }

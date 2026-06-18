@@ -5,6 +5,8 @@
 #include <algorithm>  // min(), swap()
 #include <iomanip>    // setw(), left
 using namespace std;
+
+
 void ReportManager::reportRevenue(const SaleManager& sm) {
     int nam, thang;
     cout << "Nhap nam: ";
@@ -47,10 +49,12 @@ void ReportManager::reportRevenue(const SaleManager& sm) {
         return;
     }
 
-    cout << "So hoa don     : " << soHD          << "\n";
+    cout << "So hoa don     : " << soHD << "\n";
+    cout << fixed << setprecision(0);
     cout << "Tong tien hang : " << tongTienHang  << " VND\n";
     cout << "Thue VAT       : " << tongVAT       << " VND\n";
     cout << "Tong thanh toan: " << tongThanhToan << " VND\n";
+    cout << defaultfloat; // Reset lai dinh dang sau khi in xong
 }
 void ReportManager::getTop10BestSellers(const SaleManager& sm, const ProductManager& pm) {
     int nam, thang;
@@ -113,18 +117,20 @@ void ReportManager::getTop10BestSellers(const SaleManager& sm, const ProductMana
          << thang << "/" << nam << " ===\n";
     cout << left << setw(4)  << "STT"
                  << setw(10) << "Ma SP"
-                 << setw(30) << "Ten SP"
-                 << setw(12) << "So luong"
+                 << setw(50) << "Ten SP"
+                 << setw(10) << "So luong"
                  << setw(18) << "Doanh thu" << "\n";
-    cout << string(74, '-') << "\n";
+    cout << string(92, '-') << "\n";
 
+    cout << fixed << setprecision(0);
     for (int i = 0; i < top; i++) {
-    const Product* sp = pm.getProduct(dsStat[i].maSP);
-    string tenSP = (sp != NULL) ? sp->tenSP : "(khong ro)";
-    cout << left  << setw(4)  << (i + 1)
-                  << setw(10) << dsStat[i].maSP
-                  << setw(30) << tenSP
-                  << setw(12) << dsStat[i].soLuong
-                  << setw(18) << dsStat[i].doanhThu << " VND\n";
-}
+        const Product* sp = pm.getProduct(dsStat[i].maSP);
+        string tenSP = (sp != NULL) ? sp->tenSP : "(khong ro)";
+        cout << left  << setw(4)  << (i + 1)
+                      << setw(10) << dsStat[i].maSP
+                      << setw(50) << tenSP
+                      << setw(10) << dsStat[i].soLuong
+                      << right << setw(15) << dsStat[i].doanhThu << " VND\n";
+    }
+    cout << defaultfloat;
 }
