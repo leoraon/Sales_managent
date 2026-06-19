@@ -180,6 +180,7 @@ void CustomerManager::loadFromFile(const std::string& filename) {
     capNhatBodem(); // Cập nhật bộ đếm sau khi đọc file
 }
 
+
 // Tìm mã KH lớn nhất trong danh sách để cập nhật bộ đếm
 void CustomerManager::capNhatBodem() {
     int maxSo = 0;

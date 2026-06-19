@@ -5,16 +5,17 @@
 #include <fstream>  // Dùng để tạo luồng Đọc/Ghi file
 #include <sstream>  // Dùng để chặt chuỗi văn bản theo dấu '|'
 
+
 using namespace std;
 // 1. Cài đặt hàm khởi tạo
 ProductManager::ProductManager() {
     head = NULL;
 }
 //2.Cài đặt các hàm
-//thêm 1 node vô dsmn:nhưng thêm đầu-O(1)
 void ProductManager::addProduct(const Product& sp){
   //Bước 1: tạo Node mới cho dữ liệu sản phẩm mới
     NodeProduct* newNode= new NodeProduct;
+    NodeProduct* cur=head;
     newNode->data=sp;
     newNode->next=NULL;
     //ko cần this->head thì mình đang ở bên trong 1 hàm của 1 class .Hàm ko có thì nó tự động hiểu là của class
@@ -22,11 +23,12 @@ void ProductManager::addProduct(const Product& sp){
         head=newNode;
     }  
     else{
-        newNode->next=head;
-        head=newNode;
-    } 
+        while (cur->next!=nullptr){
+            cur=cur->next;
 }
-
+        cur->next=newNode;
+}
+}
 //hàm private
 NodeProduct*ProductManager::findNode(const std::string& maSP) const{
     NodeProduct*cur=head;
@@ -64,7 +66,7 @@ bool ProductManager::deleteProduct(const std::string& maSP){
     }
 
 //hàm tìm kiếm sp
-void ProductManager::searchProduct(const std::string& tuKhoa)const{
+bool ProductManager::searchProduct(const std::string& tuKhoa)const{
     NodeProduct* cur = head;
     bool timThay = false;
 
@@ -72,11 +74,10 @@ void ProductManager::searchProduct(const std::string& tuKhoa)const{
     std::cout << "| Ma SP   | Ten san pham          | DVT     |    Don gia |\n";
     std::cout << "----------------------------------------------------------\n";
     while (cur != nullptr) {
-        // std::string::npos nghĩa là "không tìm thấy"
         bool khopMa = (cur->data.maSP == tuKhoa);
         bool khopTen = (cur->data.tenSP.find(tuKhoa) != std::string::npos);
         if (khopMa || khopTen) {
-            cur->data.displayRow(); 
+            cur->data.displayRow();
             timThay = true;
         }
         cur = cur->next;
@@ -84,6 +85,7 @@ void ProductManager::searchProduct(const std::string& tuKhoa)const{
     if (!timThay) {
         std::cout << "=> Khong tim thay san pham nao khop voi tu khoa: " << tuKhoa << "\n";
     }
+    return timThay; // Trả về true nếu có kết quả, false nếu không
 }
 //hàm cập nhật
 bool ProductManager::updateProduct(const std::string& maSP,const Product& newData){
@@ -105,8 +107,8 @@ void ProductManager::displayAll(){
     cout << "\n====================================================================\n";
     cout << "                      DANH SÁCH TẤT CẢ SẢN PHẨM\n";
     cout << "====================================================================\n";
-    cout << "| " << left << setw(8)  << "Ma SP"
-         << "| " << left << setw(22) << "Ten san pham"
+    cout << "| " << left << setw(6)  << "Ma SP"
+         << "| " << left << setw(45) << "Ten san pham"
          << "| " << left << setw(8) << "Don vi"
          << "| " << left << setw(10) << "Don gia"
          << " |\n";

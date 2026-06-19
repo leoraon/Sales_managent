@@ -6,7 +6,22 @@
 #include "ProductManager.h"
 #include "SaleManager.h"
 #include "ReportManager.h"
+#include <io.h>      
+#include <fcntl.h>   
 using namespace std;
+
+// ──  xử lý nhập chữ/ký tự ──
+int nhapSoNguyen(const string& thongBao) {
+    int ket;
+    while (true) {
+        cout << thongBao;
+        if (cin >> ket) break;          // Nhập đúng số → thoát
+        cin.clear();                    // Xóa cờ lỗi
+        cin.ignore(1000, '\n');         // Xóa rác trong bộ đệm
+        cout << "=> Chi duoc nhap so! Vui long thu lai.\n";
+    }
+    return ket;
+}
 
 // ── Hàm xóa sản phẩm (dùng chung nhiều nơi) ──
 void xoaSanPham(ProductManager& pm) {
@@ -72,8 +87,7 @@ void menuSanPham(ProductManager& pm) {
         cout << "4. Cap nhat san pham\n";
         cout << "5. Hien thi tat ca san pham\n";
         cout << "0. Quay lai menu chinh\n";
-        cout << "Lua chon: ";
-        cin >> luaChon;
+        luaChon = nhapSoNguyen("Lua chon: ");
 
         if (luaChon == 1) {
             Product sp;
@@ -99,15 +113,19 @@ void menuSanPham(ProductManager& pm) {
 
             // Hành động sau tìm kiếm
             int luaChonSau;
-            cout << "\nBan muon lam gi tiep theo?\n";
-            cout << "  1. Xoa san pham vua tim\n";
-            cout << "  2. Cap nhat san pham vua tim\n";
-            cout << "  0. Quay lai\n";
-            cout << "Lua chon: ";
-            cin >> luaChonSau;
+            do {
+                cout << "\nBan muon lam gi tiep theo?\n";
+                cout << "  1. Xoa san pham vua tim\n";
+                cout << "  2. Cap nhat san pham vua tim\n";
+                cout << "  0. Quay lai\n";
+                luaChonSau = nhapSoNguyen("Lua chon: ");
 
-            if      (luaChonSau == 1) xoaSanPham(pm);
-            else if (luaChonSau == 2) capNhatSanPham(pm);
+                if      (luaChonSau == 1) xoaSanPham(pm);
+                else if (luaChonSau == 2) capNhatSanPham(pm);
+                else if (luaChonSau != 0)
+                    cout << "=> Lua chon khong hop le! Vui long thu lai.\n";
+            } while (luaChonSau != 0 && luaChonSau != 1 && luaChonSau != 2);
+
         }
         else if (luaChon == 4) {
             capNhatSanPham(pm);
@@ -180,8 +198,7 @@ void menuKhachHang(CustomerManager& cm, const SaleManager& sm) {
         cout << "4. Cap nhat khach hang\n";
         cout << "5. Hien thi tat ca khach hang\n";
         cout << "0. Quay lai menu chinh\n";
-        cout << "Lua chon: ";
-        cin >> luaChon;
+        luaChon = nhapSoNguyen("Lua chon: ");
 
         if (luaChon == 1) {
             Customer kh;
@@ -205,21 +222,24 @@ void menuKhachHang(CustomerManager& cm, const SaleManager& sm) {
 
             // Hành động sau tìm kiếm
             int luaChonSau;
-            cout << "\nBan muon lam gi tiep theo?\n";
-            cout << "  1. Xoa khach hang vua tim\n";
-            cout << "  2. Cap nhat khach hang vua tim\n";
-            cout << "  3. Xem lich su giao dich\n";
-            cout << "  0. Quay lai\n";
-            cout << "Lua chon: ";
-            cin >> luaChonSau;
+            do {
+                cout << "\nBan muon lam gi tiep theo?\n";
+                cout << "  1. Xoa khach hang vua tim\n";
+                cout << "  2. Cap nhat khach hang vua tim\n";
+                cout << "  3. Xem lich su giao dich\n";
+                cout << "  0. Quay lai\n";
+                luaChonSau = nhapSoNguyen("Lua chon: ");
 
-            if      (luaChonSau == 1) xoaKhachHang(cm);
-            else if (luaChonSau == 2) capNhatKhachHang(cm);
-            else if (luaChonSau == 3) {
-                string maKH;
-                cout << "Nhap ma KH can xem lich su: "; cin >> maKH;
-                sm.hienThiLichSuKH(maKH);
-            }
+                if      (luaChonSau == 1) xoaKhachHang(cm);
+                else if (luaChonSau == 2) capNhatKhachHang(cm);
+                else if (luaChonSau == 3) {
+                    string maKH;
+                    cout << "Nhap ma KH can xem lich su: "; cin >> maKH;
+                    sm.hienThiLichSuKH(maKH);
+                }
+                else if (luaChonSau != 0)
+                    cout << "=> Lua chon khong hop le! Vui long thu lai.\n";
+            } while (luaChonSau != 0 && luaChonSau != 1 && luaChonSau != 2 && luaChonSau != 3);
         }
         else if (luaChon == 4) {
             capNhatKhachHang(cm);
@@ -242,8 +262,7 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
         cout << "  2. In mot hoa don\n";
         cout << "  3. Xem danh sach tat ca hoa don\n";
         cout << "  0. Quay lai menu chinh\n";
-        cout << "Lua chon: ";
-        cin >> luaChon;
+        luaChon = nhapSoNguyen("Lua chon: ");
         if      (luaChon == 1) { sm.createInvoice(cm, pm); }
         else if (luaChon == 2) {
             string maHD;
@@ -263,8 +282,7 @@ void menuBaoCao(ReportManager& rm, const SaleManager& sm, const ProductManager& 
         cout << "  1. Doanh thu theo thang\n";
         cout << "  2. Top 10 san pham ban chay nhat\n";
         cout << "  0. Quay lai menu chinh\n";
-        cout << "Lua chon: ";
-        cin >> luaChon;
+        luaChon = nhapSoNguyen("Lua chon: ");
         if      (luaChon == 1) { rm.reportRevenue(sm); }
         else if (luaChon == 2) { rm.getTop10BestSellers(sm, pm); }
         else if (luaChon != 0) { cout << "=> Lua chon khong hop le!\n"; }
@@ -272,6 +290,7 @@ void menuBaoCao(ReportManager& rm, const SaleManager& sm, const ProductManager& 
 }
 
 int main() {
+    _setmode(_fileno(stdout), _O_U8TEXT);   // stdout xuất UTF-8 đúng
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
@@ -296,8 +315,7 @@ int main() {
         cout << "  4. Bao cao va thong ke\n";
         cout << "  0. Luu va Thoat\n";
         cout << "========================================\n";
-        cout << "Lua chon cua ban: ";
-        cin >> luaChon;
+        luaChon = nhapSoNguyen("Lua chon cua ban: ");
 
         switch (luaChon) {
             case 1: menuSanPham(pm);        break;

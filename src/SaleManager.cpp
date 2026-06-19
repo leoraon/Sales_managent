@@ -31,13 +31,17 @@ void SaleManager::addInvoiceDetails(const std::string& maHD, const ProductManage
         if (detail.maSP == "?") {
             string tuKhoa;
             cout << "=> Nhap ten san pham hoac tu khoa can tim: ";
-            cin.ignore(); // Xoá bộ đệm trước khi dùng getline
+            cin.ignore();
             getline(cin, tuKhoa);
-            
-            // In ra danh sách các sản phẩm khớp với từ khoá
-            pm.searchProduct(tuKhoa);
-            
-            cout << "\n=> Vui long nhap lai ma san pham ban muon chon tu danh sach tren: ";
+
+            // Tìm kiếm - nếu không có kết quả thì quay lại đầu vòng lặp
+            bool coKetQua = pm.searchProduct(tuKhoa);
+            if (!coKetQua) {
+                cout << "=> Khong co san pham nao phu hop. Vui long thu lai!\n";
+                continue; // Quay lại đầu while, không hỏi thêm gì
+            }
+
+            cout << "\n=> Vui long nhap ma san pham ban muon chon tu danh sach tren: ";
             cin >> detail.maSP;
         }
 
@@ -46,6 +50,7 @@ void SaleManager::addInvoiceDetails(const std::string& maHD, const ProductManage
 
         if (spData == NULL) {
             cout << "=> Loi: San pham khong ton tai trong kho. Vui long thu lai!\n";
+            continue; 
         } else {
             cout << "Nhap So luong (" << spData->tenSP << "): ";
             cin >> detail.soLuong;
