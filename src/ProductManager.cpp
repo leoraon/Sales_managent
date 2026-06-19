@@ -108,9 +108,9 @@ void ProductManager::displayAll(){
     cout << "                      DANH SÁCH TẤT CẢ SẢN PHẨM\n";
     cout << "====================================================================\n";
     cout << "| " << left << setw(6)  << "Ma SP"
-         << "| " << left << setw(45) << "Ten san pham"
-         << "| " << left << setw(8) << "Don vi"
-         << "| " << left << setw(10) << "Don gia"
+         << "| " << left << setw(60) << "Ten san pham"
+         << "| " << left << setw(15) << "Don vi"
+         << "| " << left << setw(15) << "Don gia"
          << " |\n";
     cout << "--------------------------------------------------------------------\n";
     NodeProduct*cur=head;
@@ -177,20 +177,7 @@ void ProductManager::loadFromFile(const std::string& filename) {
         } else {
             sp.donGia = 0;
         }
-
-        // Tạo Node mới
-        NodeProduct* newNode = new NodeProduct;
-        newNode->data = sp;
-        newNode->next = nullptr; // Vì nó sẽ đứng cuối cùng
-
-        // Nối Node vào cuối danh sách (insertTail)
-        if (head == nullptr) {
-            head = newNode; // Nếu danh sách trống, nó vừa là đầu vừa là đuôi
-            tail = newNode;
-        } else {
-            tail->next = newNode; // Móc nó vào sau cái đuôi hiện tại
-            tail = newNode;       // Dời biển báo Đuôi xuống vị trí mới
-        }
+        addProduct(sp);
     }
 
     file.close();

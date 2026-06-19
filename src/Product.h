@@ -20,10 +20,10 @@ struct Product{
 }
 
     void displayRow() const {
-        std::cout << "| " << std::left  << std::setw(8)  << maSP
-                  << "| " << std::left  << std::setw(22) << tenSP
-                  << "| " << std::left  << std::setw(8)  << donVi
-                  << "| " << std::right << std::setw(10) << std::fixed
+        std::cout << "| " << std::left  << std::setw(6)  << maSP
+                  << "| " << std::left  << std::setw(60) << tenSP
+                  << "| " << std::left  << std::setw(15)  << donVi
+                  << "| " << std::right << std::setw(15) << std::fixed
                           << std::setprecision(0) << donGia
                   << " |\n";
     }

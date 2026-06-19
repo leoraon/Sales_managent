@@ -10,19 +10,24 @@ using namespace std;
 CustomerManager::CustomerManager(){
     head=NULL;
 }
-//Hàm thêm 1 khách hàng mới
+//Hàm thêm 1 khách hàng mới vào cuối danh sách
 void CustomerManager::addCustomer(const Customer& kh){
     NodeCustomer* newNode=new NodeCustomer;
     newNode->data=kh;
     newNode->next=nullptr;
+    NodeCustomer* cur=head;
     if (head==nullptr){
         head=newNode;
     }
     else{
-        newNode->next=head;
-        head=newNode;
-    }
+        //duyệt đến tận cùng
+        while (cur->next!=nullptr){
+            cur=cur->next;
 }
+        cur->next=newNode;
+}
+}
+
 //hàm xoá khách hàng với kĩ thuật 2 con trỏ
 bool CustomerManager::deleteCustomer(const std::string& maKH){
     if (head==nullptr) return false;
@@ -103,7 +108,7 @@ void CustomerManager::displayAll(){
     cout << "====================================================================\n";
     cout << "| " << left << setw(8)  << "Ma KH"
          << "| " << left << setw(22) << "Ten KH"
-         << "| " << left << setw(8) << "SDT"
+         << "| " << left << setw(13) << "SDT"
          << "|\n";
     cout << "--------------------------------------------------------------------\n";
     NodeCustomer*cur=head;
@@ -168,11 +173,7 @@ void CustomerManager::loadFromFile(const std::string& filename) {
         std::getline(ss, kh.maKH, '|');
         std::getline(ss, kh.tenKH, '|');
         std::getline(ss, kh.SDT, '|');
-        // Tạo Node mới và móc vào danh sách
-        NodeCustomer* newNode = new NodeCustomer;
-        newNode->data = kh;
-        newNode->next = head; // Thêm vào đầu danh sách (insertHead)
-        head = newNode;
+        addCustomer(kh);
     }
 
     inFile.close();

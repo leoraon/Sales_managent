@@ -290,7 +290,6 @@ void menuBaoCao(ReportManager& rm, const SaleManager& sm, const ProductManager& 
 }
 
 int main() {
-    _setmode(_fileno(stdout), _O_U8TEXT);   // stdout xuất UTF-8 đúng
     SetConsoleCP(65001);
     SetConsoleOutputCP(65001);
 
