@@ -14,6 +14,8 @@ public:
    SaleManager();
    void createInvoice(CustomerManager& cm,const ProductManager& pm);//mình đang truyền dữ liệu như một danh bạ chứ không phải đơn lẻ
    void printInvoice(const std::string& maHD);
+   //bổ sung
+   void searchInvoice();
    // Hiện danh sách tóm tắt tất cả hóa đơn (dùng bởi menuBanHang case 3)
    void displayAllInvoices() const;
    // Lưu/đọc file
