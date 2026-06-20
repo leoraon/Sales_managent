@@ -259,12 +259,25 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
     do {
         cout << "\n--- QUAN LY BAN HANG & HOA DON ---\n";
         cout << "  1. Tao hoa don moi\n";
-        cout << "  2. In mot hoa don\n";
+        cout << "  2. Tim kiem hoa don theo ngay\n";
         cout << "  3. Xem danh sach tat ca hoa don\n";
         cout << "  0. Quay lai menu chinh\n";
         luaChon = nhapSoNguyen("Lua chon: ");
         if      (luaChon == 1) { sm.createInvoice(cm, pm); }
         else if (luaChon == 2) {
+            sm.searchInvoice();
+            char inHD;
+            cout << "Ban co muon in hoa don khong? (y/n): ";
+            cin >> inHD;
+            if (inHD == 'y' || inHD == 'Y') {
+                cin.ignore();
+                cout << "Nhap ma HD muon in: ";
+                string maHDIn;
+                getline(cin, maHDIn);
+                sm.printInvoice(maHDIn);
+            } 
+}
+        else if (luaChon == 3) {
             string maHD;
             cout << "Nhap ma hoa don: "; cin >> maHD;
             sm.printInvoice(maHD);

@@ -115,32 +115,38 @@ void SaleManager::createInvoice(CustomerManager& cm, const ProductManager& pm) {
     newInvoice.thangLap = 1 + ltm->tm_mon;
     newInvoice.namLap   = 1900 + ltm->tm_year;
 
-    // BƯỚC 2: Nhập và xác thực mã khách hàng
+    // BƯỚC 2: Tìm kiếm hoặc tạo khách hàng
     cout << "\n================= QUAY THANH TOAN =================\n";
     cout << "=> Dang tao moi Hoa Don: " << newInvoice.maHD << "\n";
-    cin.ignore(); // Xoa bo dem sau lan cin >> cuoi cung
-    
-    while (true) {
-        cout << "Nhap ma khach hang (Enter de bo qua): ";
-        std::getline(cin, newInvoice.maKH);
-        
-        if (newInvoice.maKH.empty()) {
-            cout << "=> Khach hang: (Khach le - khong luu ma KH)\n";
-            newInvoice.maKH = "KH00"; // <--- THÊM DÒNG NÀY ĐỂ CHỐT MÃ
-            break;
-        }
-        
-        Customer* khData = cm.getCustomer(newInvoice.maKH);
-        
-        if (khData != NULL) {
-            cout << "=> Khach hang: " << khData->tenKH
-                 << " | SDT: " << khData->SDT << "\n";
-            break;
-        } else {
-            cout << "=> Loi: Khong tim thay ma KH \"" << newInvoice.maKH
-                 << "\". Vui long nhap lai.\n";
-        }
-    }
+    cin.ignore();
+
+    cout << "Nhap ten hoac SDT khach hang de tim kiem: ";
+    std::string tuKhoa;
+    std::getline(cin, tuKhoa);
+    cm.searchCustomer(tuKhoa);
+
+    cout << "\nNhap ma KH neu tim thay (Enter de tao KH moi): ";
+    std::string maKHNhap;
+    std::getline(cin, maKHNhap);
+
+    if (!maKHNhap.empty() && cm.getCustomer(maKHNhap) != NULL) {
+        Customer* khData = cm.getCustomer(maKHNhap);
+        cout << "=> Khach hang: " << khData->tenKH
+             << " | SDT: " << khData->SDT << "\n";
+        newInvoice.maKH = maKHNhap;
+}   else {
+        Customer newKH;
+        newKH.maKH = Customer::sinhMaKH(); 
+        cout << "=> Ma KH moi: " << newKH.maKH << "\n";
+        cout << "Nhap ten khach hang: ";
+        std::getline(cin, newKH.tenKH);
+        cout << "Nhap so dien thoai : ";
+        std::getline(cin, newKH.SDT);
+
+        cm.addCustomer(newKH);
+        cout << "=> Da tao: [" << newKH.maKH << "] " << newKH.tenKH << "\n";
+        newInvoice.maKH = newKH.maKH;
+}
 
     // BƯỚC 3: Quét sản phẩm
     cout << "\n================= QUAY THANH TOAN =================\n";
@@ -299,7 +305,44 @@ void SaleManager::hienThiLichSuKH(const std::string& maKH) const {
     cout << defaultfloat;
 }
 
-
+void SaleManager::searchInvoice() {
+    cout << "\n--- TIM KIEM HOA DON THEO NGAY ---\n";   
+    int ngay, thang, nam;
+    cout << "Nhap ngay   (0 = bo qua): "; cin >> ngay;
+    cout << "Nhap thang  (0 = bo qua): "; cin >> thang;
+    cout << "Nhap nam    (0 = bo qua): "; cin >> nam;
+    cout << "\n----------------------------------------------------------\n";
+    cout << left << setw(10) << "Ma HD"
+                 << setw(15) << "Ngay lap"
+                 << setw(12) << "Ma KH"
+         << right << setw(18) << "Tong thanh toan" << "\n";
+    cout << "----------------------------------------------------------\n";
+    bool timThay = false;
+    NodeInvoice* cur = invoiceHead;
+    while (cur != nullptr) {
+        Invoice& inv = cur->data;
+        bool khop = true;
+        if (ngay  != 0 && inv.ngayLap  != ngay)  khop = false;
+        if (thang != 0 && inv.thangLap != thang) khop = false;
+        if (nam   != 0 && inv.namLap   != nam)   khop = false;
+        if (khop) {
+            string ngayIn = to_string(inv.ngayLap)  + "/" +
+                            to_string(inv.thangLap) + "/" +
+                            to_string(inv.namLap);
+            cout << fixed << setprecision(0);
+            cout << left  << setw(10) << inv.maHD
+                          << setw(15) << ngayIn
+                          << setw(12) << inv.maKH
+                 << right << setw(18) << inv.tongThanhToan << " VND\n";
+            cout << defaultfloat;
+            timThay = true;
+        }
+        cur = cur->next;
+    }
+    if (!timThay)
+        cout << "=> Khong tim thay hoa don nao khop.\n";
+    cout << "----------------------------------------------------------\n";
+}
 // ====================================================================
 // ── GHI FILE ──
 // ====================================================================
