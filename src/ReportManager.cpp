@@ -67,9 +67,6 @@ void ReportManager::getTop10BestSellers(const SaleManager& sm, const ProductMana
     cout << "Nhap thang (1-12)   : "; cin >> thang;
 
     // ── Bước 1: Tổng hợp doanh thu theo sản phẩm ──
-    // Không dùng mảng maHD trung gian (tránh overflow khi có hàng nghìn HD).
-    // Thay vào đó: với mỗi chi tiết, duyệt thẳng qua linked list hóa đơn
-    // để kiểm tra tháng/năm hợp lệ.
     const int MAX_SP = 1000;   // đủ chứa số loại SP khác nhau
     string dsMaSP[MAX_SP];
     int    dsSoLuong[MAX_SP]  = {};

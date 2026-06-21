@@ -13,7 +13,7 @@ private:
 public:
    SaleManager();
    void createInvoice(CustomerManager& cm,const ProductManager& pm);//mình đang truyền dữ liệu như một danh bạ chứ không phải đơn lẻ
-   void printInvoice(const std::string& maHD);
+   void printInvoice(const std::string& maHD, CustomerManager& cm, const ProductManager& pm);
    //bổ sung
    void searchInvoice();
    // Hiện danh sách tóm tắt tất cả hóa đơn (dùng bởi menuBanHang case 3)

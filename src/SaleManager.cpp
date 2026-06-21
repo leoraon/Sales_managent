@@ -187,12 +187,12 @@ void SaleManager::createInvoice(CustomerManager& cm, const ProductManager& pm) {
     cout << "Ban co muon in hoa don khong? (y/n): ";
     cin >> inHD;
     if (inHD == 'y' || inHD == 'Y') {
-        printInvoice(newInvoice.maHD);
+        printInvoice(newInvoice.maHD, cm, pm);
     }
 }
 
 // Hiển thị chi tiết 1 hóa đơn theo mã
-void SaleManager::printInvoice(const std::string& maHD) {
+void SaleManager::printInvoice(const std::string& maHD, CustomerManager& cm, const ProductManager& pm) {
     NodeInvoice* tmpInvoice = invoiceHead;
     while (tmpInvoice != NULL && tmpInvoice->data.maHD != maHD)
         tmpInvoice = tmpInvoice->next;
@@ -209,9 +209,12 @@ void SaleManager::printInvoice(const std::string& maHD) {
     cout << "So HD:      " << inv.maHD << "\n";
     cout << "Ngay lap:   " << inv.ngayLap << "/" << inv.thangLap << "/" << inv.namLap << "\n";
     cout << "Ma Khach:   " << inv.maKH << "\n";
+    Customer* kh = cm.getCustomer(inv.maKH);
+    cout << "Ten Khach:  " << (kh != nullptr ? kh->tenKH : "Khong tim thay") << "\n";
     cout << "----------------------------------------------------------\n";
     cout << left << setw(10) << "Ma SP"
-         << setw(15) << "So luong"
+         << setw(28) << "Ten SP"
+         << setw(10) << "So luong"
          << setw(15) << "Don gia"
          << setw(15) << "Thanh tien" << "\n";
     cout << "----------------------------------------------------------\n";
@@ -220,8 +223,11 @@ void SaleManager::printInvoice(const std::string& maHD) {
     bool hasDetails = false;
     while (tmpDetail != NULL) {
         if (tmpDetail->data.maHD == maHD) {
+            const Product* sp = pm.getProduct(tmpDetail->data.maSP);
+            string tenSP = (sp != nullptr) ? sp->tenSP : "???";
             cout << left << setw(10) << tmpDetail->data.maSP
-                 << setw(15) << tmpDetail->data.soLuong
+                 << setw(28) << tenSP
+                 << setw(10) << tmpDetail->data.soLuong
                  << setw(15) << tmpDetail->data.donGia
                  << setw(15) << tmpDetail->data.thanhTien << "\n";
             hasDetails = true;

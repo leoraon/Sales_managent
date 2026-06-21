@@ -274,7 +274,7 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
                 cout << "Nhap ma HD muon in: ";
                 string maHDIn;
                 getline(cin, maHDIn);
-                sm.printInvoice(maHDIn);
+                sm.printInvoice(maHDIn, cm, pm);
             } 
         }
         else if (luaChon == 3) { sm.displayAllInvoices(); }
