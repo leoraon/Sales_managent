@@ -276,11 +276,6 @@ void menuBanHang(SaleManager& sm, CustomerManager& cm, const ProductManager& pm)
                 getline(cin, maHDIn);
                 sm.printInvoice(maHDIn);
             } 
-}
-        else if (luaChon == 3) {
-            string maHD;
-            cout << "Nhap ma hoa don: "; cin >> maHD;
-            sm.printInvoice(maHD);
         }
         else if (luaChon == 3) { sm.displayAllInvoices(); }
         else if (luaChon != 0) { cout << "=> Lua chon khong hop le!\n"; }
